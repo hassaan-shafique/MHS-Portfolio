@@ -5,12 +5,15 @@ const header = () => {
     <div>
       <header className="header">
         
-        <link> Home</link>
-        <link> Introduction</link>
-        <link> Skills</link>
-        <link> Projects</link>
-        <link> Education</link>
-        <link> Certifications</link>
+          <h1> MHS Portfolio</h1>
+        
+
+        <a href="/"> Home</a>
+        <a href="/Introduction"> Introduction</a>
+        <a href="/Skills"> Skills</a>
+        <a href="/Projects"> Projects</a>
+        <a href="/Education"> Education</a>
+        <a href="/Certifications"> Certifications</a>
       </header>
     </div>
   );
