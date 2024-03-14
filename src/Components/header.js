@@ -4,7 +4,9 @@ const header = () => {
   return (
     <div>
       <header className="header">
-        <h1> MHS Portfolio</h1>
+        <h1>
+          MHS <span className="span"> Portfolio </span>
+        </h1>
 
         <div className="links">
           <a href="/"> Home</a>
@@ -13,6 +15,10 @@ const header = () => {
           <a href="/Projects"> Projects</a>
           <a href="/Education"> Education</a>
           <a href="/Certifications"> Certifications</a>
+        </div>
+
+        <div>
+          <button className="contact">Contact</button>
         </div>
       </header>
     </div>
