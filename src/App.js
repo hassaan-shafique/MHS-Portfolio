@@ -6,15 +6,14 @@ import Introduction from './Components/Introduction';
 
 function App() {
   return (
-    <div >
+    <div>
       
       <Header/>
      <Home/>
      <Introduction/>
        
        
-       
-      
+  
     </div>
   );
 }

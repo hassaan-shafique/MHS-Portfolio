@@ -4,6 +4,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
+    <h2 className='welcome'> Welcome To My Portfolio</h2>
       <h1 className="home-intro">
         Hello, I am Muhammad Hassaan Shafique <br />
         I'm a Software Engineer
@@ -11,7 +12,7 @@ const Home = () => {
 
       <div>
         <button className="Resume-btn">
-          Resume
+          Download CV
           {/* <img src="" alt=''
            ></img> */}
         </button>
