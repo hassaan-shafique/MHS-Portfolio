@@ -78,6 +78,14 @@ const Home = () => {
           <img width={50} height={50} src="/medium.png" alt="facebook icon" />
         </a>
       </div>
+      <div className="Home-image">
+        <img
+          width={600}
+          height={600}
+          src="/man-working-on-laptop.svg"
+          alt="homeImage"
+        />
+      </div>
     </div>
   );
 }
