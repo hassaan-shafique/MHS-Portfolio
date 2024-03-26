@@ -9,7 +9,22 @@ const Home = () => {
         I'm a Software Engineer
       </h1>
 
-      <div className="Contact-icons">
+      <div>
+        <button className="Resume-btn">
+          Resume
+          {/* <img src="" alt=''
+           ></img> */}
+        </button>
+        <a
+          href="https://www.facebook.com/hassaan.shafique.9/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img width={50} height={50} src="/gmail.png" alt="gmail icon" />
+        </a>
+      </div>
+
+      <div class="Contact-icons">
         <a
           href="https://www.facebook.com/hassaan.shafique.9/"
           target="_blank"
@@ -47,6 +62,20 @@ const Home = () => {
             src="/twitter (1).png"
             alt="facebook icon"
           />
+        </a>
+        <a
+          href="https://www.facebook.com/hassaan.shafique.9/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img width={50} height={50} src="/github.png" alt="facebook icon" />
+        </a>
+        <a
+          href="https://www.facebook.com/hassaan.shafique.9/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img width={50} height={50} src="/medium.png" alt="facebook icon" />
         </a>
       </div>
     </div>

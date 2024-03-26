@@ -55,8 +55,21 @@ font-size: 20px;
   flex-wrap: wrap;
 
 }
-.contact-icons{
-  
+.Contact-icons{
 display: flex;
+gap: 100px;
+
+margin-top: 150px;
+
+}
+.Resume-btn { 
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  margin-left: 220px;
+  background-color: rgb(175, 70, 175);
+  color: white;
+  border: none;
+  font-size: 20px;
 
 }
