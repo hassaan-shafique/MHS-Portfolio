@@ -1,8 +1,6 @@
 import React from 'react'
 
 
-
-
 const Home = () => {
   return (
     <div>
@@ -11,13 +9,44 @@ const Home = () => {
         I'm a Software Engineer
       </h1>
 
-      <div className="icons">
+      <div className="Contact-icons">
         <a
           href="https://www.facebook.com/hassaan.shafique.9/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="public\facebook.png" alt="facebook icon" />
+          <img width={50} height={50} src="/facebook.png" alt="facebook icon" />
+        </a>
+        <a
+          href="https://www.facebook.com/hassaan.shafique.9/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            width={50}
+            height={50}
+            src="/instagram.png"
+            alt="instagram icon"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/hassaan.shafique.9/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img width={50} height={50} src="/linkedin.png" alt="facebook icon" />
+        </a>
+        <a
+          href="https://www.facebook.com/hassaan.shafique.9/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            width={50}
+            height={50}
+            src="/twitter (1).png"
+            alt="facebook icon"
+          />
         </a>
       </div>
     </div>
