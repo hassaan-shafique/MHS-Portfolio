@@ -1,7 +1,8 @@
 
 import './App.css';
-import Header from './Components/Header'
+import Header from './Components/Header';
 import Home from './Components/Home';
+import Introduction from './Components/Introduction';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       
       <Header/>
      <Home/>
-     
+     <Introduction/>
        
        
        
