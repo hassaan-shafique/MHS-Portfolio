@@ -4,7 +4,9 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-    <h2 className='welcome'> Welcome To My Portfolio</h2>
+      <div className="welcome">
+        <h3>Welcome To My Portfolio </h3>
+      </div>
       <h1 className="home-intro">
         Hello, I am Muhammad Hassaan Shafique <br />
         I'm a Software Engineer
