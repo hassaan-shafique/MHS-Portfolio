@@ -75,14 +75,17 @@ font-size: 20px;
 }
 .Contact-icons{
 display: flex;
-gap: 100px;
-
+gap: 40px;
 margin-top: 150px;
+margin-left: 60px;
 
+}
+.resume{
+  display: flex;
 }
 .Resume-btn { 
   border-radius: 30px;
-  width: 120px;
+  width: 150px;
   height: 40px;
   margin-left: 220px;
   background-color: rgb(175, 70, 175);
@@ -95,4 +98,9 @@ margin-top: 150px;
   margin-left:1100px;
   margin-top: -550px;
 
+}
+.intro-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

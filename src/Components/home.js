@@ -12,12 +12,15 @@ const Home = () => {
         I'm a Software Engineer
       </h1>
 
-      <div>
+      <div className="resume">
         <button className="Resume-btn">
           Download CV
           {/* <img src="" alt=''
            ></img> */}
         </button>
+      </div>
+
+      <div class="Contact-icons">
         <a
           href="https://www.facebook.com/hassaan.shafique.9/"
           target="_blank"
@@ -25,9 +28,6 @@ const Home = () => {
         >
           <img width={50} height={50} src="/gmail.png" alt="gmail icon" />
         </a>
-      </div>
-
-      <div class="Contact-icons">
         <a
           href="https://www.facebook.com/hassaan.shafique.9/"
           target="_blank"

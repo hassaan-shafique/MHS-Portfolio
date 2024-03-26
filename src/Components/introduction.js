@@ -3,9 +3,11 @@ import React from 'react'
 const Introduction = () => {
   return (
     <div>
-      <h1>Introduction</h1>
+      <div className='intro-heading'>
+        <h1>Introduction</h1>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Introduction
