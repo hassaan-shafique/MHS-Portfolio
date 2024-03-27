@@ -101,6 +101,7 @@ margin-left: 75px;
   font-size: 20px;
 
 }
+
 .Home-image{
   position: relative;
   margin-left:1100px;
@@ -111,4 +112,14 @@ margin-left: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.About-img{
+   margin-left: 210px;
+   margin-top: 200px;
+}
+.introduction {
+  position:absolute;
+  margin-left:1100px;
+  margin-top: -350px;
+
 }
