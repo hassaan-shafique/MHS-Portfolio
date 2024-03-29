@@ -30,7 +30,7 @@
 }
 .links a{
   text-decoration: none;
-  color: rgb(55, 26, 124);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   justify-content:center;
 }
@@ -39,7 +39,7 @@
   width: 120px;
   height: 40px;
   margin-left: 220px;
-  background-color: rgb(150, 89, 150);
+  background-color: #8888f0;
   color: white;
   border: none;
 font-size: 20px;
@@ -47,7 +47,7 @@ font-size: 20px;
 
 }
 .span{
-  color: blueviolet;
+  color: #8888f0;
 }
 .welcome{
   position: absolute;
@@ -97,7 +97,7 @@ margin-left: 75px;
   width: 150px;
   height: 40px;
   margin-left: 220px;
-  background-color: rgb(175, 70, 175);
+  background-color: #8888f0;
   color: white;
   border: none;
   font-size: 20px;
@@ -149,6 +149,20 @@ li {
 .certification-head
 {
   text-align: center;
+}
+.formm{
+  text-align: center;
+}
+.submit-btn{
+  border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    margin-left: 220px;
+    background-color: #8888f0;
+    color: white;
+    border: none;
+    font-size: 20px;
+
 }
 .footer{
   width: 100%;
