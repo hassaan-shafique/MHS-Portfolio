@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Introduction from './Components/Introduction';
-import Skill from './Components/Skill';
+import Skills from './Components/Skills';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Header/>
      <Home/>
      <Introduction/>
-     <Skill/>
+     <Skills/>
        
        
   

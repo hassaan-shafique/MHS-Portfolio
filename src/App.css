@@ -1,8 +1,8 @@
 
 
 .header{
-  color: #f3f3f3;
-  background-color: rgb(36, 27, 36);
+  color: #1b1919;
+  /* background-color: rgb(36, 27, 36); */
   width: 100%;
   height: 70px;
   display: flex;
@@ -14,6 +14,8 @@
 }
 .mhs{
   font-size: 20px;
+  margin-right: 1600px;
+  position: absolute;
 }
 
 .links{
@@ -23,12 +25,12 @@
   justify-content: center;
   margin-left: 200px;
   text-decoration: none;
-  color: white;
+  color: rgb(27, 25, 107);
 
 }
 .links a{
   text-decoration: none;
-  color: white;
+  color: rgb(55, 26, 124);
   font-size: 20px;
   justify-content:center;
 }
