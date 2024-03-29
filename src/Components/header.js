@@ -16,12 +16,12 @@ const header = () => {
           <a href="/Projects"> Projects</a>
           <a href="/Education"> Education</a>
           <a href="/Certifications"> Certifications</a>
-          <a href="/Contact"> Contact</a>
+          
         </div>
 
-        {/* <div>
+        <div>
           <button className="contact">Contact</button>
-        </div> */}
+        </div>
       </header>
     </div>
   );
