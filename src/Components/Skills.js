@@ -77,7 +77,6 @@ const Skills = () => {
             />
             <h4> NodeJs</h4>
           </li>
-          
         </ul>
         {/* Node.js 
         Express.js 
@@ -86,6 +85,35 @@ const Skills = () => {
       </div>
       <div className="database">
         <h2> Databases </h2>
+        <ul>
+          <li>
+            <img
+              height={100}
+              width={100}
+              src="/skills/mongo-db.png"
+              alt="NodeJs"
+            />
+            <h4> Mongo DB </h4>
+          </li>
+          <li>
+            <img height={100} width={100} src="/skills/sql.png" alt="SQL" />
+            <h4> SQL </h4>
+          </li>
+          <li>
+            <img height={100} width={100} src="/skills/mysql.png" alt="SQL" />
+            <h4> MYSQL </h4>
+          </li>
+
+          <li>
+            <img
+              height={100}
+              width={100}
+              src="/skills/firebase.svg"
+              alt="Firebase"
+            />
+            <h4> Python </h4>
+          </li>
+        </ul>
         {/* SQL (MySQL, PostgreSQL, SQLite, etc.) 
         NoSQL (MongoDB, Firebase, etc.)
         Database Design 
