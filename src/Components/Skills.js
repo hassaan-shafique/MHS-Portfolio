@@ -26,20 +26,59 @@ const Skills = () => {
             />
             <h4>JavaScript</h4>
           </li>
+
           <li>
-            <img height={100} width={100} src="/skills/css.png" alt="CSS" />
+            <img height={100} width={100} src="/skills/react.svg" alt="CSS" />
             <h4>React</h4>
+          </li>
+          <li>
+            <img height={100} width={100} src="/skills/redux.svg" alt="CSS" />
+            <h4>Redux</h4>
           </li>
 
           <li>
-            <img height={100} width={100} src="/skills/css.png" alt="CSS" />
+            <img
+              height={100}
+              width={100}
+              src="/skills/nextjs_icon_212861.png"
+              alt="Next.js"
+            />
             <h4>Next.js</h4>
           </li>
+          <li>
+            <img
+              height={100}
+              width={100}
+              src="/skills/tailwind.png"
+              alt="CSS"
+            />
+            <h4>Tailwind css</h4>
+          </li>
+          <li>
+            <img
+              height={100}
+              width={100}
+              src="/skills/responsive-device.png"
+              alt="Responsive"
+            />
+            <h4>Responsiveness</h4>
+          </li>
         </ul>
-        {/* Responsive Design */}
       </div>
       <div className="backend">
         <h2> Backend </h2>
+        <ul>
+          <li>
+            <img
+              height={100}
+              width={100}
+              src="/skills/nodejs.png"
+              alt="NodeJs"
+            />
+            <h4> NodeJs</h4>
+          </li>
+          
+        </ul>
         {/* Node.js 
         Express.js 
         Server-side Rendering (SSR)
