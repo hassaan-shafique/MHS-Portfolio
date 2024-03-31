@@ -133,6 +133,9 @@ margin-left: 75px;
 ul {
   list-style: none;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 li {
@@ -173,4 +176,7 @@ li {
 .rights{
   text-align: center;
  margin-top :170px ; 
+}
+.skill-head{
+  margin-left: 100px;
 }

@@ -11,11 +11,11 @@ const header = () => {
 
         <div className="links">
           <a href="/"> Home</a>
-          <a href="/Introduction"> Introduction</a>
-          <a href="/Skills"> Skills</a>
-          <a href="/Projects"> Projects</a>
-          <a href="/Education"> Education</a>
-          <a href="/Certifications"> Certifications</a>
+          <a href="#/Introduction"> Introduction</a>
+          <a href="#/Skills"> Skills</a>
+          <a href="#/Projects"> Projects</a>
+          <a href="#/Education"> Education</a>
+          <a href="#/Certifications"> Certifications</a>
           
         </div>
 

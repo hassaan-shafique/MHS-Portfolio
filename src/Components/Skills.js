@@ -7,7 +7,7 @@ const Skills = () => {
         <h1> Skills</h1>
       </div>
       <div className="Front-end">
-        <h2> Front-End </h2>
+        <h2 className="skill-head"> Front-End </h2>
         <ul>
           <li>
             <img height={100} width={100} src="/skills/html.png" alt="HTML" />
@@ -66,7 +66,8 @@ const Skills = () => {
         </ul>
       </div>
       <div className="backend">
-        <h2> Backend </h2>
+        <h2 className="skill-head"> Backend </h2>
+
         <ul>
           <li>
             <img
@@ -84,7 +85,7 @@ const Skills = () => {
          RESTful APIs */}
       </div>
       <div className="database">
-        <h2> Databases </h2>
+        <h2 className="skill-head"> Databases </h2>
         <ul>
           <li>
             <img
@@ -121,7 +122,7 @@ const Skills = () => {
         Data Modeling */}
       </div>
       <div className="toolsandtechnologies">
-        <h2> Tools And Technologies </h2>
+        <h2 className="skill-head"> Tools And Technologies </h2>
         {/* Git and Version Control
         npm or Yarn Docker
         Continuous Integration/Continuous Deployment (CI/CD) 
