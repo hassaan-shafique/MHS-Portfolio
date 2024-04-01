@@ -53,7 +53,6 @@ font-size: 20px;
   position: absolute;
   height: 40px;
   width: 320px;
-  /* background-color: blueviolet; */
   background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
   color: white;
   justify-content: center;
