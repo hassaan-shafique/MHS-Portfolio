@@ -3,18 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="footer">
-      <h1 className="mhs">
-        MHS <span className="span"> Portfolio </span>
-      </h1>
-      <div className="links">
-        <a href="/"> Home</a>
-        <a href="/Introduction"> Introduction</a>
-        <a href="/Skills"> Skills</a>
-        <a href="/Projects"> Projects</a>
-        <a href="/Education"> Education</a>
-        <a href="/Certifications"> Certifications</a>
-      </div>
-      <div class="Contact-icons">
+      <div className="contact-icons2">
         <a
           href="https://www.facebook.com/hassaan.shafique.9/"
           target="_blank"
@@ -75,7 +64,10 @@ const Footer = () => {
           <img width={40} height={40} src="/medium.png" alt="facebook icon" />
         </a>
       </div>
-      <p className="rights">All rights are reserved@ M Hassaan shafique</p>
+
+      <div className='rights'>
+        <p>All rights are reserved@ M Hassaan shafique</p>
+      </div>
     </div>
   );
 }
