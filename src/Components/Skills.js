@@ -10,9 +10,9 @@ const Skills = () => {
         <div className="Front-end">
           <h2 className="skill-head"> Front-End </h2>
           <ul>
-            <li  className='html-skill'>
+            <li className="html-skill">
               <img height={100} width={100} src="/skills/html.png" alt="HTML" />
-              <h4>HTML</h4>
+              <h4 className="skill-des">HTML</h4>
             </li>
             <li>
               <img height={100} width={100} src="/skills/css.png" alt="CSS" />

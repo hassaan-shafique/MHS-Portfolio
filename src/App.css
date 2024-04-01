@@ -129,10 +129,11 @@ margin-left: 75px;
   text-align: center;
   
 }
-.html-skill{
+.html-skill {
   width: 90px;
   height: 140px;
-  background-color: #8888f0;
+  background-color: #dddde2;
+  border-radius: 9px;
 }
 
 ul {
@@ -146,7 +147,10 @@ ul {
 li {
   float: left;
   margin-right: 10px;
-  padding: 25px;
+  padding: 30px;
+}
+.skill-des{
+  margin-left: 18px;
 }
 .project-head{
   text-align: center;
@@ -162,16 +166,10 @@ li {
 text-align: center;
 
 
-
-  
 }
-
-
 
 .formm{
   text-align: center;
-
- 
 }
 
 .input{
