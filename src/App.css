@@ -129,6 +129,11 @@ margin-left: 75px;
   text-align: center;
   
 }
+.html-skill{
+  width: 90px;
+  height: 140px;
+  background-color: #8888f0;
+}
 
 ul {
   list-style: none;
