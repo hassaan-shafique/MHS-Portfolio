@@ -1,7 +1,12 @@
 import React from "react";
-
+import Introduction from "./Introduction";
 
 const header = () => {
+ const scrollToIntroduction = () => {
+   const projectsSection = document.getElementById("introduction");
+   projectsSection.scrollIntoView({ behavior: "smooth" });
+ };
+ 
   return (
     <div>
       <header className="header">
@@ -11,7 +16,7 @@ const header = () => {
 
         <div className="links">
           <a href="/"> Home</a>
-          <a href="#/Introduction"> Introduction</a>
+          <a href="#introduction" onClick={scrollToIntroduction}> Introduction</a>
           <a href="#/Skills"> Skills</a>
           <a href="#/Projects"> Projects</a>
           <a href="#/Education"> Education</a>

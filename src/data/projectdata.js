@@ -11,5 +11,17 @@ const projects = [
     description: "Description of Project 2",
     imageUrl: "project2.jpg",
   },
+  {
+    id: '3',
+    title: "Project 3",
+    description: "Description of Project 2",
+    imageUrl: "project2.jpg",
+  },
+  {
+    id: 4,
+    title: "Project 4",
+    description: "Description of Project 2",
+    imageUrl: "project2.jpg",
+  },
   // Add more projects as needed
 ];

@@ -1,14 +1,15 @@
 import React from 'react'
 
-const Projects = () => {
+ 
+const Projects = (projects) => {
   return (
     <div>
-      <h1 className='project-head'> Projects </h1>
-      <div className='card-1'>
-        this is a card one 
+      <h1 className="project-head"> Projects </h1>
+      <div className="card-1">
+       
       </div>
     </div>
-  )
+  );
 }
 
 export default Projects
