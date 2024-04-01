@@ -6,7 +6,10 @@ const header = () => {
    const projectsSection = document.getElementById("introduction");
    projectsSection.scrollIntoView({ behavior: "smooth" });
  };
- 
+ const scrollToSkills = () => {
+   const skillsSection = document.getElementById("skills");
+   skillsSection.scrollIntoView({ behavior: "smooth" });
+ };
   return (
     <div>
       <header className="header">
@@ -17,7 +20,7 @@ const header = () => {
         <div className="links">
           <a href="/"> Home</a>
           <a href="#introduction" onClick={scrollToIntroduction}> Introduction</a>
-          <a href="#/Skills"> Skills</a>
+          <a href="#/Skills" onClick={scrollToSkills}> Skills</a>
           <a href="#/Projects"> Projects</a>
           <a href="#/Education"> Education</a>
           <a href="#/Certifications"> Certifications</a>
