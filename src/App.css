@@ -187,7 +187,9 @@ li {
     display: flex; 
    margin-left: 880px;
    text-align: center;
-   
+   display: flex;
+  justify-content: center ;
+  align-items: center;   
 
 }
 .footer{

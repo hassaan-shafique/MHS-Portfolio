@@ -7,14 +7,28 @@ const Contact = () => {
       <div className="formm">
         <form>
           {/* <label>Name:</label> */}
-          <input className="input" type="text" placeholder="Your Name " required/>
+          <input
+            className="input"
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Your Name "
+            required
+          />
           {/* <label>Email</label> */}
-          <input className="input" type="text" placeholder="Your Email" required/>
+          <input
+            className="input"
+            id="email"
+            name="email"
+            type="text"
+            placeholder="Your Email"
+            required
+          />
           <br /> <br />
           {/* <label>Message</label> */}
-          <br/> 
+          <br />
           <textarea
-            className='input-2'
+            className="input-2"
             id="message"
             name="message"
             rows="9"
@@ -22,7 +36,7 @@ const Contact = () => {
             placeholder="Enter your message here..."
             required
           />
-          <br/> <br/>
+          <br /> <br />
           <button className="submit-btn" type="submit">
             Send Message
           </button>
