@@ -1,9 +1,9 @@
-const projects = [
+const projectData = [
   {
     id: 1,
     title: "Project 1",
     description: "Description of Project 1",
-    imageUrl: "project1.jpg",
+    imageUrl: "instagram.png",
   },
   {
     id: 2,

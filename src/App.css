@@ -324,3 +324,42 @@ text-align: center;
 .skill-head{
   margin-left: 100px;
 }
+.school{
+  
+width:500px ;
+margin-left: 50px;
+height: 150px;
+border-radius: 8px;
+background-color:#8080ce;
+color: #dddde2;
+padding-left: 20px;
+}
+.college{
+  margin-left: 50px;
+  width: 500px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #60609b;
+    color: #dddde2;
+    padding-left: 20px;
+}
+.university{
+  margin-left: 50px;
+  width: 500px;
+    height: 350px;
+    border-radius: 8px;
+    background-color: #7777ae;
+    color: #dddde2;
+   padding-left: 20px ;
+}
+    .education {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 20px;
+      
+
+    }
+    .year{
+      text-align: center;
+      font-size: 12px;
+    }
