@@ -106,7 +106,7 @@ const Skills = () => {
               <h4> MYSQL </h4>
             </li>
 
-            <li className='firebase-skill'>
+            <li className="firebase-skill">
               <img
                 height={100}
                 width={100}
@@ -124,6 +124,38 @@ const Skills = () => {
         </div>
         <div className="toolsandtechnologies">
           <h2 className="skill-head"> Tools And Technologies </h2>
+          <ul>
+            <li className="mongo-skill">
+              <img
+                height={100}
+                width={100}
+                src="/skills/vs-code.png"
+                alt="Firebase"
+              />
+              <h4> VS Code </h4>
+            </li>
+            <li className="mongo-skill">
+              <img
+                height={100}
+                width={100}
+                src="/skills/git.png"
+                alt="Firebase"
+              />
+              <h4> Git </h4>
+            </li>
+            <li className="mongo-skill">
+              <img height={100} width={100} src="/github.png" alt="Firebase" />
+              <h4> GitHub </h4>
+            </li>
+            <li className="mongo-skill">
+              <img height={100} width={100} src="/skills/jira.svg" alt="Firebase" />
+              <h4> Jira </h4>
+            </li>
+            <li className="mongo-skill">
+              <img height={100} width={100} src="/skills/slack.svg" alt="Firebase" />
+              <h4> Slack </h4>
+            </li>
+          </ul>
           {/* Git and Version Control
         npm or Yarn Docker
         Continuous Integration/Continuous Deployment (CI/CD) 
