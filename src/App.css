@@ -140,6 +140,12 @@ margin-left: 75px;
   text-align: center;
   
 }
+.skill-head{
+  background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
+  width: 190px;
+  text-align: center;
+  border-radius: 6px;
+}
 .html-skill {
   width: 90px;
   height: 140px;
