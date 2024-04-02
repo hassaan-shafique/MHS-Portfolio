@@ -14,11 +14,11 @@ const Skills = () => {
               <img height={100} width={100} src="/skills/html.png" alt="HTML" />
               <h4 className="skill-des">HTML</h4>
             </li>
-            <li className='css-skill'>
+            <li className="css-skill">
               <img height={100} width={100} src="/skills/css.png" alt="CSS" />
               <h4>CSS</h4>
             </li>
-            <li className='js-skill'>
+            <li className="js-skill">
               <img
                 height={100}
                 width={100}
@@ -28,16 +28,16 @@ const Skills = () => {
               <h4>JavaScript</h4>
             </li>
 
-            <li className='react-skill'> 
+            <li className="react-skill">
               <img height={100} width={100} src="/skills/react.svg" alt="CSS" />
               <h4>React</h4>
             </li>
-            <li className='redux-skill'>
+            <li className="redux-skill">
               <img height={100} width={100} src="/skills/redux.svg" alt="CSS" />
               <h4>Redux</h4>
             </li>
 
-            <li className='next-skill'>
+            <li className="next-skill">
               <img
                 height={100}
                 width={100}
@@ -46,7 +46,7 @@ const Skills = () => {
               />
               <h4>Next.js</h4>
             </li>
-            <li className='tailwind-skill'>
+            <li className="tailwind-skill">
               <img
                 height={100}
                 width={100}
@@ -55,7 +55,7 @@ const Skills = () => {
               />
               <h4>Tailwind css</h4>
             </li>
-            <li className='response-skill'>
+            <li className="response-skill">
               <img
                 height={100}
                 width={100}
@@ -70,7 +70,7 @@ const Skills = () => {
           <h2 className="skill-head"> Backend </h2>
 
           <ul>
-            <li>
+            <li className="node-skill">
               <img
                 height={100}
                 width={100}
@@ -88,7 +88,7 @@ const Skills = () => {
         <div className="database">
           <h2 className="skill-head"> Databases </h2>
           <ul>
-            <li>
+            <li className="mongo-skill">
               <img
                 height={100}
                 width={100}
@@ -97,23 +97,23 @@ const Skills = () => {
               />
               <h4> Mongo DB </h4>
             </li>
-            <li>
+            <li className="sql-skill">
               <img height={100} width={100} src="/skills/sql.png" alt="SQL" />
               <h4> SQL </h4>
             </li>
-            <li>
+            <li className="mysql-skill">
               <img height={100} width={100} src="/skills/mysql.png" alt="SQL" />
               <h4> MYSQL </h4>
             </li>
 
-            <li>
+            <li className='firebase-skill'>
               <img
                 height={100}
                 width={100}
                 src="/skills/firebase.svg"
                 alt="Firebase"
               />
-              <h4> Python </h4>
+              <h4> Firebase </h4>
             </li>
           </ul>
           {/* SQL (MySQL, PostgreSQL, SQLite, etc.) 

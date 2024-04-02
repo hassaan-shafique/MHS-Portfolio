@@ -188,6 +188,37 @@ margin-left: 75px;
     background-color: #dddde2;
     border-radius: 9px;
 }
+.node-skill{
+  width: 90px;
+    height: 140px;
+    background-color: #dddde2;
+    border-radius: 9px;
+}
+.mongo-skill{
+  width: 90px;
+    height: 140px;
+    background-color: #dddde2;
+    border-radius: 9px;
+}
+.sql-skill{
+  width: 90px;
+    height: 140px;
+    background-color: #dddde2;
+    border-radius: 9px;
+}
+.mysql-skill
+{
+     width: 90px;
+     height: 140px;
+     background-color: #dddde2;
+     border-radius: 9px;
+}
+.firebase-skill{
+  width: 90px;
+    height: 140px;
+    background-color: #dddde2;
+    border-radius: 9px;
+}
 
 ul {
   list-style: none;
@@ -195,12 +226,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap:10px;
 }
 
 li {
   float: left;
   margin-right: 10px;
   padding: 30px;
+  
 }
 .skill-des{
   margin-left: 18px;
