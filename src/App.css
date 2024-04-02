@@ -21,7 +21,7 @@
 .links{
   align-items: center;
   display: flex;
-  gap: 80px;
+  gap: 60px;
   justify-content: center;
   margin-left: 200px;
   text-decoration: none;
@@ -31,18 +31,19 @@
 .links a{
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 18px;
   justify-content:center;
 }
 .contact{
-  border-radius: 30px;
+  border-radius: 8px;
   width: 120px;
   height: 40px;
-  margin-left: 220px;
+  margin-top: 58px;
+  margin-left: 130px;
   background-color: #8888f0;
   color: white;
   border: none;
-font-size: 20px;
+  font-size: 20px;
 
 
 }
@@ -66,6 +67,10 @@ font-size: 20px;
 
 
 }
+.home-btn{
+  display: flex;
+  
+}
 .home-intro{
   margin-left: 80px;
   margin-top: 250px;
@@ -87,13 +92,18 @@ margin-left: 75px;
 
 }
 
+
 .resume{
   position: absolute;
   margin-top: 60px;
   display: flex;
+  margin-left : 120px;
+  cursor: pointer;
+ 
+
 }
 .Resume-btn { 
-  border-radius: 30px;
+  border-radius: 8px;
   width: 150px;
   height: 40px;
   margin-left: 220px;
@@ -101,13 +111,14 @@ margin-left: 75px;
   color: white;
   border: none;
   font-size: 20px;
+  cursor: pointer;
 
 }
 
 .Home-image{
   position: relative;
   margin-left:1100px;
-  margin-top: -350px;
+  margin-top: -470px;
 
 }
 .intro-heading{

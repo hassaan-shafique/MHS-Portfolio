@@ -18,10 +18,8 @@ projectsection.scrollIntoView({behavior:"smooth"});
    const certificationsection = document.getElementById("certifications");
    certificationsection.scrollIntoView({ behavior: "smooth" });
  };
- const ScrolltoContact = ()=>{
-  const contactsection= document.getElementById('contact');
-  contactsection.scrollIntoView({behavior:'smooth'});
- };
+
+ 
 
   return (
     <div>
@@ -33,25 +31,26 @@ projectsection.scrollIntoView({behavior:"smooth"});
         <div className="links">
           <a href="/"> Home</a>
           <a href="#introduction" onClick={scrollToIntroduction}>
-            {" "}
             Introduction
           </a>
-          <a href="#/Skills" onClick={scrollToSkills}>
+          <a href="#Skills" onClick={scrollToSkills}>
             Skills
           </a>
-          <a href="#/Projects" onClick={scrolltoProject}>
+          <a href="#Projects" onClick={scrolltoProject}>
             Projects
           </a>
+          <a href="#Projects" onClick={scrolltoProject}>
+            Experience
+          </a>
           <a href="#/Education"> Education</a>
+          <a href="#/Education"> Blog</a>
+
           <a href="#/Certifications" onClick={scrolltoCertification}>
-            {" "}
             Certifications
           </a>
         </div>
 
-        <div>
-          <button className="contact" onClick={ScrolltoContact}>Contact</button>
-        </div>
+       
       </header>
     </div>
   );

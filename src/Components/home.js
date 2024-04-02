@@ -2,6 +2,10 @@ import React from 'react'
 
 
 const Home = () => {
+  const ScrolltoContact = () => {
+    const contactsection = document.getElementById("contact");
+    contactsection.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div>
       <div className="welcome">
@@ -73,13 +77,21 @@ const Home = () => {
           <img width={40} height={40} src="/medium.png" alt="facebook icon" />
         </a>
       </div>
-      <div className="resume">
-        <button className="Resume-btn">
-          Download CV
-          {/* <img src="" alt=''
+      <div className='home-btn'>
+        <div className='contact-btn'>
+          <button className="contact" onClick={ScrolltoContact}>
+            Contact
+          </button>
+        </div>
+        <div className="resume">
+          <button className="Resume-btn">
+            Download CV
+            {/* <img src="" alt=''
            ></img> */}
-        </button>
+          </button>
+        </div>
       </div>
+
       <div className="Home-image">
         <img
           width={600}
