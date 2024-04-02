@@ -14,11 +14,11 @@ const Skills = () => {
               <img height={100} width={100} src="/skills/html.png" alt="HTML" />
               <h4 className="skill-des">HTML</h4>
             </li>
-            <li>
+            <li className='css-skill'>
               <img height={100} width={100} src="/skills/css.png" alt="CSS" />
               <h4>CSS</h4>
             </li>
-            <li>
+            <li className='js-skill'>
               <img
                 height={100}
                 width={100}
@@ -28,16 +28,16 @@ const Skills = () => {
               <h4>JavaScript</h4>
             </li>
 
-            <li>
+            <li className='react-skill'> 
               <img height={100} width={100} src="/skills/react.svg" alt="CSS" />
               <h4>React</h4>
             </li>
-            <li>
+            <li className='redux-skill'>
               <img height={100} width={100} src="/skills/redux.svg" alt="CSS" />
               <h4>Redux</h4>
             </li>
 
-            <li>
+            <li className='next-skill'>
               <img
                 height={100}
                 width={100}
@@ -46,7 +46,7 @@ const Skills = () => {
               />
               <h4>Next.js</h4>
             </li>
-            <li>
+            <li className='tailwind-skill'>
               <img
                 height={100}
                 width={100}
@@ -55,7 +55,7 @@ const Skills = () => {
               />
               <h4>Tailwind css</h4>
             </li>
-            <li>
+            <li className='response-skill'>
               <img
                 height={100}
                 width={100}
