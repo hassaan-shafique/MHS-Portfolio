@@ -9,23 +9,21 @@ import Education from './Components/Education';
 import Certifications from './Components/Certifications';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Experience from './Components/Experience';
 
 function App() {
   return (
     <div>
-      
-      <Header/>
-     <Home/>
-     <Introduction/>
-     <Skills/>
-     <Projects/>
-     <Education/>
-     <Certifications/>
-     <Contact/>
-     <Footer/>
-       
-       
-  
+      <Header />
+      <Home />
+      <Introduction />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Education />
+      <Certifications />
+      <Contact />
+      <Footer />
     </div>
   );
 }
