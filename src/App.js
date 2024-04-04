@@ -10,6 +10,7 @@ import Certifications from './Components/Certifications';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Experience from './Components/Experience';
+import Blog from './Components/Blog';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Projects />
       <Experience />
       <Education />
+      <Blog/>
       <Certifications />
       <Contact />
       <Footer />
