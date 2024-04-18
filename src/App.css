@@ -330,6 +330,41 @@ text-align: center;
 .skill-head{
   margin-left: 100px;
 }
+
+.main-experience{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 20px;
+}
+.Ivory-solutions{
+  background-color: #8080ce;
+  width: 800px;
+  height: 400px;
+
+}
+.Care{
+  background-color: #8080ce;
+    width: 800px;
+    height: 300px;
+}
+.work{
+  background-color: #8080ce;
+    width: 800px;
+    height: 300px;
+}
+.shark-technology{
+  background-color: #8080ce;
+    width: 800px;
+    height: 300px;
+
+}
+
+
+
+
+
+
 .school{
   
 width:500px ;
