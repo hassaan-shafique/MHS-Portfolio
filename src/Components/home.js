@@ -15,7 +15,7 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className='home-main'>
       <div className="welcome">
         <h3>Welcome To My Portfolio </h3>
       </div>
