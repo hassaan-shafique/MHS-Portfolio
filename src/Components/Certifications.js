@@ -11,17 +11,17 @@ const Certifications = () => {
           return (
             <div className="certificate-data" key={certificate.id}>
               <img
-                width={150}
-                height={150}
+                width={350}
+                height={280}
                 src={certificate.imageUrl}
                 alt={certificate.title}
               />
               {certificate.title}
-              <br/>
+              <br />
               {certificate.resource}
 
-              <div className="certificate-bttn">
-                <button>View</button>
+              <div>
+                <button className="certificate-btn">View</button>
               </div>
             </div>
           );
