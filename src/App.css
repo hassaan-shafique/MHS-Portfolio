@@ -260,14 +260,7 @@ list-style: none;
   justify-content: center;
   gap: 10px;
 }
-/* ul {
-  list-style: none;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap:10px;
-} */
+
 .html-skill{
   float: left;
     margin-right: 10px;
@@ -336,12 +329,8 @@ list-style: none;
     padding: 30px;
 }
 
-/* li {
-  float: left;
-  margin-right: 10px;
-  padding: 30px;
-  
-} */
+
+
 .skill-des{
   margin-left: 18px;
 }
