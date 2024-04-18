@@ -36,10 +36,10 @@ const Experience = () => {
               <li>third</li>
               <li>Fourth</li>
             </ul>
-          </div>{" "}
+          </div>
         </div>
         <div className="work">
-          {" "}
+         
           <div className="date">Feb-2024--Present</div>
           <div className="role">Front-end Developer</div>
           <div className="company-location">
