@@ -1,6 +1,8 @@
 import React from 'react'
 import certificateData from "./certificateData";
 
+
+
 const Certifications = () => {
   return (
     <section id="certifications">
@@ -21,7 +23,7 @@ const Certifications = () => {
               {certificate.resource}
 
               <div>
-                <button className="certificate-btn">View</button>
+                <button className="certificate-btn" >View</button>
               </div>
             </div>
           );
