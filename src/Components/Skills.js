@@ -9,7 +9,7 @@ const Skills = () => {
         </div>
         <div className="Front-end">
           <h2 className="skill-head"> Front-End </h2>
-          <ul>
+          <ul className="front-end-ul">
             <li className="html-skill">
               <img height={100} width={100} src="/skills/html.png" alt="HTML" />
               <h4 className="skill-des">HTML</h4>
@@ -69,7 +69,7 @@ const Skills = () => {
         <div className="backend">
           <h2 className="skill-head"> Backend </h2>
 
-          <ul>
+          <ul className='backend-ul'>
             <li className="node-skill">
               <img
                 height={100}
@@ -87,7 +87,7 @@ const Skills = () => {
         </div>
         <div className="database">
           <h2 className="skill-head"> Databases </h2>
-          <ul>
+          <ul className='db-ul'>
             <li className="mongo-skill">
               <img
                 height={100}
@@ -124,7 +124,7 @@ const Skills = () => {
         </div>
         <div className="toolsandtechnologies">
           <h2 className="skill-head"> Tools And Technologies </h2>
-          <ul>
+          <ul className='tools-ul'>
             <li className="mongo-skill">
               <img
                 height={100}
@@ -148,11 +148,21 @@ const Skills = () => {
               <h4> GitHub </h4>
             </li>
             <li className="mongo-skill">
-              <img height={100} width={100} src="/skills/jira.svg" alt="Firebase" />
+              <img
+                height={100}
+                width={100}
+                src="/skills/jira.svg"
+                alt="Firebase"
+              />
               <h4> Jira </h4>
             </li>
             <li className="mongo-skill">
-              <img height={100} width={100} src="/skills/slack.svg" alt="Firebase" />
+              <img
+                height={100}
+                width={100}
+                src="/skills/slack.svg"
+                alt="Firebase"
+              />
               <h4> Slack </h4>
             </li>
           </ul>

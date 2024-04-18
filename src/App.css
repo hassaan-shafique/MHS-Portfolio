@@ -228,22 +228,120 @@ margin-left: 75px;
     background-color: #dddde2;
     border-radius: 9px;
 }
-
-ul {
+.front-end-ul{
+  list-style: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.backend-ul{
+  list-style: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.db-ul{
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.tools-ul{
+list-style: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+/* ul {
   list-style: none;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   gap:10px;
+} */
+.html-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+
+}
+.css-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.js-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.react-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.redux-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.next-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.tailwind-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.response-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.node-skill {
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+
+}
+.mongo-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.sql-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.mysql-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+.firebase-skill{
+  float: left;
+    margin-right: 10px;
+    padding: 30px;
 }
 
-li {
+/* li {
   float: left;
   margin-right: 10px;
   padding: 30px;
   
-}
+} */
 .skill-des{
   margin-left: 18px;
 }
@@ -365,7 +463,9 @@ text-align: center;
 
 
 
-
+.company-location{
+  display: flex;
+}
 
 
 .school{
