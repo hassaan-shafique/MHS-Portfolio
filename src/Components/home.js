@@ -5,9 +5,13 @@ import React from 'react'
 
 
 const Home = () => {
+  const HandleContact = () => {
+    const contactSection =document.getElementById("contact");
+    contactSection.scrollIntoView({behavior: "smooth"});
+  }
 
  
-  
+
 
 
   return (
@@ -82,11 +86,9 @@ const Home = () => {
         </a>
       </div>
       <div className="home-btn">
-        <div  className="contact-btn">
        
-            <button className="contact" > Contact</button>
-          
-        </div>
+            <button 
+            href="#Contact"className="contact" onClick={HandleContact} > Contact</button>
         <div className="resume">
           <button className="Resume-btn">
             Download CV
