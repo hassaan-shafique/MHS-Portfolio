@@ -5,17 +5,23 @@ import React from 'react'
 
 
 const Home = () => {
+
   const HandleContact = () => {
     const contactSection =document.getElementById("contact");
-    contactSection.scrollIntoView({behavior: "smooth"});
-  }
-
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+const redirectToCV = () => {
+  
+  window.location.href = "https://www.google.com/";
+};
  
 
 
 
   return (
-    <div className='home-main'>
+    <div className="home-main">
       <div className="welcome">
         <h3>Welcome To My Portfolio </h3>
       </div>
@@ -86,11 +92,12 @@ const Home = () => {
         </a>
       </div>
       <div className="home-btn">
-       
-            <button 
-            href="#Contact"className="contact" onClick={HandleContact} > Contact</button>
+        <button className="contact" onClick={HandleContact}>
+         
+          Contact
+        </button>
         <div className="resume">
-          <button className="Resume-btn">
+          <button className="Resume-btn" onClick={redirectToCV}>
             Download CV
             {/* <img src="" alt=''
            ></img> */}
