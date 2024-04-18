@@ -2,6 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
+    <section id= "education"> 
     <div>
       <h1 className="education-head">Education </h1>
       <div className="education">
@@ -35,6 +36,8 @@ const Education = () => {
         </div>
       </div>
     </div>
+    
+</section>
   );
 }
 

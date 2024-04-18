@@ -404,40 +404,7 @@ padding-left: 20px;
       text-align: center;
       font-size: 12px;
     }
-    .certificate-1{
-      background-color:#7777ae ;
-      width: 350px;
-      height: 450px;
-      border-radius: 5px;
-      text-align: center;
-
-     
-      
-     
-
     
-    }
-        .certificate-2 {
-          background-color: #7777ae;
-          width: 350px;
-          height: 450px;
-    border-radius: 5px;
-    text-align: center;
-          
-    
-    
-    
-        }
-                .certificate-3 {
-                  background-color: #7777ae;
-                  width: 350px;
-                  height: 450px;
-        border-radius: 5px;
-       text-align: center;
-        
-        
-        
-                }
     
     .certificate-main{
       display: flex;
@@ -446,8 +413,13 @@ padding-left: 20px;
       justify-content: center;
       gap: 80px;
       
+      
 
     }
+        .certificate-title{
+          margin-left: 12px;
+          
+        }
     .certificate-data{
      background-color: #dddde2 ;
      width: 350px;
@@ -455,6 +427,7 @@ padding-left: 20px;
      border-radius: 10px;
     display: flex;
       flex-direction: column;
+    
       
     }
     .certificate-btn{

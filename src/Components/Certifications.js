@@ -18,12 +18,13 @@ const Certifications = () => {
                 src={certificate.imageUrl}
                 alt={certificate.title}
               />
-              {certificate.title}
-              <br />
-              {certificate.resource}
-
+              <div className='certificate-title'>
+                {certificate.title}
+                <br />
+                {certificate.resource}
+              </div>
               <div>
-                <button className="certificate-btn" >View</button>
+                <button className="certificate-btn">View</button>
               </div>
             </div>
           );

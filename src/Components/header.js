@@ -2,6 +2,7 @@ import React from "react";
 import Introduction from "./Introduction";
 
 const header = () => {
+
  const scrollToIntroduction = () => {
    const introductionSection = document.getElementById("introduction");
    introductionSection.scrollIntoView({ behavior: "smooth" });
@@ -18,7 +19,10 @@ projectsection.scrollIntoView({behavior:"smooth"});
    const certificationsection = document.getElementById("certifications");
    certificationsection.scrollIntoView({ behavior: "smooth" });
  };
-
+ const scrolltoEducation = () => {
+  const educationsection =document.getElementById("education");
+  educationsection.scrollIntoView({behavior:"smooth"});
+ }
  
 
   return (
@@ -42,15 +46,17 @@ projectsection.scrollIntoView({behavior:"smooth"});
           <a href="#Projects" onClick={scrolltoProject}>
             Experience
           </a>
-          <a href="#/Education"> Education</a>
+
+          <a href="#Education" onClick={scrolltoEducation}>
+            Education
+          </a>
           {/* <a href="#/Education"> Blog</a> */}
 
-          <a href="#/Certifications" onClick={scrolltoCertification}>
+          <a href="#Certifications" onClick={scrolltoCertification}>
             Certifications
           </a>
+         
         </div>
-
-       
       </header>
     </div>
   );
