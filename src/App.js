@@ -14,7 +14,7 @@ import Blog from './Components/Blog';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Header />
       <Home />
       <Introduction />
