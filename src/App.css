@@ -15,9 +15,18 @@
 }
 .mhs{
   font-size: 20px;
-  margin-right: 1600px;
   position: absolute;
+  margin-right: 1200px;
+  /* background-color: blue; */
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
+
+
 
 .links{
   align-items: center;
@@ -120,7 +129,7 @@ margin-left: 75px;
 
 .Home-image{
   position: relative;
-  margin-left:900px;
+  margin-left:800px;
   margin-top: -470px;
 
 }
@@ -130,12 +139,12 @@ margin-left: 75px;
   align-items: center;
 }
 .About-img{
-   margin-left: 210px;
-   margin-top: 200px;
+   margin-left: 120px;
+   margin-top: 100px;
 }
 .introduction {
   position:absolute;
-  margin-left:1100px;
+  margin-left:800px;
   margin-top: -350px;
 
 }
@@ -538,14 +547,17 @@ padding-left: 20px;
   height: 400px;
   background-color: #dddde2;
   border-radius: 10px;
-  margin-left: 90px;
+  /* margin-left: 25px; */
   display: flex;
   flex-direction: column;
+  
 
 }
 .projects{
   display: flex;
-  gap: -30px;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .project-btn{
   display: flex;

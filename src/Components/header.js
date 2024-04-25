@@ -28,10 +28,12 @@ projectsection.scrollIntoView({behavior:"smooth"});
   return (
     <div>
       <header className="header">
-        <h1 className="mhs">
-           M Hassaan <span className="span"> Shafique </span>
-        </h1>
-
+      
+        <div className="mhs">
+          <h3>
+            M Hassaan <span className="span"> Shafique </span>
+          </h3>
+        </div>
         <div className="links">
           <a href="/"> Home</a>
           <a href="#introduction" onClick={scrollToIntroduction}>
@@ -55,7 +57,6 @@ projectsection.scrollIntoView({behavior:"smooth"});
           <a href="#Certifications" onClick={scrolltoCertification}>
             Certifications
           </a>
-         
         </div>
       </header>
     </div>
