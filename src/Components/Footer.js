@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="contact-icons2">
+      {/* <div className="contact-icons2">
         <a
           href="https://www.facebook.com/hassaan.shafique.9/"
           target="_blank"
@@ -63,8 +63,7 @@ const Footer = () => {
         >
           <img width={40} height={40} src="/medium.png" alt="facebook icon" />
         </a>
-      </div>
-
+      </div> */}
       <div className='rights'>
         <p>All rights are reserved@ M Hassaan shafique</p>
       </div>
