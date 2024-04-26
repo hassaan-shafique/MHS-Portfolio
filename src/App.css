@@ -380,21 +380,22 @@ text-align: center;
 .submit-btn{
   cursor: pointer;
   border-radius: 4px;
-    width: 150px;
+    width: 250px;
     height: 40px;
     margin-left: 220px;
     background-color: #8888f0;
     color: white;
     border: none;
     font-size: 20px;
-   justify-content: center; 
-    display: flex; 
-   margin-left: 880px;
-   text-align: center;
-   display: flex;
-  justify-content: center ;
-  align-items: center;   
+    
 
+}
+.message-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
+  
 }
 .contact-icons2 {
 

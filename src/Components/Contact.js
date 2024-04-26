@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div>
-        <h1 className='contact-head'> Contact </h1>
+        <h1 className="contact-head"> Contact </h1>
         <div className="formm">
           <form>
             {/* <label>Name:</label> */}
@@ -39,11 +39,13 @@ const Contact = () => {
               required
             />
             <br /> <br />
-            <button className="submit-btn" type="submit">
-              Send Message
-            </button>
           </form>
           <br />
+        </div>
+        <div className="message-btn">
+          <button className="submit-btn" type="submit">
+            Send Message
+          </button>
         </div>
       </div>
     </section>
