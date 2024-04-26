@@ -118,13 +118,9 @@
 }
 a {
   display: inline-flex;
-  /* Use inline-flex to align items in the same line */
   align-items: center;
-  /* Align items vertically in the center */
-  text-decoration: none;
-  /* Remove underline from link text */
   color: inherit;
-  /* Inherit text color from parent */
+  
 }
 .h-welcome{
   position: absolute;
