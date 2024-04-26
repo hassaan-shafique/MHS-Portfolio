@@ -5,7 +5,7 @@
 .header{
   color: #1b1919;
   background-color: #a0a0f1;
-  width: 100%;
+  width: 100vw;
   height: 70px;
   display: flex;
   align-items: center;
@@ -13,6 +13,37 @@
   
 
 }
+
+
+@media (max-width: 768px) {
+
+  .header{
+   
+    width: 100vw;
+  }
+  .links a{
+    display: none;
+
+  }
+  .mhs{
+    font-size: 20px;
+      position: absolute;
+      margin-right: 1200px;
+      /* background-color: blue; */
+      height: 150px;
+      width: 250px;
+      
+
+  }
+    .home-main {
+      display: flex;
+      flex-direction: column-reverse;
+  
+    }
+  
+}
+
+
 .mhs{
   font-size: 20px;
   position: absolute;
@@ -43,9 +74,18 @@
   color: white;
   font-size: 18px;
   justify-content:center;
+ 
 }
+
+
+/* Section No 1 Home section */
+
 .home-main{
-  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  justify-content: center;
+
 }
 .contact{
   border-radius: 30px;
@@ -62,15 +102,33 @@
 .span{
   color: #fcfcfc;
 }
-.welcome{
+.hire-div{
+  font-size: 18px;
+  margin-top: 40px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 70px;
+}
+a {
+  display: inline-flex;
+  /* Use inline-flex to align items in the same line */
+  align-items: center;
+  /* Align items vertically in the center */
+  text-decoration: none;
+  /* Remove underline from link text */
+  color: inherit;
+  /* Inherit text color from parent */
+}
+.h-welcome{
   position: absolute;
   height: 40px;
   width: 320px;
   background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
   color: white;
-  justify-content: center;
   margin-left: 150px;
-  margin-top: -50px;
+  margin-top: 175px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,9 +137,8 @@
 
 
 }
-.home-btn{
-  display: flex;
-  
+.home-btns-div{
+  display:flex;
 }
 .home-intro{
   margin-left: 80px;
@@ -105,7 +162,7 @@ margin-left: 75px;
 }
 
 
-.resume{
+.resume-div{
   position: absolute;
   margin-top: 60px;
   display: flex;
@@ -128,11 +185,13 @@ margin-left: 75px;
 }
 
 .Home-image{
-  position: relative;
-  margin-left:800px;
-  margin-top: -470px;
+  /* position: relative; */
+  /* margin-left:800px; */
+  margin-top: 40px;
 
 }
+
+/* Section No 2 Introduction Section  */
 .intro-heading{
   display: flex;
   justify-content: center;
@@ -426,7 +485,7 @@ align-items: center;
 
 .footer{
  
-  width: 100%;
+  width: 100vw;
   height: 70px;
   background-color: #404077;
   

@@ -13,7 +13,7 @@ const Introduction = () => {
           />
         </div>
 
-        <div className="introduction">
+          {/* <div className="introduction">
           <h2>
             About <span>Me </span>
           </h2>
@@ -25,7 +25,8 @@ const Introduction = () => {
             Software Engineer <br />
             at Ivory Solutions at Kickstart Islamabad, Pakistan.
           </div>
-        </div>
+        </div> */}
+        
       </div>
     </section>
   );
