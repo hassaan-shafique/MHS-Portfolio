@@ -30,9 +30,9 @@ projectsection.scrollIntoView({behavior:"smooth"});
       <header className="header">
       
         <div className="mhs">
-          <h3>
+          <h4>
             M Hassaan <span className="span"> Shafique </span>
-          </h3>
+          </h4>
         </div>
         
         <div className="links">
