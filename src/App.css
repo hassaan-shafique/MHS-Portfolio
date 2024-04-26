@@ -354,7 +354,9 @@ list-style: none;
   text-align: center;
 }
 .contact-head{
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 
 
 }

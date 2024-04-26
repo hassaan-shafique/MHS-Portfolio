@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <section id="contact">
-      <div>
+      <>
         <h1 className="contact-head"> Contact </h1>
         <div className="formm">
           <form>
@@ -47,7 +47,7 @@ const Contact = () => {
             Send Message
           </button>
         </div>
-      </div>
+      </>
     </section>
   );
 }
