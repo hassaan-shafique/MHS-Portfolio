@@ -25,11 +25,12 @@ const redirectToCV = () => {
       <div className="welcome">
         <h3>Welcome To My Portfolio </h3>
       </div>
-      <h1 className="home-intro">
-        Hello, I am Muhammad Hassaan Shafique <br />
-        I'm a Software Engineer
-      </h1>
-
+      <div>
+        <h1 className="home-intro">
+          Hello, I am Muhammad Hassaan Shafique <br />
+          I'm a Software Engineer
+        </h1>
+      </div>
       <div class="Contact-icons">
         <a
           href="https://www.facebook.com/hassaan.shafique.9/"
@@ -91,9 +92,9 @@ const redirectToCV = () => {
           <img width={40} height={40} src="/medium.png" alt="facebook icon" />
         </a>
       </div>
+
       <div className="home-btn">
         <button className="contact" onClick={HandleContact}>
-         
           Contact
         </button>
         <div className="resume">

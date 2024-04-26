@@ -7,7 +7,7 @@ import projectData from './projectData';
 const Projects = ( ) => {
   return (
     <section id="projects">
-      <h1 className="project-head"> Projects</h1>
+      <h1 className="project-head">  Recent Projects</h1>
       <div className="projects">
         {projectData.map((project) => {
           return (
