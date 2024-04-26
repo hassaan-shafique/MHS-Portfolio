@@ -26,8 +26,8 @@ projectsection.scrollIntoView({behavior:"smooth"});
  
 
   return (
-    <div>
-      <header className="header">
+    <>
+      <nav className="header">
       
         <div className="mhs">
           <h4>
@@ -59,8 +59,8 @@ projectsection.scrollIntoView({behavior:"smooth"});
             Certifications
           </a>
         </div>
-      </header>
-    </div>
+      </nav>
+    </>
   );
 }
 
