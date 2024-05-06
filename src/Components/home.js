@@ -24,13 +24,13 @@ const redirectToCV = () => {
   return (
     <>
       <div className="home-main">
-      <div className='hire-div'>
-        <a href='' target='_blank'>
-        <img width={50} height={35} src='/fiverr-1.svg' alt='fiver logo'/>
-
-        Hire me on Fiver</a>
-      </div>
-        <div className="welcome-div">
+        <div className="hire-div">
+          <a href="" target="_blank">
+            <img width={50} height={35} src="/fiverr-1.svg" alt="fiver logo" />
+            Hire me on Fiver
+          </a>
+        </div>
+        <section className="welcome-div">
           <div className="h-welcome">
             <h3>Welcome To My Portfolio </h3>
           </div>
@@ -125,8 +125,7 @@ const redirectToCV = () => {
           </div>
 
           <div className="home-btns-div">
-
-            <div className='contact-div'>
+            <div className="contact-div">
               <button className="contact" onClick={HandleContact}>
                 Contact
               </button>
@@ -138,19 +137,18 @@ const redirectToCV = () => {
            ></img> */}
               </button>
             </div>
-
           </div>
-        </div>
+        </section>
 
         {/* home div */}
-        <div className="Home-image">
+        <section className="Home-image">
           <img
             width={600}
             height={600}
             src="/man-working-on-laptop.svg"
             alt="homeImage"
           />
-        </div>
+        </section>
       </div>
     </>
   );
