@@ -14,13 +14,9 @@
   
 
 }
-@media screen and (max-width: 600px) {
- .header{
-  
- }
-}
 
-@media screen and (max-width: 1300px){
+
+/* @media screen and (max-width: 1300px){
   .welcome-div{
     width: 400px;
   
@@ -30,130 +26,88 @@
     display: flex;
     flex-direction: column;
   }
-}
+} */
 @media screen and (max-width: 1000px) {
   .home-main {
-      display: flex;
-      flex-direction: row;
-      gap: 90px;
-      justify-content: center;
-      /* margin-right: 250px; */
+ display: flex;
+ flex-direction: column-reverse;
+
+ gap: 20px;
+    align-items: center;
+  }
+
+  .h-welcome {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .home-image{
+    width: 400px;
+    height: 500px;
+  }
+ .text-div{
+  margin-top: -250px;
+ }
+
+  .Contact-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .home-btns-div {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* .Home-image {
+    margin-top: 20px;
+    display: none;
+  } */
+ /* .Home-image {
+   display: none;
+ } */
+  .home-intro {
+    text-align: center;
+    line-height: 1.5;
+  }
+.welcome-div {
+  /* position: relative;
+  margin-right: 600px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
   
+
+}
+.text-div{
   
+}
   
-    }
+
   
-    .contact {
-      border-radius: 30px;
-      width: 120px;
-      height: 40px;
-      margin-top: 58px;
-      margin-left: 130px;
-      background-color: #8888f0;
-      color: white;
-      border: none;
-      font-size: 20px;
-  
-    }
-  
-    .span {
-      color: #fcfcfc;
-    }
-  
-    .hire-div {
-      font-size: 18px;
-      margin-top: 40px;
-      width: 300px;
-      height: 70px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-  
-    }
-  
-    a {
-      display: flex;
-      align-items: center;
-      color: inherit;
-  
-    }
-  
-    .h-welcome {
-      position: absolute;
-      height: 40px;
-      width: 320px;
-      background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
-      color: white;
-      margin-left: 150px;
-      margin-top: 175px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 18px;
-      border: solid 1px white;
-  
-  
-    }
-  
-    .home-btns-div {
-      display: flex;
-    }
-  
-    .home-intro {
-      margin-left: 80px;
-      margin-top: 250px;
-      line-height: 1.5;
-  
-    }
-  
-    .icons {
-      display: flex;
-      flex-wrap: wrap;
-  
-    }
-  
-    .Contact-icons {
-      position: relative;
-  
-      display: flex;
-      gap: 30px;
-      margin-top: 30px;
-      margin-left: 75px;
-  
-    }
-  
-  
-    .resume-div {
-      position: absolute;
-      margin-top: 60px;
-      display: flex;
-      margin-left: 120px;
-      cursor: pointer;
-  
-  
-    }
-  
-    .Resume-btn {
-      border-radius: 30px;
-      width: 150px;
-      height: 40px;
-      margin-left: 220px;
-      background-color: #8888f0;
-      color: white;
-      border: none;
-      font-size: 20px;
-      cursor: pointer;
-  
-    }
-  
-    .Home-image {
-      /* position: relative; */
-      /* margin-left:800px; */
-      margin-top: 40px;
-  
+    .hire-div{
+       position: absolute;
+      top: 70px;
     }
 }
+.welcome-div{
+  /* position: relative;
+  margin-right: 600px; */
+  display:flex;
+  justify-content: center;
+ align-items: center;
+ gap: 130px;
+
+
+}
+.text-div
+{
+  margin-bottom:150px;
+}
+
 
 
 .mhs{
@@ -247,7 +201,7 @@ a {
   background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
   color: white;
   margin-left: 150px;
-  margin-top: 175px;
+  margin-top:150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,7 +226,6 @@ a {
 }
 .Contact-icons{
  position: relative;
-
 display: flex;
 gap: 30px;
 margin-top: 30px;
@@ -303,20 +256,52 @@ margin-left: 75px;
 
 }
 
-.Home-image{
+.Home-image img {
   /* position: relative; */
   /* margin-left:800px; */
-  margin-top: 40px;
+  
 
+
+
+
+
+}
+@media screen and (max-width: 1000px) 
+{
+  .intro-main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 70px;
+      flex-direction: column;
+  
+    }
+        .About-img {
+
+        width: 300px !important;
+       
+          height: 400px !important;
+          display: flex;
+          justify-content: center;
+        
+         
+        }
+  
 }
 .intro-main{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
+  gap: 40px;
 
 
 
+}
+
+.p-intro-description{
+  padding: 20px;
+  line-height: 2;
+  font-size:1.25rem ;
 }
 
 /* Section No 2 Introduction Section  */
@@ -339,6 +324,7 @@ margin-left: 75px;
   /* margin-top: -350px; */
 
 }
+
 .skill-heading{
   text-align: center;
   

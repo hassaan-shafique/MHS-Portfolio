@@ -19,15 +19,19 @@ const Introduction = () => {
               About <span>Me </span>
             </h2>
             <div className="intro-description">
-              I am a full Stack Developer with a 1 year Experience. i did an
-              Internship in CARE
-              <br />
-              where my job was to in Front-end Currently i am working as a
-              Software Engineer <br />
-              at Ivory Solutions at Kickstart Islamabad, Pakistan.
+              <p className="p-intro-description">
+                'I am a passionate Full stack developer with expertise in a
+                variety of technologies including HTML, CSS, JavaScript, React,
+                Next.js, Tailwind CSS, Redux, Node.js, MongoDB, and Firebase. I
+                have a strong track record of delivering high-quality projects
+                and solving complex problems. With a focus on creating
+                responsive designs and user-friendly interfaces. Explore my
+                portfolio to see some of my recent work and feel free to reach
+                out if you have any questions or would like to collaborate on a
+                project.
+              </p>
             </div>
           </div>
-          
         </div>
       </section>
     </>

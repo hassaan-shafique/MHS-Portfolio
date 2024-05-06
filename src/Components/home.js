@@ -23,25 +23,25 @@ const redirectToCV = () => {
 
   return (
     <>
-      <div className="home-main">
-        <div className="hire-div">
-          <a href="" target="_blank">
-            <img width={50} height={35} src="/fiverr-1.svg" alt="fiver logo" />
-            Hire me on Fiver
-          </a>
-        </div>
-        <section className="welcome-div">
+      <div className="hire-div">
+        <a href="" target="_blank">
+          <img width={50} height={35} src="/fiverr-1.svg" alt="fiver logo" />
+          Hire me on Fiver
+        </a>
+      </div>
+
+      {/* <div className="home-main"> */}
+
+      <section className="welcome-div">
+        <div className='text-div'>
           <div className="h-welcome">
             <h3>Welcome To My Portfolio </h3>
           </div>
 
-          <div>
-            <h1 className="home-intro">
-              Hello, I am Muhammad Hassaan Shafique <br />
-              I'm a Software Engineer
-            </h1>
-          </div>
-
+          <h1 className="home-intro">
+            Hello, I am Muhammad Hassaan Shafique <br />
+            I'm a Software Engineer
+          </h1>
           <div class="Contact-icons">
             <a
               href="https://www.facebook.com/hassaan.shafique.9/"
@@ -123,7 +123,6 @@ const redirectToCV = () => {
               />
             </a>
           </div>
-
           <div className="home-btns-div">
             <div className="contact-div">
               <button className="contact" onClick={HandleContact}>
@@ -138,18 +137,16 @@ const redirectToCV = () => {
               </button>
             </div>
           </div>
-        </section>
+        </div>
 
-        {/* home div */}
-        <section className="Home-image">
-          <img
-            width={600}
-            height={600}
-            src="/man-working-on-laptop.svg"
-            alt="homeImage"
-          />
-        </section>
-      </div>
+        <div >
+          <img  className='home-image' width={500} height={500} src="/home-1.png" alt="homeImage" />
+        </div>
+      </section>
+
+      {/* home div */}
+
+      {/* </div> */}
     </>
   );
 }
