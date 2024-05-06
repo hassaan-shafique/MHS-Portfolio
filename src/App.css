@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   margin:0;
+  gap: 120px;
   
 
 }
@@ -112,8 +113,8 @@
 
 .mhs{
   font-size: 20px;
-  position: absolute;
-  margin-right: 1250px;
+  
+  /* margin-right: 1250px; */
   /* background-color: blue; */
   height: 50px;
   width: 250px;
