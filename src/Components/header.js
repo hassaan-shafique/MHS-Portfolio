@@ -36,11 +36,13 @@ projectsection.scrollIntoView({behavior:"smooth"});
   return (
     <>
       <nav className="header">
-        <h4 className="mhs">
-          M Hassaan <span className="span"> Shafique </span>
-        </h4>
+        <div className="mhs">
+          <h4>
+            M Hassaan <span className="span"> Shafique </span>
+          </h4>
+        </div>
 
-        <div className="menu" onClick={ toggleMenu}>
+        <div className="menu" onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
@@ -48,9 +50,7 @@ projectsection.scrollIntoView({behavior:"smooth"});
 
         <div className="links">
           <ul className={showMenu ? "open" : ""}>
-            
-              <a href="/"> Home</a>
-           
+            <a href="/"> Home</a>
 
             <a href="#introduction" onClick={scrollToIntroduction}>
               Introduction

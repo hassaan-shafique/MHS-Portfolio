@@ -15,6 +15,9 @@
 
 
 }
+.header.open{
+  height: 600px;
+}
 nav .menu{
   display: none;
   position:absolute;
@@ -34,6 +37,17 @@ nav .menu span {
   border-radius:0.2rem;
 
 }
+nav ul {
+  flex-direction: row;
+  display: flex;
+  gap: 40px;
+  
+
+}
+nav ul a.open{
+
+
+}
 
 
 .mhs {
@@ -47,14 +61,15 @@ nav .menu span {
   display: flex;
   justify-content: center;
   align-items: center;
+  position:absolute;
+left: 10px;
+
 
 
 }
 .links a:hover{
   background-color: #4343f3;
 }
-
-
 
  .links {
   align-items: center;
@@ -72,7 +87,7 @@ nav .menu span {
 
 .links a {
   text-decoration: none;
-  color: rgb(224, 39, 39);
+  color: rgb(255, 242, 242);
   font-size: 18px;
   justify-content: center;
   padding: 6px;
@@ -92,6 +107,7 @@ nav{
 nav ul.open{
   display: flex;
 }
+
 nav ul{
 
   display: none;
@@ -99,6 +115,9 @@ nav ul{
   width: 100%;
   margin-bottom: 0.25rem;
   
+}
+.header.open{
+  height: 500px;
 }
 
  }
