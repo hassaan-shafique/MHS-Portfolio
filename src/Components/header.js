@@ -1,7 +1,14 @@
-import React from "react";
-import Introduction from "./Introduction";
+import React, {  useState } from "react";
 
-const header = () => {
+
+const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
 
  const scrollToIntroduction = () => {
    const introductionSection = document.getElementById("introduction");
@@ -24,44 +31,53 @@ projectsection.scrollIntoView({behavior:"smooth"});
   educationsection.scrollIntoView({behavior:"smooth"});
  }
  
+ 
 
   return (
     <>
       <nav className="header">
-      
-        <div className="mhs">
-          <h4>
-            M Hassaan <span className="span"> Shafique </span>
-          </h4>
+        <h4 className="mhs">
+          M Hassaan <span className="span"> Shafique </span>
+        </h4>
+
+        <div className="menu" onClick={ toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        
+
         <div className="links">
-          <a href="/"> Home</a>
-          <a href="#introduction" onClick={scrollToIntroduction}>
-            Introduction
-          </a>
-          <a href="#Skills" onClick={scrollToSkills}>
-            Skills
-          </a>
-          <a href="#Projects" onClick={scrolltoProject}>
-            Projects
-          </a>
-          <a href="#Projects" onClick={scrolltoProject}>
-            Experience
-          </a>
+          <ul className={showMenu ? "open" : ""}>
+            
+              <a href="/"> Home</a>
+           
 
-          <a href="#Education" onClick={scrolltoEducation}>
-            Education
-          </a>
-          {/* <a href="#/Education"> Blog</a> */}
+            <a href="#introduction" onClick={scrollToIntroduction}>
+              Introduction
+            </a>
+            <a href="#Skills" onClick={scrollToSkills}>
+              Skills
+            </a>
+            <a href="#Projects" onClick={scrolltoProject}>
+              Projects
+            </a>
+            <a href="#Projects" onClick={scrolltoProject}>
+              Experience
+            </a>
 
-          <a href="#Certifications" onClick={scrolltoCertification}>
-            Certifications
-          </a>
+            <a href="#Education" onClick={scrolltoEducation}>
+              Education
+            </a>
+            {/* <a href="#/Education"> Blog</a> */}
+
+            <a href="#Certifications" onClick={scrolltoCertification}>
+              Certifications
+            </a>
+          </ul>
         </div>
       </nav>
     </>
   );
 }
 
-export default header
+export default Header
