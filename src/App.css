@@ -762,6 +762,15 @@ align-items: center;
   text-align: center;
 
 }
+.company-date{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+}
+.role{
+  text-align: center;
+}
 
 .main-experience{
   display: flex;
