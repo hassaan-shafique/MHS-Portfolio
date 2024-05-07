@@ -898,12 +898,19 @@ background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
   
 
 }
+.project-data:hover{
+transform: scale(0.9);
+transform: rotate3d(180deg);
+
+}
+
 .projects{
   display: flex;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .project-btn{
   display: flex;
 gap: 80px;
