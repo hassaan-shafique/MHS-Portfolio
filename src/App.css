@@ -445,6 +445,9 @@ transform: scale(0.9);
     background-color: #dddde2;
     border-radius: 9px;
 }
+.js-skill:hover{
+  transform: scale(0.9);
+}
 .js-skill{
   width: 90px;
     height: 140px;
