@@ -199,12 +199,10 @@ nav ul{
   justify-content: center;
   align-items: center;
   flex-direction: column-reverse;
-  
+
 
 }
-.text-div{
-  
-}
+
   
 
   
@@ -220,12 +218,9 @@ nav ul{
   justify-content: center;
  align-items: center;
  gap: 130px;
+margin-bottom: 100px;
 
 
-}
-.text-div
-{
-  margin-bottom:150px;
 }
 
 
@@ -234,19 +229,23 @@ nav ul{
 
 
 /* Section No 1 Home section */
+.text-div{
+  margin-top: -190px;
+}
 
 .home-main{
   display: flex;
   flex-direction: row;
   gap: 90px;
   justify-content: center;
+  margin-bottom:200px ;
   /* margin-right: 250px; */
 
  
 
 }
 
-.contact{
+.contact-btn{
   border-radius: 30px;
   width: 120px;
   height: 40px;
@@ -257,7 +256,12 @@ nav ul{
   border: none;
   font-size: 20px;
 
+
 }
+.contact-btn:hover{
+  transform: scale(1.2);
+}
+
 .span{
   color: #fcfcfc;
 }
@@ -307,12 +311,16 @@ a {
   margin-left: 80px;
   margin-top: 250px;
   line-height: 1.5;
+  font-size: 28px;
 
 }
 .icons{
   display: flex;
   flex-wrap: wrap;
 
+}
+.Contact-icons:hover{
+  transform: scale(1.1);
 }
 .Contact-icons{
  position: relative;
@@ -343,6 +351,10 @@ margin-left: 75px;
   border: none;
   font-size: 20px;
   cursor: pointer;
+
+}
+.Resume-btn:hover{
+ transform: scale(1.2);
 
 }
 

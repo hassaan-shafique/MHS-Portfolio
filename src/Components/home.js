@@ -133,7 +133,7 @@ const redirectToCV = () => {
             </div>
             <div className="home-btns-div">
               <div className="contact-div">
-                <button className="contact" onClick={HandleContact}>
+                <button className="contact-btn" onClick={HandleContact}>
                   Contact
                 </button>
               </div>
