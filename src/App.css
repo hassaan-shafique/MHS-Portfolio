@@ -889,7 +889,7 @@ padding-left: 20px;
     
 .project-data{
   width: 400px;
-  height: 500px;
+  height: 530px;
 background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
   border-radius: 10px;
   /* margin-left: 25px; */
@@ -907,8 +907,10 @@ background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
 .project-btn{
   display: flex;
 gap: 80px;
-margin-top: 140px;
+/* margin-top: 140px; */
   justify-content: center;
+
+
 
 }
 .code-btn{
@@ -922,6 +924,7 @@ margin-top: 140px;
     background-color: #4B0082;
     color: white;
       animation: pulse 1s ease infinite;
+      margin-bottom: 12px;
 
 }
 .live-btn{
@@ -935,6 +938,7 @@ margin-top: 140px;
     background-color: #4B0082;
     color: white;
       animation: pulse 1s ease infinite;
+      margin-bottom: 12px;
 
 }
 .live-btn:hover{
@@ -944,4 +948,16 @@ margin-top: 140px;
 .code-btn:hover{
   transform: scale(1.1);
 
+}
+.project-card-des{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0.01;
+}
+.project-description{
+  line-height: 1.4;
+  padding: 10px
+  ;
 }

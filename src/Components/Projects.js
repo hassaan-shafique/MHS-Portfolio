@@ -18,12 +18,20 @@ const Projects = ( ) => {
                 src={project.imageUrl}
                 alt={project.title}
               />
-              <div className="project-title">
-                <h4> {project.title} </h4>
-              </div>
-            
-              <div className="project-description">
-                <p> {project.description} </p>
+              <div className="project-card-des">
+                <div className="project-title">
+                  <h4> {project.title} </h4>
+                </div>
+                <div>
+                 <p>
+                    
+                   {project.stack}
+                  </p>
+                </div>
+
+                <div className="project-description">
+                  <p> {project.description} </p>
+                </div>
               </div>
               <div className="project-btn">
                 <button className="code-btn">Code</button>
