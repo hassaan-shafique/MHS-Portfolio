@@ -454,11 +454,17 @@ transform: scale(0.9);
     background-color: #dddde2;
     border-radius: 9px;
 }
+.react-skill:hover{
+  transform: scale(0.9);
+}
 .react-skill{
   width: 90px;
     height: 140px;
     background-color: #dddde2;
     border-radius: 9px;
+}
+.redux-skill:hover{
+  transform: scale(0.9);
 }
 .redux-skill{
   width: 90px;
@@ -466,17 +472,26 @@ transform: scale(0.9);
     background-color: #dddde2;
     border-radius: 9px;
 }
+.next-skill:hover{
+  transform: scale(0.9);
+}
 .next-skill{
   width: 90px;
     height: 140px;
     background-color: #dddde2;
     border-radius: 9px;
 }
+.tailwind-skill:hover{
+  transform: scale(0.9);
+}
 .tailwind-skill{
   width: 90px;
     height: 140px;
     background-color: #dddde2;
     border-radius: 9px;
+}
+.response-skill:hover{
+  transform: scale(0.9);
 }
 .response-skill{
   width: 90px;
