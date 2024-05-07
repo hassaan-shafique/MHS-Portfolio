@@ -774,17 +774,22 @@ align-items: center;
 
 .main-experience{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
-  margin-left: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+  
 }
 .Ivory-solutions{
   background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
-  width: 800px;
-  height: 400px;
+  width: 700px;
+  height: 300px;
   border: 2px solid black;
   padding: 10px;
   border-radius: 8px;
+  
 
 }
 .Ivory-solutions:hover{
@@ -792,7 +797,7 @@ align-items: center;
 }
 .Care{
 background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
-    width: 800px;
+    width: 700px;
     height: 300px;
     border: 2px solid black;
       padding: 10px;
@@ -804,7 +809,7 @@ background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
 }
 .work{
 background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
-    width: 800px;
+    width: 700px;
     height: 300px;
     border: 2px solid black;
       padding: 10px;
@@ -815,7 +820,7 @@ background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
 }
 .shark-technology{
 background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
-    width: 800px;
+    width: 700px;
     height: 300px;
     border: 2px solid black;
       padding: 10px;
