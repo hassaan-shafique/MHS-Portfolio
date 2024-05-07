@@ -13,16 +13,21 @@ const Projects = ( ) => {
           return (
             <div className="project-data" key={project.id}>
               <img
-                width={150}
-                height={150}
+                width={400}
+                height={400}
                 src={project.imageUrl}
                 alt={project.title}
               />
-              {project.title} <br/>
-              {project.description}
+              <div className="project-title">
+                <h4> {project.title} </h4>
+              </div>
+            
+              <div className="project-description">
+                <p> {project.description} </p>
+              </div>
               <div className="project-btn">
-                <button>Code</button>
-                <button>Live</button>
+                <button className="code-btn">Code</button>
+                <button className="live-btn">Live</button>
               </div>
             </div>
           );

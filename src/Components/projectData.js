@@ -1,27 +1,31 @@
 const projectData = [
   {
-    id: '1',
-    title: "Project 1",
+    id: "1",
+    title: "Amazon Clone ",
+    stack: "HTML | CSS",
     description: "Description of Project 1",
-    imageUrl: "instagram.png",
+    imageUrl: "/skills/projects.jpg",
   },
   {
-    id: '2',
-    title: "Project 2",
+    id: "2",
+    title: "Ivory Solution Website",
+    stack: " React",
     description: "Description of Project 2",
-    imageUrl: "instagram.png",
+    imageUrl: "/skills/projects.jpg",
   },
   {
-    id: '3',
-    title: "Project 3",
+    id: "3",
+    title: "Real-Time Chat Application",
+    stack: "",
     description: "Description of Project 2",
-    imageUrl: "instagram.png",
+    imageUrl: "/skills/projects.jpg",
   },
   {
-    id: '4',
-    title: "Project 4",
+    id: "4",
+    title: "MHS Store",
+    stack: "Next js | Firebase",
     description: "Description of Project 2",
-    imageUrl: "instagram.png",
+    imageUrl: "/skills/projects.jpg",
   },
   // Add more projects as needed
 ];
