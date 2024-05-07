@@ -15,9 +15,7 @@
 
 
 }
-.header.open{
-  height: 600px;
-}
+
 nav .menu{
   display: none;
   position:absolute;
@@ -94,6 +92,7 @@ left: 10px;
   border-radius: 12px;
 }
  @media  (max-width: 1180px){
+  
 nav .menu{
   display: flex;
 
@@ -102,10 +101,23 @@ nav{
   flex-direction: column;
   align-items: start;
 
-  
+}
+
+nav ul.open.home-content{
+margin-top: 800px;
 }
 nav ul.open{
   display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: #404077;
+  /* top: 0; */
+
+  /* margin-top: 185px; */
+  margin-left: 80px;
+position: absolute;
+top: 0;
+  flex-wrap: wrap;
 }
 
 nav ul{
@@ -118,6 +130,7 @@ nav ul{
 }
 .header.open{
   height: 500px;
+  background-color: #8080ce;
 }
 
  }
@@ -253,12 +266,18 @@ nav ul{
   margin-top: 40px;
   width: 300px;
   height: 70px;
-  display: flex;
+  /* display: flex;
 justify-content: center;
-align-items: center;
-position: absolute;
+align-items: center; */
+
 
 }
+.hire{
+  display: flex;
+  justify-content: center;
+  align-items: centere;
+}
+
 a {
   display: flex;
   align-items: center;
@@ -412,6 +431,14 @@ margin-left: 75px;
   background-color: #dddde2;
   border-radius: 9px;
 }
+.html-skill:hover{
+transform: scale(0.9);
+}
+.css-skill:hover{
+  transform: scale(0.9);
+}
+
+
 .css-skill{
   width: 90px;
     height: 140px;
@@ -728,8 +755,9 @@ width:500px ;
 margin-left: 50px;
 height: 150px;
 border-radius: 8px;
-background-color:#8080ce;
-color: #dddde2;
+background-color:#a595ee;
+color: #000000;
+border: 2px solid black;
 padding-left: 20px;
 }
 .college{
@@ -737,17 +765,20 @@ padding-left: 20px;
   width: 500px;
     height: 150px;
     border-radius: 8px;
-    background-color: #60609b;
-    color: #dddde2;
+    background-color: #a393eb;
+    /* background-color: transparent; */
+    border: 2px solid black;
+    color: #000000;
     padding-left: 20px;
 }
 .university{
   margin-left: 50px;
   width: 500px;
+  border: 2px solid black;
     height: 350px;
     border-radius: 8px;
-    background-color: #7777ae;
-    color: #dddde2;
+    background-color: #8e79ea;
+    color: #000000;
    padding-left: 20px ;
 }
     .education {
@@ -794,8 +825,15 @@ padding-left: 20px;
       border-radius: 4px;
       height: 35px;
      width: 90px;
+     cursor: pointer;
      margin-left: 135px;
+    transition: background-color 0.3s ease;
       
+    }
+    .certificate-btn:hover{
+      background-color: #8888f0 ;
+      transform: scale(1.1);
+
     }
     
 .project-data{

@@ -30,8 +30,9 @@ const Education = () => {
             <li>Data Structure</li>
             <li>Artificial Intelligence</li>
             <li>Data Science</li>
-            <li>ADesign And Algorithm</li>
+            <li>Design And Algorithm</li>
             <li>Web Application</li>
+            <li>Cloud Computing</li>
           </ul>
         </div>
       </div>
