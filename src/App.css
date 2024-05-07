@@ -473,7 +473,7 @@ transform: scale(0.9);
 .react-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+    background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 .redux-skill:hover{
@@ -482,7 +482,7 @@ transform: scale(0.9);
 .redux-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+    background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 .next-skill:hover{
@@ -491,7 +491,7 @@ transform: scale(0.9);
 .next-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+  background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 .tailwind-skill:hover{
@@ -500,7 +500,7 @@ transform: scale(0.9);
 .tailwind-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+    background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 .response-skill:hover{
@@ -509,7 +509,7 @@ transform: scale(0.9);
 .response-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+    background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 .node-skill:hover{
@@ -518,7 +518,7 @@ transform: scale(0.9);
 .node-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+    background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 .mongo-skill:hover{
@@ -527,7 +527,7 @@ transform: scale(0.9);
 .mongo-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+  background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 .sql-skill:hover{
@@ -536,7 +536,7 @@ transform: scale(0.9);
 .sql-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+    background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 .mysql-skill:hover{
@@ -546,7 +546,7 @@ transform: scale(0.9);
 {
      width: 90px;
      height: 140px;
-     background-color: #dddde2;
+      background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
      border-radius: 9px;
 }
 .firebase-skill:hover{
@@ -555,7 +555,7 @@ transform: scale(0.9);
 .firebase-skill{
   width: 90px;
     height: 140px;
-    background-color: #dddde2;
+    background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
     border-radius: 9px;
 }
 
