@@ -499,11 +499,17 @@ transform: scale(0.9);
     background-color: #dddde2;
     border-radius: 9px;
 }
+.node-skill:hover{
+  transform: scale(0.9);
+}
 .node-skill{
   width: 90px;
     height: 140px;
     background-color: #dddde2;
     border-radius: 9px;
+}
+.mongo-skill:hover{
+  transform: scale(0.9);
 }
 .mongo-skill{
   width: 90px;
@@ -511,11 +517,17 @@ transform: scale(0.9);
     background-color: #dddde2;
     border-radius: 9px;
 }
+.sql-skill:hover{
+  transform: scale(0.9);
+}
 .sql-skill{
   width: 90px;
     height: 140px;
     background-color: #dddde2;
     border-radius: 9px;
+}
+.mysql-skill:hover{
+  transform: scale(0.9);
 }
 .mysql-skill
 {
@@ -524,12 +536,16 @@ transform: scale(0.9);
      background-color: #dddde2;
      border-radius: 9px;
 }
+.firebase-skill:hover{
+  transform: scale(0.9);
+}
 .firebase-skill{
   width: 90px;
     height: 140px;
     background-color: #dddde2;
     border-radius: 9px;
 }
+
 .front-end-ul{
   list-style: none;
     overflow: hidden;
