@@ -18,8 +18,8 @@ const Certifications = () => {
                 src={certificate.imageUrl}
                 alt={certificate.title}
               />
-              <div className='certificate-title'>
-                {certificate.title}
+              <div className="certificate-title">
+                <h4> {certificate.title} </h4>
                 <br />
                 {certificate.resource}
               </div>
@@ -28,9 +28,10 @@ const Certifications = () => {
               </div>
             </div>
           );
-         
         })}
-        
+      </div>
+      <div className="div-certificate-more-btn">
+        <button className="certificate-more-btn">More</button>
       </div>
     </section>
   );

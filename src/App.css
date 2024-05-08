@@ -930,8 +930,15 @@ height: 500px;
     }
         .certificate-title{
           margin-left: 12px;
+          line-height: 0.5;
           
         }
+                .div-certificate-more-btn{
+                  
+                }
+               .certificate-more-btn{
+                text-align: center;
+               }
     .certificate-data{
      background-color: #dddde2 ;
      width: 350px;

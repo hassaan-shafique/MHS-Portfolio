@@ -1,27 +1,27 @@
 const certificateData= [
   {
     id: 1,
-    title: "Front-end Developnment",
+    title: "Programming with JavaScript",
     resource: "By:Meta",
-    imageUrl: "certificate-image.jpg",
+    imageUrl: "/javaacript-certificate.png",
   },
   {
     id: 2,
-    title: "Front-end Developnment",
-    resource: "By:Meta",
-    imageUrl: "certificate-image.jpg",
+    title: "Develope Front-End Apps with React",
+    resource: "By:Tech Flickers",
+    imageUrl: "react-certificate.png",
   },
   {
     id: 3,
-    title: "Front-end Developnment",
-    resource: "By:Meta",
-    imageUrl: "certificate-image.jpg",
+    title: "Foundation of UX Design",
+    resource: "By:Google",
+    imageUrl: "ux-certificate.png",
   },
   {
     id: 4,
-    title: "Front-end Developnment",
-    resource: "By:Meta",
-    imageUrl: "certificate-image.jpg",
+    title: "Foundation of Freelancing",
+    resource: "By:DigiSKills.pk",
+    imageUrl: "freelancing-certificate.png",
   },
 ];
 export default certificateData
