@@ -934,10 +934,32 @@ height: 500px;
           
         }
                 .div-certificate-more-btn{
-                  
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: 50px;
+
                 }
                .certificate-more-btn{
-                text-align: center;
+               
+                    background-color: #4B0082;
+                   
+                    color: #fff;
+                  
+                    padding: 10px 20px;
+                 width: 120px;
+                    border: none;
+                   
+                    border-radius: 5px;
+                    height: 40px;
+                    cursor: pointer;
+                  transform: scale(1.2);
+                 
+               }
+               .certificate-more-btn:hover{
+                transform: scale(1.4);
+
+
                }
     .certificate-data{
      background-color: #dddde2 ;

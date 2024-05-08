@@ -3,6 +3,8 @@ import certificateData from "./certificateData";
 
 
 
+
+
 const Certifications = () => {
   return (
     <section id="certifications">
@@ -31,7 +33,9 @@ const Certifications = () => {
         })}
       </div>
       <div className="div-certificate-more-btn">
-        <button className="certificate-more-btn">More</button>
+        <button className="certificate-more-btn">
+           More   
+        </button>
       </div>
     </section>
   );
