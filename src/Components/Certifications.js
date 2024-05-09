@@ -1,11 +1,17 @@
 import React from 'react'
 import certificateData from "./certificateData";
+import { Link } from 'react-router-dom';
 
+const UxUrl =
+  "file:///B:/My%20Certifications/Coursera%20User%20Foundation%20of%20UX%20design.pdf";
 
+const FreelanceUrl ="";
 
 
 
 const Certifications = () => {
+  const UxUrl =
+    "file:///B:/My%20Certifications/Coursera%20User%20Foundation%20of%20UX%20design.pdf";
   return (
     <section id="certifications">
       <h1 className="certification-head"> Certifications</h1>
@@ -33,9 +39,9 @@ const Certifications = () => {
         })}
       </div>
       <div className="div-certificate-more-btn">
-        <button className="certificate-more-btn">
-           More   
-        </button>
+        
+          <button className="certificate-more-btn">More</button>
+     
       </div>
     </section>
   );

@@ -1,9 +1,12 @@
-const certificateData= [
+import { Link } from "react-router-dom";
+
+const certificateData = [
   {
     id: 1,
     title: "Programming with JavaScript",
     resource: "By:Meta",
     imageUrl: "/javaacript-certificate.png",
+    Link: "file:///B:/My%20Certifications/Coursera%20User%20Foundation%20of%20UX%20design.pdf",
   },
   {
     id: 2,
