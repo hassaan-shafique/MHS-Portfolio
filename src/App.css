@@ -770,6 +770,8 @@ align-items: center;
 }
 .role{
   text-align: center;
+  line-height: 0.1%;
+  
 }
 
 .main-experience{
@@ -802,6 +804,7 @@ background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
     border: 2px solid black;
       padding: 10px;
       border-radius: 8px;
+      
 }
 .Care:hover{
   transform: scale(1.03);
@@ -814,6 +817,12 @@ background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
     border: 2px solid black;
       padding: 10px;
       border-radius: 8px;
+}
+.skill-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .work:hover{
   transform: scale(1.03);
