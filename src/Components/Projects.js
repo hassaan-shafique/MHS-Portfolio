@@ -7,7 +7,7 @@ import projectData from './projectData';
 const Projects = ( ) => {
   return (
     <section id="projects">
-      <h1 className="project-head">  Recent Projects</h1>
+      <h1 className="project-head"> Recent Projects</h1>
       <div className="projects">
         {projectData.map((project) => {
           return (
@@ -23,10 +23,7 @@ const Projects = ( ) => {
                   <h4> {project.title} </h4>
                 </div>
                 <div>
-                 <p>
-                    
-                   {project.stack}
-                  </p>
+                  <p>{project.stack}</p>
                 </div>
 
                 <div className="project-description">
@@ -40,6 +37,9 @@ const Projects = ( ) => {
             </div>
           );
         })}
+      </div>
+      <div className="div-certificate-more-btn">
+        <button className="certificate-more-btn">More</button>
       </div>
     </section>
   );

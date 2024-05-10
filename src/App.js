@@ -21,7 +21,7 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
-      <Education />
+      {/* <Education /> */}
       {/* <Blog/> */}
       <Certifications />
       <Contact />
