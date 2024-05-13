@@ -1,7 +1,7 @@
 
-/* .app{
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.877), rgb(51, 51, 97), rgb(80, 65, 109), rgba(0, 0, 0, 0.877) );
-} */
+body{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.877), rgb(27, 27, 31), rgb(48, 40, 63), rgba(0, 0, 0, 0.877) );
+}
 .header{
   color: #1b1919;
   background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
@@ -66,7 +66,9 @@ left: 10px;
 
 }
 .links a:hover{
-  background-color: #951eba;
+  background-color: #4B0082;
+  color: white;
+
 }
 
  .links {
@@ -87,7 +89,7 @@ left: 10px;
   color: black;
   font-size: 18px;
   justify-content: center;
-  padding: 6px;
+  padding: 10px;
   border-radius: 12px;
 }
  @media  (max-width: 1180px){
@@ -164,6 +166,7 @@ nav ul{
   .home-image{
     width: 400px;
     height: 500px;
+    
   }
  .text-div{
   margin-top: -250px;
@@ -258,7 +261,7 @@ margin-bottom: 100px;
 
 }
 .contact-btn:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .span{
@@ -278,7 +281,9 @@ align-items: center; */
 .hire{
   display: flex;
   justify-content: center;
-  align-items: centere;
+  align-items: center;
+  color: white;
+  
 }
 
 a {
@@ -291,7 +296,7 @@ a {
   position: absolute;
   height: 40px;
   width: 320px;
-  background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a0a0f1, #8888f0);
+  background: linear-gradient(to right, #232325a2, #a7a7f0, #a0a0f1, #8888f0);
   color: white;
   margin-left: 150px;
   margin-top:150px;
@@ -299,7 +304,7 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  border: solid 1px white;
+  border: solid 1px rgb(0, 0, 0);
 
 
 }
@@ -311,6 +316,9 @@ a {
   margin-top: 250px;
   line-height: 1.5;
   font-size: 28px;
+  color: #ffffff;
+  text-shadow: 1px 4px 8px  white;
+  
 
 }
 .icons{
@@ -350,6 +358,7 @@ margin-left: 75px;
   border: none;
   font-size: 20px;
   cursor: pointer;
+ 
 
 }
 .Resume-btn:hover{
@@ -360,9 +369,6 @@ margin-left: 75px;
 .Home-image img {
   /* position: relative; */
   /* margin-left:800px; */
-  
-
-
 
 
 
@@ -384,7 +390,7 @@ margin-left: 75px;
           height: 400px !important;
           display: flex;
           justify-content: center;
-        
+          
          
         }
   
@@ -411,7 +417,11 @@ margin-left: 75px;
   justify-content: center;
   align-items: center;
 } */
+/* img {
+  box-shadow: 5px 5px 10px rgba(139, 122, 122, 0.4);
+} */
 .About-img{
+  
    /* margin-right: 850px; */
    /* margin-top: 100px; */
    /* width: 500px; */
@@ -442,6 +452,7 @@ margin-left: 75px;
   height: 140px;
 background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
   border-radius: 9px;
+ 
 }
 .html-skill:hover{
 transform: scale(0.9);
@@ -1082,3 +1093,66 @@ gap: 80px;
   padding: 10px
   ;
 }
+
+
+/* CSS */
+.contact-btn{
+  align-items: center;
+    background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #b5bfc0);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+.Resume-btn {
+  align-items: center;
+  background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #b5bfc0);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.Resume-btn:active,
+.Resume-btn:hover {
+  outline: 0;
+}
+
+
+/* @media (min-width: 768px) {
+  .Resume-btn{
+    font-size: 24px;
+    min-width: 196px;
+  }
+} */

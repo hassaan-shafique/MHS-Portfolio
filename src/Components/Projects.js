@@ -1,6 +1,10 @@
 
 import React from 'react';
 import projectData from './projectData';
+import { Link } from 'react-router-dom';
+
+
+
 
 
  
@@ -39,7 +43,9 @@ const Projects = ( ) => {
         })}
       </div>
       <div className="div-certificate-more-btn">
-        <button className="certificate-more-btn">More</button>
+       
+          <Link  to='/MoreProjects' className="certificate-more-btn">More</Link>
+      
       </div>
     </section>
   );
