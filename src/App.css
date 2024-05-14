@@ -218,13 +218,35 @@ nav ul{
 
 
 }
+.hire{
+  display: flex;
+  
+  flex-direction: column;
+ 
+  
+  
+}
 
   
 
   
     .hire-div{
-       position: absolute;
-      top: 70px;
+     
+  
+           margin-top: -42px;
+      display: flex;
+      justify-content: flex-start ;
+      gap: 10px;
+     
+     
+      justify-content: center;
+    
+
+    }
+    .hire-div:first-child {
+      margin-top: 12px;
+     
+
     }
 }
 .welcome-div{
