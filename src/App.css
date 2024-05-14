@@ -10,7 +10,7 @@ body{
 .header{
   color: #1b1919;
   background: #743089;
-  max-width: 100%;
+  width: 100%;
   height: 70px;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@ body{
 
 }
 .logo{
-  color: #d000ff;
+  color: #ffffff;
 }
 
 nav .menu{
