@@ -25,7 +25,6 @@ const redirectToCV = () => {
   return (
     <>
       <section className="home-content">
-      
         <div className="hire">
           <div className="hire-div">
             <Link
@@ -52,16 +51,15 @@ const redirectToCV = () => {
               Hire me on Upwork
             </Link>
           </div>
-         
         </div>
 
         {/* <div className="home-main"> */}
 
         <section className="welcome-div">
           <div className="text-div">
-            <div className="h-welcome">
-              <h3>Welcome To My Portfolio </h3>
-            </div>
+           
+              <h3 className='h-welcome'>Welcome To My Portfolio </h3>
+            
 
             <h1 className="home-intro">
               Hello, I am Muhammad Hassaan Shafique <br />
@@ -148,20 +146,17 @@ const redirectToCV = () => {
                 />
               </a>
             </div>
-            <div className="home-btns-div">
-              <div className="contact-div">
-                <button className="contact-btn" onClick={HandleContact}>
-                  Contact
-                </button>
-              </div>
-              <div className="resume-div">
-                <button className="Resume-btn" onClick={redirectToCV}>
-                  Download CV
-                  {/* <img src="" alt=''
-           ></img> */}
-                </button>
-              </div>
+
+
+            <div className="home-btns">
+              <button className="contact-btn" onClick={HandleContact}>
+                Contact
+              </button>
+              <button className="Resume-btn" onClick={redirectToCV}>
+                Download CV
+              </button>
             </div>
+           
           </div>
 
           <div>
