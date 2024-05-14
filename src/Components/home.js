@@ -26,8 +26,8 @@ const redirectToCV = () => {
     <>
       <section className="home-content">
         <div className="hire">
-          <div className="hire-div">
-            <Link
+        
+            <Link className='hire-div'
               to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
               target="_blank"
             >
@@ -39,9 +39,10 @@ const redirectToCV = () => {
               />
               Hire me on Fiver
             </Link>
-          </div>
-          <div className="hire-div">
-            <Link to="https://www.upwork.com/" target="_blank">
+         
+         
+            <Link className='hire-div' 
+            to="https://www.upwork.com/" target="_blank">
               <img
                 width={50}
                 height={35}
@@ -50,7 +51,7 @@ const redirectToCV = () => {
               />
               Hire me on Upwork
             </Link>
-          </div>
+          
         </div>
 
         {/* <div className="home-main"> */}
