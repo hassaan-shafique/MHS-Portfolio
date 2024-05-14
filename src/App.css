@@ -1,7 +1,8 @@
 
 body{
   /* background: linear-gradient(to right, rgba(0, 0, 0, 0.877), rgb(35, 35, 38), rgb(35, 33, 38), rgba(0, 0, 0, 0.877) ); */
-  background: black;
+  background: rgb(28, 27, 27);
+  
   
  
   
@@ -16,6 +17,7 @@ body{
   justify-content: center;
   margin:0;
   gap: 120px;
+  
 
 
 }
@@ -423,7 +425,7 @@ margin-left: 75px;
   padding: 20px;
   line-height: 2;
   font-size:1.25rem ;
-  color: rgb(186, 93, 184);
+  color: rgb(255, 255, 255);
 }
 
 /* Section No 2 Introduction Section  */
