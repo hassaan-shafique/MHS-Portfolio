@@ -1,9 +1,11 @@
 
 body{
   /* background: linear-gradient(to right, rgba(0, 0, 0, 0.877), rgb(35, 35, 38), rgb(35, 33, 38), rgba(0, 0, 0, 0.877) ); */
-  background: rgb(8, 8, 8);
+  /* background: rgb(8, 8, 8); */
   
-  
+  background-image: url('/public/background-2.jpg');
+backdrop-filter: blur(2px);
+    
  
   
 }
@@ -20,9 +22,11 @@ body{
   position: fixed;
   
   
+  
 
 
 }
+
 .logo{
   color: #ffffff;
 }
@@ -234,9 +238,7 @@ margin-bottom: 130px;
 
 
 }
-.home-content{
-  background-image: url('/public/background.jpg');
-}
+
 
 
 
