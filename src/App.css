@@ -296,6 +296,9 @@ align-items: center; */
 
 
 }
+.hire-div:hover{
+  transform: scale(1.2);
+}
 .hire{
   display: flex;
   justify-content: center;
@@ -898,10 +901,12 @@ text-shadow: 7px 3px 5px purple;
   
 }
 .Ivory-solutions{
-  background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
+  /* background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2); */
+  background: transparent;
   width: 700px;
   height: 300px;
-  border: 2px solid black;
+  border: 2px solid white;
+  color: white;
   padding: 10px;
   border-radius: 8px;
   
@@ -911,23 +916,26 @@ text-shadow: 7px 3px 5px purple;
   transform: scale(1.03);
 }
 .Care{
-background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
+/* background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2); */
+
     width: 700px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid white;
       padding: 10px;
       border-radius: 8px;
-      
+      color: white;
+
 }
 .Care:hover{
   transform: scale(1.03);
   
 }
 .work{
-background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
+/* background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2); */
     width: 700px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid white;
+    color: white;
       padding: 10px;
       border-radius: 8px;
 }
@@ -941,10 +949,11 @@ background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
   transform: scale(1.03);
 }
 .shark-technology{
-background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
+background: linear-gradient(to right, #5e3b7aa2, #303036, #202024, #553369a2);
     width: 700px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid white;
+    color: white;
       padding: 10px;
       border-radius: 8px ;
 
