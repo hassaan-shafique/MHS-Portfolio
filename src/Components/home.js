@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from './Contact.js'
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,9 +25,13 @@ const redirectToCV = () => {
   return (
     <>
       <section className="home-content">
-        <div className='hire'>
+      
+        <div className="hire">
           <div className="hire-div">
-            <a href="" target="_blank">
+            <Link
+              to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
+              target="_blank"
+            >
               <img
                 width={50}
                 height={35}
@@ -34,8 +39,20 @@ const redirectToCV = () => {
                 alt="fiver logo"
               />
               Hire me on Fiver
-            </a>
+            </Link>
           </div>
+          <div className="hire-div">
+            <Link to="https://www.upwork.com/" target="_blank">
+              <img
+                width={50}
+                height={35}
+                src="/upwork-icon.svg"
+                alt="Upwork logo"
+              />
+              Hire me on Upwork
+            </Link>
+          </div>
+         
         </div>
 
         {/* <div className="home-main"> */}

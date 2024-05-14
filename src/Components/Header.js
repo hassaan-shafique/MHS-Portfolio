@@ -38,7 +38,7 @@ projectsection.scrollIntoView({behavior:"smooth"});
    
         <nav className="header">
           <div className="mhs">
-            <h4>
+            <h4 className="logo">
               M Hassaan <span className="span"> Shafique </span>
             </h4>
           </div>

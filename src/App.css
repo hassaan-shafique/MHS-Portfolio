@@ -1,10 +1,14 @@
 
 body{
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.877), rgb(27, 27, 31), rgb(48, 40, 63), rgba(0, 0, 0, 0.877) );
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.877), rgb(35, 35, 38), rgb(35, 33, 38), rgba(0, 0, 0, 0.877) ); */
+  background: black;
+  
+ 
+  
 }
 .header{
   color: #1b1919;
-  background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
+  background: #743089;
   max-width: 100%;
   height: 70px;
   display: flex;
@@ -14,6 +18,9 @@ body{
   gap: 120px;
 
 
+}
+.logo{
+  color: #d000ff;
 }
 
 nav .menu{
@@ -42,10 +49,7 @@ nav ul {
   
 
 }
-nav ul a.open{
 
-
-}
 
 
 .mhs {
@@ -86,7 +90,7 @@ left: 10px;
 
 .links a {
   text-decoration: none;
-  color: black;
+  color:white;
   font-size: 18px;
   justify-content: center;
   padding: 10px;
@@ -232,7 +236,10 @@ margin-bottom: 100px;
 
 /* Section No 1 Home section */
 .text-div{
-  margin-top: -190px;
+  margin-top: -90px;
+}
+.home-image{
+  margin-top: 70px;
 }
 
 .home-main{
@@ -283,7 +290,9 @@ align-items: center; */
   justify-content: center;
   align-items: center;
   color: white;
-  
+  gap: 90px;
+  width: 100%;
+  height: 70px;
 }
 
 a {
@@ -354,12 +363,17 @@ margin-left: 75px;
   height: 40px;
   margin-left: 220px;
   background-color: #8888f0;
+
   color: white;
   border: none;
   font-size: 20px;
   cursor: pointer;
  
 
+}
+.about-head{
+  color: rgb(228, 25, 247);
+  
 }
 .Resume-btn:hover{
  transform: scale(1.2);
@@ -409,6 +423,7 @@ margin-left: 75px;
   padding: 20px;
   line-height: 2;
   font-size:1.25rem ;
+  color: rgb(186, 93, 184);
 }
 
 /* Section No 2 Introduction Section  */
@@ -438,6 +453,8 @@ margin-left: 75px;
 
 .skill-heading{
   text-align: center;
+  color: white ;
+  box-shadow: 10px 4px 8px purple;
   
 }
 .skill-head{
@@ -445,6 +462,8 @@ margin-left: 75px;
   width: 190px;
   text-align: center;
   border-radius: 6px;
+  /* color: white;
+  box-shadow: 12px 12px 12px purple; */
 }
 .html-skill {
   width: 90px;
@@ -681,6 +700,8 @@ list-style: none;
 }
 .project-head{
   text-align: center;
+  color: white;
+  box-shadow: 10px 4px 8px purple;
 }
 .education-head{
   text-align: center;
@@ -688,11 +709,16 @@ list-style: none;
 .certification-head
 {
   text-align: center;
+  color: white;
+  box-shadow: 10px 4px 8px purple;
+
 }
 .contact-head{
 display: flex;
 justify-content: center;
 align-items: center;
+color: white;
+  box-shadow: 10px 4px 8px purple;
 
 
 }
@@ -771,6 +797,9 @@ align-items: center;
 }
 .experience-head{
   text-align: center;
+color:white;
+box-shadow: 10px 4px 8px purple;
+text-shadow: 7px 3px 5px purple;
 
 }
 .company-date{

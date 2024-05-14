@@ -15,7 +15,7 @@ const Introduction = () => {
           </div>
 
           <div className="introduction">
-            <h2>
+            <h2 className='about-head'>
               About <span>Me </span>
             </h2>
             <div className="intro-description">
