@@ -180,7 +180,6 @@ const redirectToCV = () => {
       <Skills />
       <Projects />
       <Experience />
-      <Projects />
       <Certifications />
       <Contact />
       <Footer />
