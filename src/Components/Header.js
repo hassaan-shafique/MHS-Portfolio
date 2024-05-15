@@ -11,10 +11,10 @@ const Header = () => {
   };
 
 
-//  const scrollToIntroduction = () => {
-//    const introductionSection = document.getElementById("introduction");
-//    introductionSection.scrollIntoView({ behavior: "smooth" });
-//  };
+ const scrollToIntroduction = () => {
+   const introductionSection = document.getElementById("introduction");
+   introductionSection.scrollIntoView({ behavior: "smooth" });
+ };
  const scrollToSkills = () => {
    const skillsSection = document.getElementById("skills");
    skillsSection.scrollIntoView({ behavior: "smooth" });
@@ -55,7 +55,7 @@ projectsection.scrollIntoView({behavior:"smooth"});
               <Link href="/"> Home</Link>
 
               <Link to="/" 
-              // onClick={scrollToIntroduction}
+              onClick={scrollToIntroduction}
               >
                 Introduction
               </Link>
