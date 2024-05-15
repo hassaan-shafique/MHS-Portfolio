@@ -26,41 +26,35 @@ const redirectToCV = () => {
     <>
       <section className="home-content">
         <div className="hire">
-        
-            <Link className='hire-div'
-              to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
-              target="_blank"
-            >
-              <img
-                width={50}
-                height={35}
-                src="/fiverr-1.svg"
-                alt="fiver logo"
-              />
-              Hire me on Fiver
-            </Link>
-         
-         
-            <Link className='hire-div' 
-            to="https://www.upwork.com/" target="_blank">
-              <img
-                width={50}
-                height={35}
-                src="/upwork-icon.svg"
-                alt="Upwork logo"
-              />
-              Hire me on Upwork
-            </Link>
-          
+          <Link
+            className="hire-div"
+            to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
+            target="_blank"
+          >
+            <img width={50} height={35} src="/fiverr-1.svg" alt="fiver logo" />
+            Hire me on Fiver
+          </Link>
+
+          <Link
+            className="hire-div"
+            to="https://www.upwork.com/freelancers/~017aa4bff4acd7fe70"
+            target="_blank"
+          >
+            <img
+              width={50}
+              height={35}
+              src="/upwork-icon.svg"
+              alt="Upwork logo"
+            />
+            Hire me on Upwork
+          </Link>
         </div>
 
         {/* <div className="home-main"> */}
 
         <section className="welcome-div">
           <div className="text-div">
-           
-              <h3 className='h-welcome'>Welcome To My Portfolio </h3>
-            
+            <h3 className="h-welcome">Welcome To My Portfolio </h3>
 
             <h1 className="home-intro">
               Hello, I am Muhammad Hassaan Shafique <br />
@@ -148,16 +142,14 @@ const redirectToCV = () => {
               </a>
             </div>
 
-
             <div className="home-btns">
               <button className="contact-btn" onClick={HandleContact}>
-                Contact
+                Request a Service
               </button>
               <button className="Resume-btn" onClick={redirectToCV}>
                 Download CV
               </button>
             </div>
-           
           </div>
 
           <div>
