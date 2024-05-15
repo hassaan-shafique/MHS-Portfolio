@@ -1,4 +1,5 @@
 import React, {  useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -10,10 +11,10 @@ const Header = () => {
   };
 
 
- const scrollToIntroduction = () => {
-   const introductionSection = document.getElementById("introduction");
-   introductionSection.scrollIntoView({ behavior: "smooth" });
- };
+//  const scrollToIntroduction = () => {
+//    const introductionSection = document.getElementById("introduction");
+//    introductionSection.scrollIntoView({ behavior: "smooth" });
+//  };
  const scrollToSkills = () => {
    const skillsSection = document.getElementById("skills");
    skillsSection.scrollIntoView({ behavior: "smooth" });
@@ -51,29 +52,31 @@ projectsection.scrollIntoView({behavior:"smooth"});
 
           <div className="links">
             <ul className={showMenu ? "open" : ""}>
-              <a href="/"> Home</a>
+              <Link href="/"> Home</Link>
 
-              <a href="#introduction" onClick={scrollToIntroduction}>
+              <Link to="/" 
+              // onClick={scrollToIntroduction}
+              >
                 Introduction
-              </a>
-              <a href="#Skills" onClick={scrollToSkills}>
+              </Link>
+              <Link href="#Skills" onClick={scrollToSkills}>
                 Skills
-              </a>
-              <a href="#Projects" onClick={scrolltoProject}>
+              </Link>
+              <Link href="#Projects" onClick={scrolltoProject}>
                 Projects
-              </a>
-              <a href="#Projects" onClick={scrolltoProject}>
+              </Link>
+              <Link href="#Projects" onClick={scrolltoProject}>
                 Experience
-              </a>
+              </Link>
 
               {/* <a href="#Education" onClick={scrolltoEducation}>
                 Education
               </a> */}
               {/* <a href="#/Education"> Blog</a> */}
 
-              <a href="#Certifications" onClick={scrolltoCertification}>
+              <Link href="#Certifications" onClick={scrolltoCertification}>
                 Certifications
-              </a>
+              </Link>
             </ul>
           </div>
         </nav>

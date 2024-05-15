@@ -9,13 +9,14 @@ import Certifications from './Components/Certifications';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Experience from './Components/Experience';
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {BrowserRouter,Switch,Routes,Route} from 'react-router-dom'
 import MoreProjects from './Components/MoreProjects';
 
 function App() {
   return (
     <>
     
+
       <Header />
       <Home />
       <Introduction />
@@ -24,9 +25,9 @@ function App() {
       <Experience />
 
       {/* <Blog/> */}
-      <Certifications />
+     <Certifications />
       <Contact />
-      <Footer />
+      <Footer />  
     </>
   );
 }
