@@ -151,11 +151,12 @@ const redirectToCV = () => {
             </div>
 
             <div className="home-btns">
-              <Link to='/service'>
-                <button className="contact-btn" onClick={HandleContact}>
+                <Link to='/service'>
+                <button className="contact-btn" >
                   Request a Service
                 </button>
-              </Link>
+              </Link> 
+               
               <button className="Resume-btn" onClick={redirectToCV}>
                 Download CV
               </button>
