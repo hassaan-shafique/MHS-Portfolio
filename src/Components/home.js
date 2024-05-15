@@ -1,6 +1,13 @@
 import React from 'react'
 import Contact from './Contact.js'
 import { Link } from 'react-router-dom';
+import Introduction from './Introduction.js';
+import Skills from './Skills.js';
+import Projects from './Projects.js';
+import Experience from './Experience.js';
+import Certifications from './Certifications.js';
+import Footer from './Footer.js';
+import Header from './Header.js';
 
 
 
@@ -24,6 +31,7 @@ const redirectToCV = () => {
 
   return (
     <>
+      <Header />
       <section className="home-content">
         <div className="hire">
           <Link
@@ -143,9 +151,11 @@ const redirectToCV = () => {
             </div>
 
             <div className="home-btns">
-              <button className="contact-btn" onClick={HandleContact}>
-                Request a Service
-              </button>
+              <Link to='/service'>
+                <button className="contact-btn" onClick={HandleContact}>
+                  Request a Service
+                </button>
+              </Link>
               <button className="Resume-btn" onClick={redirectToCV}>
                 Download CV
               </button>
@@ -167,6 +177,14 @@ const redirectToCV = () => {
 
         {/* </div> */}
       </section>
+      <Introduction />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Projects />
+      <Certifications />
+      <Contact />
+      <Footer />
     </>
   );
 }

@@ -11,13 +11,25 @@ import Footer from './Components/Footer';
 import Experience from './Components/Experience';
 import {BrowserRouter,Switch,Routes,Route} from 'react-router-dom'
 import MoreProjects from './Components/MoreProjects';
+import Services from './Components/Services';
 
 function App() {
   return (
     <>
-    
+      <BrowserRouter>
+        <Routes>
+          <Route index path="/" element={<Home />} />
+          <Route path="/about" element={<Introduction />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/certifications" element={<Certifications />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/moreprojects" element={<MoreProjects />} />
+          <Route path="/service" element={<Services />} />
+        </Routes>
+      </BrowserRouter>
 
-      <Header />
+      {/* <Header />
       <Home />
       <Introduction />
       <Skills />
@@ -25,9 +37,9 @@ function App() {
       <Experience />
 
       {/* <Blog/> */}
-     <Certifications />
+      {/* <Certifications />
       <Contact />
-      <Footer />  
+      <Footer />    */}
     </>
   );
 }

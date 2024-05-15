@@ -5,7 +5,8 @@ const Services = () => {
   return (
     <>
     <Header/>
-    <h1>Request a Service</h1>  
+    <h1 className='service-head'>Request a Service</h1>  
+    
     </>
   )
 }
