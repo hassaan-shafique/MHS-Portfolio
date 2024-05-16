@@ -1343,3 +1343,42 @@ transform: scale(1.1);
 .travel-imgs img{
   border-radius: 10%;
 }
+.project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 25%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-input:focus {
+  outline: 2px solid #4CAF50;
+  /* Add a focus outline */
+}
+
+.form-input[type="text"],
+.form-input[type="email"] {
+  /* Can target specific input types if needed */
+}
+
+.form-input[type="textarea"] {
+  resize: vertical;
+}
