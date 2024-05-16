@@ -837,25 +837,12 @@ color: white;
     border-radius: 7px;
 }
 
-.submit-btn{
-  cursor: pointer;
-  border-radius: 4px;
-    width: 250px;
-    height: 40px;
-    margin-left: 220px;
-    background-color: #8888f0;
-    color: white;
-    border: none;
-    font-size: 20px;
-    
 
-}
 .message-btn{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 150px;
-  margin-bottom: 20px;
+  
   
 }
 .contact-icons2 {
@@ -1283,7 +1270,7 @@ gap: 80px;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
- margin-left: 900px;
+ 
 
 }
 
@@ -1297,5 +1284,50 @@ transform: scale(1.1);
   .travel-button {
     font-size: 24px;
     min-width: 196px;
+  }
+}
+.travel-main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* CSS */
+.submit-btn {
+  background-color: initial;
+  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -4px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 190px;
+}
+
+.submit-btn:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 1000px) {
+  .submit-btn {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 150px;
   }
 }

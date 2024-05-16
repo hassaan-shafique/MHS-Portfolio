@@ -40,9 +40,14 @@ const Introduction = () => {
             </div>
           </div>
         </div>
-        <Link className='link-div' to=''>
-          <button className='travel-button ' role='button'> Explore my Travels</button>
-        </Link>
+        <div className='travel-main-div'>
+          <Link className="link-div" to="">
+            <button className="travel-button " role="button">
+              
+              Explore my Travels
+            </button>
+          </Link>
+        </div>
       </section>
     </>
   );
