@@ -42,6 +42,67 @@ const Travel = () => {
             height={350}
             alt="travel"
           />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
+          <img
+            src="/javaacript-certificate.png"
+            width={350}
+            height={350}
+            alt="travel"
+          />
         </div>
       </div>
     </>

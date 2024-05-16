@@ -1340,3 +1340,6 @@ transform: scale(1.1);
   padding-top : 25px;
 
 }
+.travel-imgs img{
+  border-radius: 10%;
+}
