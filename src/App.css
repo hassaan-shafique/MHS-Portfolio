@@ -1331,3 +1331,12 @@ transform: scale(1.1);
     width: 150px;
   }
 }
+.travel-imgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top : 25px;
+
+}

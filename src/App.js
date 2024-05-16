@@ -2,7 +2,7 @@
 import './App.css';
 
 import Home from './Components/Home';
-import {BrowserRouter,Switch,Routes,Route} from 'react-router-dom'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import MoreProjects from './Components/MoreProjects';
 import Services from './Components/Services';
 import Travel from './Components/Travel';
