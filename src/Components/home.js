@@ -69,14 +69,14 @@ const redirectToCV = () => {
               I'm a Software Engineer
             </h1>
             <div class="Contact-icons">
-              <a
-                href="https://www.facebook.com/hassaan.shafique.9/"
+              <Link
+                to="https://www.facebook.com/hassaan.shafique.9/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img width={40} height={40} src="/gmail.png" alt="gmail icon" />
-              </a>
-              <a
+              </Link>
+              {/* <a
                 href="https://www.facebook.com/hassaan.shafique.9/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -87,8 +87,8 @@ const redirectToCV = () => {
                   src="/facebook.png"
                   alt="facebook icon"
                 />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://www.facebook.com/hassaan.shafique.9/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -99,9 +99,9 @@ const redirectToCV = () => {
                   src="/instagram.png"
                   alt="instagram icon"
                 />
-              </a>
-              <a
-                href="https://www.facebook.com/hassaan.shafique.9/"
+              </a> */}
+              <Link
+                to="https://www.linkedin.com/in/m-hassaan-shafique-558479212/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -111,8 +111,8 @@ const redirectToCV = () => {
                   src="/linkedin.png"
                   alt="facebook icon"
                 />
-              </a>
-              <a
+              </Link>
+              {/* <a
                 href="https://www.facebook.com/hassaan.shafique.9/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -123,35 +123,35 @@ const redirectToCV = () => {
                   src="/twitter (1).png"
                   alt="facebook icon"
                 />
-              </a>
-              <a
-                href="https://www.facebook.com/hassaan.shafique.9/"
+              </a> */}
+              <Link
+                to="https://github.com/hassaan-shafique"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   width={40}
                   height={40}
-                  src="/github.png"
-                  alt="facebook icon"
+                  src="/github-1.svg"
+                  alt="github icon"
                 />
-              </a>
-              <a
-                href="https://www.facebook.com/hassaan.shafique.9/"
+              </Link>
+              <Link
+                to="https://medium.com/@hassaanshafique398"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   width={40}
                   height={40}
-                  src="/medium.png"
-                  alt="facebook icon"
+                  src="/medium-2.svg"
+                  alt="medium icon"
                 />
-              </a>
+              </Link>
             </div>
 
             <div className="home-btns">
-              <Link className='link-div' to='/service'>
+              <Link className="link-div" to="/service">
                 <button className="contact-btn">Request a Service</button>
               </Link>
 
