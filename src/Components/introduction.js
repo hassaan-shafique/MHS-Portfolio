@@ -41,7 +41,7 @@ const Introduction = () => {
           </div>
         </div>
         <div className='travel-main-div'>
-          <Link className="link-div" to="">
+          <Link className="link-div" to="/mytravel">
             <button className="travel-button " role="button">
               
               Explore my Travels

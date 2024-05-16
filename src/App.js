@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import {BrowserRouter,Switch,Routes,Route} from 'react-router-dom'
 import MoreProjects from './Components/MoreProjects';
 import Services from './Components/Services';
+import Travel from './Components/Travel';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         
           <Route path="/moreprojects" element={<MoreProjects />} />
           <Route path="/service" element={<Services />} />
+          <Route path='/mytravel' element={<Travel/>}/>
         </Routes>
       </BrowserRouter>
 
