@@ -1100,7 +1100,7 @@ height: 500px;
 
                }
     .certificate-data{
-     background-color: #dddde2 ;
+     background-color: white ;
      width: 350px;
      height: 400px;
      border-radius: 10px;
@@ -1123,10 +1123,13 @@ height: 500px;
      cursor: pointer;
      margin-left: 135px;
     transition: background-color 0.3s ease;
+    background-color: #4B0082;
+    color: white;
+    border: 0;
       
     }
     .certificate-btn:hover{
-      background-color: #8888f0 ;
+      
       transform: scale(1.1);
 
     }
@@ -1134,7 +1137,8 @@ height: 500px;
 .project-data{
   width: 400px;
   height: 530px;
-background: linear-gradient(to right, #c0c0f3a2, #a7a7f0, #a9a9ea, #c0c0f3a2);
+background:white;
+
   border-radius: 10px;
   /* margin-left: 25px; */
   display: flex;
@@ -1360,6 +1364,7 @@ transform: scale(1.1);
 .form-label {
   display: block;
   font-weight: bold;
+  color: white;
 }
 
 .form-input {

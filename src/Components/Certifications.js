@@ -31,9 +31,9 @@ const Certifications = () => {
                 <br />
                 {certificate.resource}
               </div>
-              <div>
+              {/* <div>
                 <button className="certificate-btn">View</button>
-              </div>
+              </div> */}
             </div>
           );
         })}

@@ -70,7 +70,7 @@ const redirectToCV = () => {
             </h1>
             <div class="Contact-icons">
               <Link
-                to="https://www.facebook.com/hassaan.shafique.9/"
+                to="https://mail.google.com/mail/u/0/#inbox?compose=new"
                 target="_blank"
                 rel="noopener noreferrer"
               >
