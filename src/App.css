@@ -916,6 +916,7 @@ text-shadow: 7px 3px 5px purple;
   color: white;
   padding: 10px;
   border-radius: 8px;
+  background-color: #25264d;
   
 
 }
@@ -931,6 +932,7 @@ text-shadow: 7px 3px 5px purple;
       padding: 10px;
       border-radius: 8px;
       color: white;
+      background-color: #25264d;
 
 }
 .Care:hover{
@@ -945,7 +947,9 @@ text-shadow: 7px 3px 5px purple;
     color: white;
       padding: 10px;
       border-radius: 8px;
+      background-color: #25264d;
 }
+
 .skill-flex{
   display: flex;
   justify-content: center;
@@ -956,7 +960,7 @@ text-shadow: 7px 3px 5px purple;
   transform: scale(1.03);
 }
 .shark-technology{
-background: linear-gradient(to right, #5e3b7aa2, #303036, #202024, #553369a2);
+background-color: #25264d;
     width: 700px;
     height: 300px;
     border: 2px solid white;
@@ -1029,6 +1033,7 @@ height: 500px;
       }
     }
         @media screen and (max-width: 785px) {
+
         .university {
            height: 550px;
           }
@@ -1049,6 +1054,21 @@ height: 500px;
                                         height: 500px;
                                       }
                                     }
+             @media screen and (max-width: 699px) {
+               .Care {
+                 height: 400px;
+               }
+               .work{
+              height: 400px;
+               }
+               .shark-technology{
+                  height: 400px;
+
+               }
+               .Ivory-solutions{
+                height: 400px;
+               }
+             }
 
     .year{
       text-align: center;
