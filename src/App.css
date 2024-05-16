@@ -1283,7 +1283,10 @@ gap: 80px;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+ margin-left: 900px;
+
 }
+
 
 .travel-button:active,
 .travel-button:hover {
