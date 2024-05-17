@@ -46,7 +46,7 @@ nav .menu{
 nav .menu span {
   height: 0.4rem;
   width: 100%;
-  background-color: #4343f3;
+  background-color: #ececec;
   border-radius:0.2rem;
 
 }
@@ -120,19 +120,24 @@ nav{
 nav ul.open.home-content{
 margin-top: 200px;
 }
-nav ul.open{
+nav ul.open {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
-  background-color: #6363bd;
-  /* top: 0; */
-
+  max-width: 120px;
+  background-color: transparent;
+  color: white;
+  justify-content: center;
+  /* Corrected property for alignment */
   margin-top: 65px;
-  margin-left: 7
-  80px;
-position: absolute;
-top: 0;
+  /* Removed margin-left: 780px;  */
+
+  position: fixed;
+  /* Key for responsiveness */
+  top: 0;
+  right: 0;
+  /* Ensures it stays on the right side */
   flex-wrap: wrap;
+  border-radius: 8px;
 }
 
 nav ul{
@@ -181,6 +186,9 @@ nav ul{
     width: 400px;
     height: 500px;
     
+  }
+  .about-head{
+    text-align: center;
   }
  .text-div{
   margin-top: -250px;
