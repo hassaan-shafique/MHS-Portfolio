@@ -1172,10 +1172,10 @@ height: 500px;
 .project-data{
   width: 400px;
   height: 530px;
-background:white;
-
+background:#50607594;
+color:white;
   border-radius: 10px;
-  /* margin-left: 25px; */
+  padding:10px ;
   display: flex;
   flex-direction: column;
   
