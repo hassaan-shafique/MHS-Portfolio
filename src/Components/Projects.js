@@ -43,9 +43,10 @@ const Projects = ( ) => {
         })}
       </div>
       <div className="div-certificate-more-btn">
-       
-          <Link  to='/moreProjects' className="certificate-more-btn">More</Link>
-      
+        <Link className='link-div'>
+          to='/moreProjects'
+          <button className="project-more-btn">More </button>
+        </Link>
       </div>
     </section>
   );
