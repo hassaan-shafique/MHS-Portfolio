@@ -912,6 +912,7 @@ text-shadow: 7px 3px 5px purple;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 0px;
 
 
   
@@ -923,7 +924,7 @@ text-shadow: 7px 3px 5px purple;
   height: 300px;
   border: 2px solid white;
   color: white;
-  padding: 10px;
+  padding: 20px;
   border-radius: 8px;
   background-color: #25264d;
   
@@ -938,7 +939,7 @@ text-shadow: 7px 3px 5px purple;
     width: 700px;
     height: 300px;
     border: 2px solid white;
-      padding: 10px;
+      padding: 20px;
       border-radius: 8px;
       color: white;
       background-color: #25264d;
@@ -954,7 +955,7 @@ text-shadow: 7px 3px 5px purple;
     height: 300px;
     border: 2px solid white;
     color: white;
-      padding: 10px;
+      padding: 20px;
       border-radius: 8px;
       background-color: #25264d;
 }
@@ -974,7 +975,7 @@ background-color: #25264d;
     height: 300px;
     border: 2px solid white;
     color: white;
-      padding: 10px;
+      padding: 20px;
       border-radius: 8px ;
 
 }
