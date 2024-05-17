@@ -524,10 +524,11 @@ gap: 60px;
 }
 
 .p-intro-description{
-  padding: 20px;
+  padding: 40px;
   line-height: 2;
   font-size:1.25rem ;
   color: rgb(255, 255, 255);
+  text-align: justify;
 }
 
 /* Section No 2 Introduction Section  */
