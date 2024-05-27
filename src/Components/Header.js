@@ -70,11 +70,6 @@ projectsection.scrollIntoView({behavior:"smooth"});
               Experience
             </Link>
 
-            {/* <a href="#Education" onClick={scrolltoEducation}>
-                Education
-              </a> */}
-            {/* <a href="#/Education"> Blog</a> */}
-
             <Link href="#Certifications" onClick={scrolltoCertification}>
               Certifications
             </Link>
