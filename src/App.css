@@ -1157,7 +1157,7 @@ height: 500px;
 
     }
     .certificate-data img{
-      padding :10px;
+      padding:10px;
     }
     .certificate-data:hover{
       transform: scale(1.1);
@@ -1440,3 +1440,37 @@ transform: scale(1.1);
 .form-input[type="textarea"] {
   resize: vertical;
 }
+.blog-head{
+  color: white;
+  text-align: center;
+}
+.blog-main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+ .blog-data {
+
+   width: 350px;
+   height: 350px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   background-color: #50607594;
+   justify-content: center;
+   align-items: center;
+
+
+
+
+ }
+
+ blog-data img {
+   padding: 10px;
+ }
+
+ blog-data:hover {
+   transform: scale(1.1);
+ }

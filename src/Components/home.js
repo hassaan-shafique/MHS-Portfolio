@@ -8,6 +8,7 @@ import Experience from './Experience.js';
 import Certifications from './Certifications.js';
 import Footer from './Footer.js';
 import Header from './Header.js';
+import Blog from './Blog.js';
 
 
 
@@ -181,6 +182,7 @@ const redirectToCV = () => {
       <Projects />
       <Experience />
       <Certifications />
+      <Blog/>
       <Contact />
       <Footer />
     </>
