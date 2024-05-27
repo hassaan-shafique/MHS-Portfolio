@@ -886,7 +886,8 @@ color: white;
   width: 100%;
   height: 70px;
   background-color: #404077;
-  
+ 
+
 
 
 }
@@ -930,7 +931,6 @@ text-shadow: 7px 3px 5px purple;
   background: transparent;
   width: 650px;
   height: 300px;
-  border: 2px solid white;
  color: black;
   padding: 20px;
   border-radius: 8px;
@@ -943,7 +943,6 @@ background-color: #708090;
 
     width: 650px;
     height: 300px;
-    border: 2px solid white;
       padding: 20px;
       border-radius: 8px;
       color: black;
@@ -955,7 +954,6 @@ background-color: #708090;
 
     width: 650px;
     height: 300px;
-    border: 2px solid white;
     color: #000000;
       padding: 20px;
       border-radius: 8px;
@@ -968,7 +966,6 @@ background-color: #708090;
 background-color: #708090;
     width: 650px;
     height: 300px;
-    border: 2px solid white;
    color: black;
       padding: 20px;
       border-radius: 8px ;
