@@ -31,56 +31,59 @@ projectsection.scrollIntoView({behavior:"smooth"});
   const educationsection =document.getElementById("education");
   educationsection.scrollIntoView({behavior:"smooth"});
  }
+ const scrolltoBlog = () => {
+   const blogsection = document.getElementById("education");
+   blogsection.scrollIntoView({ behavior: "smooth" });
+ };
  
  
 
   return (
     <>
-   
-        <nav className="header">
-          <div className="mhs">
-            <h4 className="logo">
-              M Hassaan <span className="span"> Shafique </span>
-            </h4>
-          </div>
+      <nav className="header">
+        <div className="mhs">
+          <h4 className="logo">
+            M Hassaan <span className="span"> Shafique </span>
+          </h4>
+        </div>
 
-          <div className="menu" onClick={toggleMenu}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+        <div className="menu" onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
-          <div className="links">
-            <ul className={showMenu ? "open" : ""}>
-              <Link href="/"> Home</Link>
+        <div className="links">
+          <ul className={showMenu ? "open" : ""}>
+            <Link href="/"> Home</Link>
 
-              <Link to="/" 
-              onClick={scrollToIntroduction}
-              >
-                Introduction
-              </Link>
-              <Link href="#Skills" onClick={scrollToSkills}>
-                Skills
-              </Link>
-              <Link href="#Projects" onClick={scrolltoProject}>
-                Projects
-              </Link>
-              <Link href="#Projects" onClick={scrolltoProject}>
-                Experience
-              </Link>
+            <Link to="/" onClick={scrollToIntroduction}>
+              Introduction
+            </Link>
+            <Link href="#Skills" onClick={scrollToSkills}>
+              Skills
+            </Link>
+            <Link href="#Projects" onClick={scrolltoProject}>
+              Projects
+            </Link>
+            <Link href="#Projects" onClick={scrolltoProject}>
+              Experience
+            </Link>
 
-              {/* <a href="#Education" onClick={scrolltoEducation}>
+            {/* <a href="#Education" onClick={scrolltoEducation}>
                 Education
               </a> */}
-              {/* <a href="#/Education"> Blog</a> */}
+            {/* <a href="#/Education"> Blog</a> */}
 
-              <Link href="#Certifications" onClick={scrolltoCertification}>
-                Certifications
-              </Link>
-            </ul>
-          </div>
-        </nav>
-    
+            <Link href="#Certifications" onClick={scrolltoCertification}>
+              Certifications
+            </Link>
+            <Link href="#Certifications" onClick={scrolltoBlog}>
+              Blogs
+            </Link>
+          </ul>
+        </div>
+      </nav>
     </>
   );
 }
