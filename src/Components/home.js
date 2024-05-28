@@ -63,7 +63,7 @@ const redirectToCV = () => {
 
         <section className="welcome-div">
           <div className="text-div">
-            <h3 className="b">Welcome To My Portfolio </h3>
+            <h3 className="h-welcome">Welcome To My Portfolio </h3>
 
             <h1 className="home-intro">
               Hello, I am Muhammad Hassaan Shafique <br />
