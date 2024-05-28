@@ -965,6 +965,7 @@ background-color: #708090;
 .shark-technology{
 background-color: #708090;
     width: 650px;
+
     height: 300px;
    color: black;
       padding: 20px;
@@ -1094,7 +1095,7 @@ height: 500px;
         .certificate-title{
           margin-left: 12px;
           line-height: 0.5;
-          color: white;
+         color: #000000;
           
         }
                 .div-certificate-more-btn{
@@ -1106,7 +1107,7 @@ height: 500px;
                 }
                .certificate-more-btn{
 
-              background-image: linear-gradient(#8614f8 0, #760be0 100%);
+              background-color: #708090;
                    
                     color: #fff;
                   
@@ -1128,7 +1129,7 @@ height: 500px;
 
                .project-more-btn{
                 margin-right: 120px;
-                  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+                background-color: #708090;
                 
                   color: #fff;
                 
@@ -1149,7 +1150,6 @@ height: 500px;
 
     .certificate-data{
       color: #000000;
-    
      width: 350px;
      height: 400px;
      border-radius: 10px;
@@ -1163,7 +1163,11 @@ height: 500px;
 
     }
     .certificate-data img{
-      padding:10px;
+      padding:4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
     }
     .certificate-data:hover{
       transform: scale(1.1);
@@ -1230,7 +1234,7 @@ gap: 80px;
     outline: none;
     border-radius: 5px;
     margin-right: 10px;
-  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  background-color: black;
     color: white;
       animation: pulse 1s ease infinite;
       margin-bottom: 12px;
@@ -1244,7 +1248,7 @@ gap: 80px;
     outline: none;
     border-radius: 5px;
     margin-right: 10px;
-    background-image: linear-gradient(#8614f8 0, #760be0 100%);
+    background-color: black;
     color: white;
       animation: pulse 1s ease infinite;
       margin-bottom: 12px;

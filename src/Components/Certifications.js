@@ -21,8 +21,8 @@ const Certifications = () => {
           return (
             <div className="certificate-data" key={certificate.id}>
               <img
-                width={330}
-                height={280}
+                width={344}
+                height={295}
                 src={certificate.imageUrl}
                 alt={certificate.title}
               />
