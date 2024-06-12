@@ -1,7 +1,20 @@
 import React from 'react'
 
+import { useState } from 'react';
+
+
+
+
+
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] =useState ("");
+
+  const contactD
+
+
   return (
     <section id="contact">
       <>
@@ -11,7 +24,8 @@ const Contact = () => {
             {/* <label>Name:</label> */}
             <input
               className="input"
-              id="name"
+              onChange={(e) => setName(e.target.value)}
+             value={name}
               name="name"
               type="text"
               placeholder="Your Name "
@@ -20,7 +34,8 @@ const Contact = () => {
             {/* <label>Email</label> */}
             <input
               className="input"
-              id="email"
+              onChange={(e) =>setEmail(e.target.value)}
+            value={email}
               name="email"
               type="text"
               placeholder="Your Email"
@@ -31,7 +46,8 @@ const Contact = () => {
             <br />
             <textarea
               className="input-2"
-              id="message"
+              onChange={(e) =>setMessage(e.target.value)}
+           value={message}
               name="message"
               rows="9"
               cols="70"
