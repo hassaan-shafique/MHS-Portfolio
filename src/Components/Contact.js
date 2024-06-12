@@ -12,7 +12,10 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] =useState ("");
 
-  const contactD
+  const contactData = {
+    name,email,message
+  }
+  console.log (contactData);
 
 
   return (
@@ -26,7 +29,7 @@ const Contact = () => {
               className="input"
               onChange={(e) => setName(e.target.value)}
              value={name}
-              name="name"
+              
               type="text"
               placeholder="Your Name "
               required
@@ -36,7 +39,7 @@ const Contact = () => {
               className="input"
               onChange={(e) =>setEmail(e.target.value)}
             value={email}
-              name="email"
+            
               type="text"
               placeholder="Your Email"
               required
@@ -48,7 +51,7 @@ const Contact = () => {
               className="input-2"
               onChange={(e) =>setMessage(e.target.value)}
            value={message}
-              name="message"
+              
               rows="9"
               cols="70"
               placeholder="Enter your message here..."
