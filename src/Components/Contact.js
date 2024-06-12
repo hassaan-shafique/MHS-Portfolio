@@ -12,10 +12,18 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] =useState ("");
 
-  const contactData = {
-    name,email,message
+  const handleClick = (e) => {
+    e.preventDefault();
+    const contactData = {
+      name,
+      email,
+      message,
+    };
+    console.log(contactData);
+
   }
-  console.log (contactData);
+
+  
 
 
   return (
@@ -62,7 +70,7 @@ const Contact = () => {
           <br />
         </div>
         <div className="message-btn">
-          <button className="submit-btn" type="submit">
+          <button  onClick= {handleClick} className="submit-btn" type="submit">
             Send Message
           </button>
         </div>
