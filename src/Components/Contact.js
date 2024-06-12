@@ -70,7 +70,7 @@ const Contact = () => {
           <br />
         </div>
         <div className="message-btn">
-          <button  onClick= {handleClick} className="submit-btn" type="submit">
+          <button  type= "submit" onClick= {handleClick} className="submit-btn" >
             Send Message
           </button>
         </div>
