@@ -2,19 +2,8 @@ import React from 'react'
 
 import { useState } from 'react';
 
-
-
-
-
-
 const Contact = () => {
-  const [contact ,setContact] =useState (
-    {
-      name:'',
-      email:'',
-      message:'',
-    }
-  )
+  
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] =useState ("");
@@ -30,9 +19,6 @@ const Contact = () => {
 
   }
 
-  
-
-
   return (
     <section id="contact">
       <>
@@ -43,7 +29,7 @@ const Contact = () => {
             <input
               className="input"
               onChange={(e) => setName(e.target.value)}
-             value={contact.name}
+             value={name}
               
               type="text"
               placeholder="Your Name "
@@ -53,7 +39,7 @@ const Contact = () => {
             <input
               className="input"
               onChange={(e) =>setEmail(e.target.value)}
-            value={contact.email}
+            value={email}
             
               type="text"
               placeholder="Your Email"
@@ -65,7 +51,7 @@ const Contact = () => {
             <textarea
               className="input-2"
               onChange={(e) =>setMessage(e.target.value)}
-           value={contact.message}
+           value={message}
               
               rows="9"
               cols="70"
