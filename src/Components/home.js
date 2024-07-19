@@ -9,7 +9,7 @@ import Certifications from './Certifications.js';
 import Footer from './Footer.js';
 import Header from './Header.js';
 import Blog from './Blog.js';
-import { useNavigate } from 'react-router-dom';
+
 
 
 
@@ -17,7 +17,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
 
-const navigate =useNavigate();
+
+
 
   const HandleContact = () => {
     const contactSection =document.getElementById("contact");
@@ -26,7 +27,7 @@ const navigate =useNavigate();
     }
   };
 const redirectToCV = () => {
-  navigate("file:///C:/Users/USER/Downloads/Muhammad_Hassaan_Shafique-CV.pdf");
+  window.open("/Muhammad_Hassaan_Shafique-CV.pdf", '_blank');
 
 };
  
