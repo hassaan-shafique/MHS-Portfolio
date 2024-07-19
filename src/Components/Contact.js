@@ -59,6 +59,7 @@ const Contact = () => {
               onChange={(e) =>setMessage(e.target.value)}
            value={message}
               
+              
               rows="9"
               cols="70"
               placeholder="Enter your message here..."
