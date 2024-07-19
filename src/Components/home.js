@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from './Contact.js'
-import { Link, Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Introduction from './Introduction.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';

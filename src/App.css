@@ -480,13 +480,11 @@ gap: 60px;
 
 }
 
-.Home-image img {
-  /* position: relative; */
-  /* margin-left:800px; */
+/* .Home-image img {
+  position: relative;
+  margin-left:800px;
 
-
-
-}
+} */
 
 .home-btns{
   display: flex;
@@ -546,13 +544,17 @@ gap: 60px;
 /* img {
   box-shadow: 5px 5px 10px rgba(139, 122, 122, 0.4);
 } */
-.About-img{
+
+
+/* .About-img{
   
-   /* margin-right: 850px; */
-   /* margin-top: 100px; */
-   /* width: 500px; */
+   margin-right: 850px;
+   margin-top: 100px;
+   width: 500px;
    
-}
+} */
+
+
 .introduction {
   /* position:absolute; */
   margin-left: 12 ;
