@@ -24,7 +24,8 @@ const Home = () => {
   };
 const redirectToCV = () => {
   
-  window.location.href = "https://www.google.com/";
+  window.location.href =
+    "file:///C:/Users/USER/Downloads/Muhammad_Hassaan_Shafique-CV.pdf";
 };
  
 

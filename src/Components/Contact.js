@@ -1,5 +1,5 @@
-import React from 'react'
 
+import React from 'react'
 import { useState } from 'react';
 
 const Contact = () => {
@@ -25,6 +25,7 @@ const Contact = () => {
 
   }
 
+ 
   return (
     <section id="contact">
       <>
@@ -58,8 +59,6 @@ const Contact = () => {
               className="input-2"
               onChange={(e) =>setMessage(e.target.value)}
            value={message}
-              
-              
               rows="9"
               cols="70"
               placeholder="Enter your message here..."
@@ -70,7 +69,7 @@ const Contact = () => {
           <br />
         </div>
         <div className="message-btn">
-          <button  type= "submit" onClick= {handleClick} className="submit-btn" >
+          <button  type="submit" onClick= {handleClick} className="submit-btn" >
             Send Message
           </button>
         </div>
