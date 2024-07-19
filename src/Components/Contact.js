@@ -14,8 +14,14 @@ const Contact = () => {
       name,
       email,
       message,
+      
     };
+    
     console.log(contactData);
+    setName('');
+    setEmail('');
+    setMessage('');
+    
 
   }
 
