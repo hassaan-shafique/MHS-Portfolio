@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from './Contact.js'
-import { Link } from 'react-router-dom';
+import { Link, Router } from 'react-router-dom';
 import Introduction from './Introduction.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
@@ -9,12 +9,15 @@ import Certifications from './Certifications.js';
 import Footer from './Footer.js';
 import Header from './Header.js';
 import Blog from './Blog.js';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 
 const Home = () => {
+
+const navigate =useNavigate();
 
   const HandleContact = () => {
     const contactSection =document.getElementById("contact");
@@ -23,9 +26,8 @@ const Home = () => {
     }
   };
 const redirectToCV = () => {
-  
-  window.location.href =
-    "file:///C:/Users/USER/Downloads/Muhammad_Hassaan_Shafique-CV.pdf";
+  navigate("file:///C:/Users/USER/Downloads/Muhammad_Hassaan_Shafique-CV.pdf");
+
 };
  
 
