@@ -53,18 +53,13 @@ const Contact = () => {
       <>
         <h1 className="contact-head"> Contact </h1>
         <div className="formm">
-
-
           <form onSubmit={onSubmit}>
-
-
-
             {/* <label>Name:</label> */}
             <input
               className="input"
               onChange={(e) => setName(e.target.value)}
-             value={name}
-              
+              value={name}
+              name="name"
               type="text"
               placeholder="Your Name "
               required
@@ -72,9 +67,9 @@ const Contact = () => {
             {/* <label>Email</label> */}
             <input
               className="input"
-              onChange={(e) =>setEmail(e.target.value)}
-            value={email}
-            
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
+              name="email"
               type="text"
               placeholder="Your Email"
               required
@@ -84,8 +79,9 @@ const Contact = () => {
             <br />
             <textarea
               className="input-2"
-              onChange={(e) =>setMessage(e.target.value)}
-           value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
+              name="message"
               rows="9"
               cols="70"
               placeholder="Enter your message here..."
@@ -94,12 +90,14 @@ const Contact = () => {
             <br /> <br />
           </form>
           <br />
+
+          <div className="message-btn">
+            <button type="submit" onClick={handleClick} className="submit-btn">
+              Send Message
+            </button>
+          </div>
         </div>
-        <div className="message-btn">
-          <button  type="submit" onClick= {handleClick} className="submit-btn" >
-            Send Message
-          </button>
-        </div>
+        
       </>
     </section>
   );
