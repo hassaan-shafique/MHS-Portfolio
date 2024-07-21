@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState } from 'react';
 
+
 const Contact = () => {
   
   const [name, setName] = useState("");
@@ -25,6 +26,7 @@ const Contact = () => {
 
   }
  
+ 
 
  
   return (
@@ -32,8 +34,11 @@ const Contact = () => {
       <>
         <h1 className="contact-head"> Contact </h1>
         <div className="formm">
-          <form action="https://formspree.io/f/xdknakdd" method='POST' >
+          <form
           
+            action="https://formspree.io/f/xdknakdd"
+             method='POST'
+          >
             <input
               className="input"
               onChange={(e) => setName(e.target.value)}
@@ -53,8 +58,8 @@ const Contact = () => {
               placeholder="Your Email"
               required
             />
+           
             <br /> <br />
-            
             <br />
             <textarea
               className="input-2"
@@ -66,6 +71,7 @@ const Contact = () => {
               placeholder="Enter your message here..."
               required
             />
+           
             <br /> <br />
             <br />
             <div className="message-btn">
