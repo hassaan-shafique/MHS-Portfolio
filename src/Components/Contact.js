@@ -32,8 +32,8 @@ const Contact = () => {
       <>
         <h1 className="contact-head"> Contact </h1>
         <div className="formm">
-          <form action="https://formspree.io/f/xdknakdd" method="POST">
-            {/* <label>Name:</label> */}
+          <form action="https://formspree.io/f/xdknakdd" method='POST' >
+          
             <input
               className="input"
               onChange={(e) => setName(e.target.value)}
@@ -43,7 +43,7 @@ const Contact = () => {
               placeholder="Your Name "
               required
             />
-            {/* <label>Email</label> */}
+           
             <input
               className="input"
               onChange={(e) => setEmail(e.target.value)}
@@ -54,7 +54,7 @@ const Contact = () => {
               required
             />
             <br /> <br />
-            {/* <label>Message</label> */}
+            
             <br />
             <textarea
               className="input-2"
@@ -67,14 +67,17 @@ const Contact = () => {
               required
             />
             <br /> <br />
+            <br />
+            <div className="message-btn">
+              <button
+                type="submit"
+                onClick={handleClick}
+                className="submit-btn"
+              >
+                Send Message
+              </button>
+            </div>
           </form>
-          <br />
-
-          <div className="message-btn">
-            <button type="submit" onClick={handleClick} className="submit-btn">
-              Send Message
-            </button>
-          </div>
         </div>
       </>
     </section>
