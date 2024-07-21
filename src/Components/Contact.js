@@ -9,25 +9,24 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] =useState ("");
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    const contactData = {
-      name,
-      email,
-      message,
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   const contactData = {
+  //     name,
+  //     email,
+  //     message,
       
-    };
+  //   };
     
-    console.log(contactData);
-    setName('');
-    setEmail('');
-    setMessage('');
+  //   console.log(contactData);
+// }
+//     setName('');
+//     setEmail('');
+//     setMessage('');
     
 
-  }
+  
  
- 
-
  
   return (
     <section id="contact">
@@ -77,7 +76,7 @@ const Contact = () => {
             <div className="message-btn">
               <button
                 type="submit"
-                onClick={handleClick}
+                // onClick={handleClick}
                 className="submit-btn"
               >
                 Send Message
