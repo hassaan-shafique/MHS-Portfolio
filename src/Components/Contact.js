@@ -36,8 +36,7 @@ const Contact = () => {
           <form
           
             action="https://formspree.io/f/xdknakdd"
-             method='POST'
-          >
+             method='POST' >
             <input
               className="input"
               onChange={(e) => setName(e.target.value)}
