@@ -24,28 +24,7 @@ const Contact = () => {
     
 
   }
-   const onSubmit = async (event) => {
-     event.preventDefault();
-     const formData = new FormData(event.target);
-
-     formData.append("access_key", "d6cebf0a-1fe3-48a3-b6c8-5815c098b02b");
-
-     const object = Object.fromEntries(formData);
-     const json = JSON.stringify(object);
-
-     const res = await fetch("https://api.web3forms.com/submit", {
-       method: "POST",
-       headers: {
-         "Content-Type": "application/json",
-         Accept: "application/json",
-       },
-       body: json,
-     }).then((res) => res.json());
-
-     if (res.success) {
-       console.log("Success", res);
-     }
-   };
+ 
 
  
   return (
@@ -53,13 +32,13 @@ const Contact = () => {
       <>
         <h1 className="contact-head"> Contact </h1>
         <div className="formm">
-          <form onSubmit={onSubmit}>
+          <form  method='POST'>
             {/* <label>Name:</label> */}
             <input
               className="input"
               onChange={(e) => setName(e.target.value)}
               value={name}
-              name="name"
+              name="Name"
               type="text"
               placeholder="Your Name "
               required
@@ -69,8 +48,8 @@ const Contact = () => {
               className="input"
               onChange={(e) => setEmail(e.target.value)}
               value={email}
-              name="email"
-              type="text"
+              name="Email"
+              type="email"
               placeholder="Your Email"
               required
             />
@@ -81,7 +60,7 @@ const Contact = () => {
               className="input-2"
               onChange={(e) => setMessage(e.target.value)}
               value={message}
-              name="message"
+              name="Message"
               rows="9"
               cols="70"
               placeholder="Enter your message here..."
@@ -97,7 +76,6 @@ const Contact = () => {
             </button>
           </div>
         </div>
-        
       </>
     </section>
   );
