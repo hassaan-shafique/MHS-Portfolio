@@ -24,6 +24,28 @@ const Contact = () => {
     
 
   }
+   const onSubmit = async (event) => {
+     event.preventDefault();
+     const formData = new FormData(event.target);
+
+     formData.append("access_key", "d6cebf0a-1fe3-48a3-b6c8-5815c098b02b");
+
+     const object = Object.fromEntries(formData);
+     const json = JSON.stringify(object);
+
+     const res = await fetch("https://api.web3forms.com/submit", {
+       method: "POST",
+       headers: {
+         "Content-Type": "application/json",
+         Accept: "application/json",
+       },
+       body: json,
+     }).then((res) => res.json());
+
+     if (res.success) {
+       console.log("Success", res);
+     }
+   };
 
  
   return (
@@ -31,7 +53,12 @@ const Contact = () => {
       <>
         <h1 className="contact-head"> Contact </h1>
         <div className="formm">
-          <form>
+
+
+          <form onSubmit={onSubmit}>
+
+
+
             {/* <label>Name:</label> */}
             <input
               className="input"
