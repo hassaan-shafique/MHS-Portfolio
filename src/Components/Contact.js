@@ -32,7 +32,7 @@ const Contact = () => {
       <>
         <h1 className="contact-head"> Contact </h1>
         <div className="formm">
-          <form  method='POST'>
+          <form action="https://formspree.io/f/xdknakdd" method="POST">
             {/* <label>Name:</label> */}
             <input
               className="input"
