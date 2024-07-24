@@ -404,14 +404,15 @@ gap: 60px;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
-  display: flex;
+  color: black;
+  font-weight: bold;
+    display: flex;
   font-size: 20px;
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
   min-width: 140px;
-  padding: 5px;
+  padding: 13px;
   text-decoration: none;
   cursor: pointer;
   height: 40px;
@@ -428,7 +429,8 @@ gap: 60px;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: black;
+  font-weight: bold;
   display: flex;
   font-family: Phantomsans, sans-serif;
   font-size: 20px;
@@ -436,7 +438,7 @@ gap: 60px;
   line-height: 1em;
   max-width: 100%;
   min-width: 140px;
-  padding: 3px;
+  padding: 15px;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
@@ -864,6 +866,8 @@ color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+
+
   
   
 }
@@ -1116,10 +1120,11 @@ height: 500px;
 
               background-color: #708090;
                    
-                    color: #fff;
+                    color:black;
+                    font-weight: bold;
                   
                     padding: 10px 20px;
-                    width: 120px;
+                    width: 220px;
                     border: none;
                    
                     border-radius: 5px;
@@ -1127,6 +1132,22 @@ height: 500px;
                     cursor: pointer;
                   transform: scale(1.2);
                  
+               }
+               .blog-more-btn{
+                background-color: #708090;
+                
+                  color: black;
+                  text-decoration: solid;
+                  font-weight: bold;
+                
+                  padding: 10px 20px;
+                  width: 180px;
+                  border: none;
+                
+                  border-radius: 5px;
+                  height: 40px;
+                  cursor: pointer;
+                  transform: scale(1.2);
                }
                .certificate-more-btn:hover{
                 transform: scale(1.4);
@@ -1138,7 +1159,8 @@ height: 500px;
                 margin-right: 120px;
                 background-color: #708090;
                 
-                  color: #fff;
+                  color: black;
+                  font-weight: bold;
                 
                   padding: 10px 20px;
                   width: 120px;
@@ -1332,7 +1354,8 @@ background-color: #708090;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: black;
+  font-weight: bold;
   display: flex;
   font-family: Phantomsans, sans-serif;
   font-size: 20px;
@@ -1377,7 +1400,7 @@ background-color: #708090;
   border-radius: 5px;
   border-style: none;
   box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
-  color: #fff;
+  color: black;
   cursor: pointer;
   display: inline-block;
   font-family: Inter, sans-serif;
@@ -1395,6 +1418,7 @@ background-color: #708090;
   vertical-align: bottom;
   width: 190px;
   margin-bottom: 20px;
+  
 }
 
 .submit-btn:hover {

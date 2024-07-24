@@ -40,7 +40,7 @@ const Certifications = () => {
       </div>
       <div className="div-certificate-more-btn">
         
-          <button className="certificate-more-btn">More</button>
+          <button className="certificate-more-btn">Explore Other Certifications</button>
      
       </div>
     </section>

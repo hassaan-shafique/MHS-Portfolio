@@ -9,7 +9,6 @@ const Blog = () => {
         <h1 className="blog-head"> Blogs</h1>
 
         <div className="blog-main">
-
           {BlogData.map((blog) => {
             return (
               <Link to="https://medium.com/@hassaanshafique398" target="_blank">
@@ -29,7 +28,7 @@ const Blog = () => {
           })}
         </div>
         <div className="div-certificate-more-btn">
-          <button className="certificate-more-btn">More</button>
+          <button className="blog-more-btn">Explore More Blogs</button>
         </div>
       </section>
     </>
