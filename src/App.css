@@ -1474,17 +1474,24 @@ background-color: #708090;
  .blog-data {
 
    width: 350px;
-   height: 350px;
+   height: 400px;
    border-radius: 10px;
    display: flex;
    flex-direction: column;
+
   background-color: #6a7785;
    justify-content: center;
    align-items: center;
 
 
-
-
+ }
+ .blog-title{
+  padding:2px;
+  margin-left: 12px;
+  margin-right: 12px;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: none;
  }
 
  blog-data img {

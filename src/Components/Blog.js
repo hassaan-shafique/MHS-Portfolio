@@ -20,7 +20,7 @@ const Blog = () => {
                     src={blog.imageUrl}
                     alt={blog.title}
                   />
-                  <div className="certificate-title">
+                  <div className="blog-title">
                     <h4> {blog.title} </h4>
                   </div>
                 </div>

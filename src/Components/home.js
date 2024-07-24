@@ -168,9 +168,9 @@ const redirectToCV = () => {
           <div>
             <img
               className="home-image"
-              width={500}
-              height={500}
-              src="/home-1.png"
+              width={450}
+              height={600}
+              src="/hassaan-2.png"
               alt="homeImage"
             />
           </div>
