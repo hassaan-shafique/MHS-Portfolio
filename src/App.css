@@ -279,7 +279,7 @@ margin-bottom: 130px;
 /* Section No 1 Home section */
 
 .home-image{
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .home-main{
@@ -504,6 +504,7 @@ gap: 60px;
       gap: 70px;
       flex-direction: column;
   
+  
     }
         .About-img {
 
@@ -522,6 +523,7 @@ gap: 60px;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  
 
 
 
