@@ -12,11 +12,11 @@ const Skills = () => {
           <ul className="front-end-ul">
             <li className="f-skill">
               <img height={80} width={80} src="/skills/html.png" alt="HTML" />
-              <h4 >HTML</h4>
+              <h4 className="s-text">HTML</h4>
             </li>
             <li className="f-skill">
               <img height={80} width={80} src="/skills/css.png" alt="CSS" />
-              <h4>CSS</h4>
+              <h4 className="s-text">CSS</h4>
             </li>
             <li className="f-skill">
               <img
@@ -25,16 +25,16 @@ const Skills = () => {
                 src="/skills/javascript.png"
                 alt="CSS"
               />
-              <h4>JavaScript</h4>
+              <h4 className="s-text">JavaScript</h4>
             </li>
 
             <li className="f-skill">
               <img height={80} width={80} src="/skills/react.svg" alt="CSS" />
-              <h4>React</h4>
+              <h4 className="s-text">React</h4>
             </li>
             <li className="f-skill">
               <img height={80} width={80} src="/skills/redux.svg" alt="CSS" />
-              <h4>Redux</h4>
+              <h4 className="s-text">Redux</h4>
             </li>
 
             <li className="f-skill">
@@ -44,7 +44,7 @@ const Skills = () => {
                 src="/skills/nextjs_icon_212861.png"
                 alt="Next.js"
               />
-              <h4>Next.js</h4>
+              <h4 className="s-text">Next.js</h4>
             </li>
             <li className="f-skill">
               <img
@@ -53,7 +53,7 @@ const Skills = () => {
                 src="/skills/tailwind.png"
                 alt="CSS"
               />
-              <h4>Tailwind css</h4>
+              <h4 className="s-text">Tailwind css</h4>
             </li>
             <li className="f-skill">
               <img
@@ -62,14 +62,14 @@ const Skills = () => {
                 src="/skills/responsive-device.png"
                 alt="Responsive"
               />
-              <h4>Responsiveness</h4>
+              <h4 className="s-text">Responsiveness</h4>
             </li>
           </ul>
         </div>
         <div className="backend">
           <h2 className="skill-head"> Backend </h2>
 
-          <ul className='backend-ul'>
+          <ul className="backend-ul">
             <li className="node-skill">
               <img
                 height={80}
@@ -77,7 +77,7 @@ const Skills = () => {
                 src="/skills/nodejs.png"
                 alt="NodeJs"
               />
-              <h4> NodeJs</h4>
+              <h4 className="s-text"> NodeJs</h4>
             </li>
           </ul>
           {/* Node.js 
@@ -87,7 +87,7 @@ const Skills = () => {
         </div>
         <div className="database">
           <h2 className="skill-head"> Databases </h2>
-          <ul className='db-ul'>
+          <ul className="db-ul">
             <li className="mongo-skill">
               <img
                 height={80}
@@ -95,15 +95,15 @@ const Skills = () => {
                 src="/skills/mongo-db.png"
                 alt="NodeJs"
               />
-              <h4> Mongo DB </h4>
+              <h4 className="s-text"> Mongo DB </h4>
             </li>
             <li className="sql-skill">
               <img height={80} width={80} src="/skills/sql.png" alt="SQL" />
-              <h4> SQL </h4>
+              <h4 className="s-text"> SQL </h4>
             </li>
             <li className="mysql-skill">
               <img height={80} width={80} src="/skills/mysql.png" alt="SQL" />
-              <h4> MYSQL </h4>
+              <h4 className="s-text"> MYSQL </h4>
             </li>
 
             <li className="firebase-skill">
@@ -113,7 +113,7 @@ const Skills = () => {
                 src="/skills/firebase.svg"
                 alt="Firebase"
               />
-              <h4> Firebase </h4>
+              <h4 className="s-text"> Firebase </h4>
             </li>
           </ul>
           {/* SQL (MySQL, PostgreSQL, SQLite, etc.) 
@@ -124,7 +124,7 @@ const Skills = () => {
         </div>
         <div className="toolsandtechnologies">
           <h2 className="skill-head"> Tools And Technologies </h2>
-          <ul className='tools-ul'>
+          <ul className="tools-ul">
             <li className="mongo-skill">
               <img
                 height={80}
@@ -132,7 +132,7 @@ const Skills = () => {
                 src="/skills/vs-code.png"
                 alt="Firebase"
               />
-              <h4> VS Code </h4>
+              <h4 className="s-text"> VS Code </h4>
             </li>
             <li className="mongo-skill">
               <img
@@ -141,11 +141,11 @@ const Skills = () => {
                 src="/skills/git.png"
                 alt="Firebase"
               />
-              <h4> Git </h4>
+              <h4 className="s-text"> Git </h4>
             </li>
             <li className="mongo-skill">
               <img height={80} width={80} src="/github.png" alt="Firebase" />
-              <h4> GitHub </h4>
+              <h4 className="s-text"> GitHub </h4>
             </li>
             <li className="mongo-skill">
               <img
@@ -154,16 +154,11 @@ const Skills = () => {
                 src="/skills/jira.svg"
                 alt="Firebase"
               />
-              <h4> Jira </h4>
+              <h4 className="s-text"> Jira </h4>
             </li>
             <li className="mongo-skill">
-              <img
-                height={80}
-                width={80}
-                src="/skills/slack.svg"
-                alt="Slack"
-              />
-              <h4> Slack </h4>
+              <img height={80} width={80} src="/skills/slack.svg" alt="Slack" />
+              <h4 className="s-text"> Slack </h4>
             </li>
           </ul>
           {/* Git and Version Control

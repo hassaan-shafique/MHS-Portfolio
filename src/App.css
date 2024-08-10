@@ -584,6 +584,12 @@ gap: 60px;
   color: white;
   padding: 10px;
 }
+.s-text{
+  color:white;
+  text-align: center;
+  margin-top: 10px;
+
+}
 .f-skill {
   width: 190px;
   height: 140px;
@@ -596,7 +602,6 @@ background-color: #1e296b;
 background-color: #1e296b;
     border-radius: 9px;
     float: left;
-      margin-right: 10px;
       padding: 30px;
 }
 .f-skill:hover{
