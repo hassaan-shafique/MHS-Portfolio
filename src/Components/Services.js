@@ -6,7 +6,7 @@ const Services = () => {
     <>
       <div className="arrow">
         <Link to="/">
-          <img src="/left-arrow-1.svg" width={30} height={30} alt="arrow img" />
+          <img src="/left-arrow-2.svg" width={60} height={60} alt="arrow img" />
         </Link>
       </div>
       <div className="service-navbar">
