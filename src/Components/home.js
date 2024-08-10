@@ -165,7 +165,7 @@ const redirectToCV = () => {
               </button>
             </div>
           </div>
-          <div>
+          <div className='image-container'>
             <img
               className="home-image"
               width={410}
@@ -173,7 +173,7 @@ const redirectToCV = () => {
               src="/hassaan-2.png"
               alt="homeImage"
             />
-            <hr />
+          
           </div>
         </section>
         <hr />
