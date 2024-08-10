@@ -727,7 +727,6 @@ list-style: none;
 .project-head{
   text-align: center;
   color: white;
-  box-shadow: 10px 4px 8px purple;
 }
 .education-head{
   text-align: center;
@@ -815,8 +814,6 @@ color: black;
 .experience-head{
   text-align: center;
 color:white;
-box-shadow: 10px 4px 8px purple;
-text-shadow: 7px 3px 5px purple;
 
 }
 .company-date{
@@ -848,10 +845,10 @@ text-shadow: 7px 3px 5px purple;
   background: transparent;
   width: 650px;
   height: 300px;
- color: black;
+ color: white;
   padding: 20px;
   border-radius: 8px;
-background-color: #708090;
+background-color: #1e296b ;
   
 
 }
@@ -862,8 +859,8 @@ background-color: #708090;
     height: 300px;
       padding: 20px;
       border-radius: 8px;
-      color: black;
-      background-color: #708090;
+      color: white;
+      background-color: #1e296b;
 
 }
 
@@ -871,20 +868,20 @@ background-color: #708090;
 
     width: 650px;
     height: 300px;
-    color: #000000;
+    color: white;
       padding: 20px;
       border-radius: 8px;
-    background-color: #708090;
+    background-color: #1e296b;
 }
 
 
 
 .shark-technology{
-background-color: #708090;
+background-color: #1e296b;
     width: 650px;
 
     height: 300px;
-   color: black;
+   color: white;
       padding: 20px;
       border-radius: 8px ;
 
@@ -1063,9 +1060,9 @@ height: 500px;
 
                .project-more-btn{
                 margin-right: 120px;
-                background-color: #708090;
+                background-color:#1e296b ;
                 
-                  color: black;
+                  color: white;
                   font-weight: bold;
                 
                   padding: 10px 20px;
@@ -1131,7 +1128,7 @@ height: 500px;
 .project-data{
   width: 400px;
   height: 530px;
-background-color: #141b42;
+background-color: #1e296b;
 color: white;
   border-radius: 10px;
   padding:10px ;
