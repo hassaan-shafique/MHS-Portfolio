@@ -4,14 +4,14 @@ body{
   /* background: rgb(8, 8, 8); */
   
   background-image: url('/public/background-2.jpg');
-backdrop-filter: blur(20px);
+backdrop-filter: blur(100px);
     
  
   
 }
 .header{
   color: #1b1919;
-  background: #000000;
+  background: #141b42;
   width: 100%;
   height: 70px;
   display: flex;
@@ -29,7 +29,7 @@ backdrop-filter: blur(20px);
 
 .logo{
   color:
-  #708090;
+white;
 }
 
 nav .menu{
@@ -80,7 +80,7 @@ left: 10px;
 
 }
 .links a:hover{
-  background-color: #708090;
+  background-color: #060a22;
   color: white;
 
 }
@@ -102,6 +102,7 @@ left: 10px;
   text-decoration: none;
   color:white;
   font-size: 18px;
+  font-weight: 700;
   justify-content: center;
   padding: 10px;
   border-radius: 12px;
@@ -314,7 +315,7 @@ margin-bottom: 130px;
 
 .span{
   color: 
-  #708090;
+  white;
 }
 .hire-div{
  
@@ -354,8 +355,8 @@ a {
   /* position: absolute; */
   height: 40px;
   width: 320px;
-  background-color: #708090;
-  background: linear-gradient(to right, #232325a2, #505a65, #708090, #708090);
+  background-color: #060a22;
+  background: linear-gradient(to right, #141b42, #1d2553, #222c61, #303b7a);
   color: white;
   margin-left: 150px;
   margin-top:150px;
@@ -398,13 +399,13 @@ gap: 60px;
 }
 .contact-btn {
   align-items: center;
-  background-color: #708090;
+  background-color: #27347e;
   /* background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #b5bfc0); */
   border: 0;
   border-radius: 8px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px; */
   box-sizing: border-box;
-  color: black;
+  color:white;
   font-weight: bold;
     display: flex;
   font-size: 20px;
@@ -423,13 +424,12 @@ gap: 60px;
 
 .Resume-btn {
   align-items: center;
-  background-color: #708090;
+  background-color:#27347e ;
   /* background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #b5bfc0); */
   border: 0;
   border-radius: 8px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: black;
+  color: white;
   font-weight: bold;
   display: flex;
   font-family: Phantomsans, sans-serif;
@@ -1184,7 +1184,7 @@ height: 500px;
      border-radius: 10px;
     display: flex;
       flex-direction: column;
-    background-color: #060a22;
+    background-color: #141b42;
    
 
     
@@ -1225,7 +1225,7 @@ height: 500px;
 .project-data{
   width: 400px;
   height: 530px;
-background-color: #060a22;
+background-color: #141b42;
 color: white;
   border-radius: 10px;
   padding:10px ;
@@ -1502,7 +1502,7 @@ background-color: #708090;
    display: flex;
    flex-direction: column;
 
-  background-color: #6a7785;
+  background-color: #141b42;
    justify-content: center;
    align-items: center;
 
@@ -1513,7 +1513,7 @@ background-color: #708090;
   margin-left: 12px;
   margin-right: 12px;
     line-height: 1.2;
-    color: #000000;
+    color: white;
     text-decoration: none;
  }
 
