@@ -1106,7 +1106,7 @@ height: 500px;
         .certificate-title{
           margin-left: 12px;
           line-height: 0.5;
-         color: #000000;
+         color: white;
           
         }
                 .div-certificate-more-btn{
@@ -1178,13 +1178,13 @@ height: 500px;
                              }
 
     .certificate-data{
-      color: #000000;
+      color:white;
      width: 350px;
      height: 400px;
      border-radius: 10px;
     display: flex;
       flex-direction: column;
-    background-color: #708090;
+    background-color: #060a22;
    
 
     
@@ -1225,8 +1225,8 @@ height: 500px;
 .project-data{
   width: 400px;
   height: 530px;
-background-color: #708090;
-color: black;
+background-color: #060a22;
+color: white;
   border-radius: 10px;
   padding:10px ;
   display: flex;
