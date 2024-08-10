@@ -573,101 +573,43 @@ gap: 60px;
 .skill-heading{
   text-align: center;
   color: white ;
-  box-shadow: 10px 4px 8px purple;
+  box-shadow: #1e296b;
   
 }
 .skill-head{
-  background-color: #708090;
+  background-color: #1e296b;
   width: 190px;
   text-align: center;
   border-radius: 6px;
-  /* color: white;
-  box-shadow: 12px 12px 12px purple; */
+  color: white;
+  padding: 10px;
 }
-.html-skill {
-  width: 90px;
-  
+.f-skill {
+  width: 190px;
   height: 140px;
-background-color: #708090;
+background-color: #1e296b;
   border-radius: 9px;
- 
 }
-.html-skill:hover{
-transform: scale(0.9);
+.f-skill{
+  width: 90px;
+    height: 100px;
+background-color: #1e296b;
+    border-radius: 9px;
+    float: left;
+      margin-right: 10px;
+      padding: 30px;
 }
-.css-skill:hover{
+.f-skill:hover{
   transform: scale(0.9);
 }
 
-
-.css-skill{
-  width: 90px;
-    height: 140px;
-  background-color: #708090;
-    border-radius: 9px;
-}
-.js-skill:hover{
-  transform: scale(0.9);
-}
-.js-skill{
-  width: 90px;
-    height: 140px;
-background-color: #708090;
-    border-radius: 9px;
-}
-.react-skill:hover{
-  transform: scale(0.9);
-}
-.react-skill{
-  width: 90px;
-    height: 140px;
-background-color: #708090;
-    border-radius: 9px;
-}
-.redux-skill:hover{
-  transform: scale(0.9);
-}
-.redux-skill{
-  width: 90px;
-    height: 140px;
-    background-color: #708090;
-
-    border-radius: 9px;
-}
-.next-skill:hover{
-  transform: scale(0.9);
-}
-.next-skill{
-  width: 90px;
-    height: 140px;
-background-color: #708090;
-    border-radius: 9px;
-}
-.tailwind-skill:hover{
-  transform: scale(0.9);
-}
-.tailwind-skill{
-  width: 90px;
-    height: 140px;
-background-color: #708090;
-    border-radius: 9px;
-}
-.response-skill:hover{
-  transform: scale(0.9);
-}
-.response-skill{
-  width: 90px;
-    height: 140px;
-background-color: #708090;
-    border-radius: 9px;
-}
 .node-skill:hover{
   transform: scale(0.9);
 }
 .node-skill{
   width: 90px;
-    height: 140px;
-background-color: #708090;
+    height: 100px;
+background-color: #1e296b;
     border-radius: 9px;
 }
 .mongo-skill:hover{
@@ -675,8 +617,8 @@ background-color: #708090;
 }
 .mongo-skill{
   width: 90px;
-    height: 140px;
-background-color: #708090;
+    height: 100px;
+background-color: #1e296b;
     border-radius: 9px;
 }
 .sql-skill:hover{
@@ -684,8 +626,8 @@ background-color: #708090;
 }
 .sql-skill{
   width: 90px;
-    height: 140px;
-background-color: #708090;
+    height: 100px;
+background-color: #1e296b;
     border-radius: 9px;
 }
 .mysql-skill:hover{
@@ -694,8 +636,8 @@ background-color: #708090;
 .mysql-skill
 {
      width: 90px;
-     height: 140px;
-background-color: #708090;
+     height: 100px;
+background-color: #1e296b;
      border-radius: 9px;
 }
 .firebase-skill:hover{
@@ -703,8 +645,8 @@ background-color: #708090;
 }
 .firebase-skill{
   width: 90px;
-    height: 140px;
-background-color: #708090;
+    height: 100px;
+background-color: #1e296b;
     border-radius: 9px;
 }
 
@@ -745,47 +687,6 @@ list-style: none;
   flex-wrap: wrap;
 }
 
-.html-skill{
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
-
-}
-.css-skill{
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
-}
-.js-skill{
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
-}
-.react-skill{
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
-}
-.redux-skill{
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
-}
-.next-skill{
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
-}
-.tailwind-skill{
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
-}
-.response-skill{
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
-}
 .node-skill {
   float: left;
     margin-right: 10px;
