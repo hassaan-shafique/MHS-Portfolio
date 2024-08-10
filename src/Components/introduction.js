@@ -16,9 +16,9 @@ const Introduction = () => {
           </div>
 
           <div className="introduction">
-            <h2 className="about-head">
-              About <span>Me </span>
-            </h2>
+            {/* <h2 className="about-head">
+              About Me 
+            </h2> */}
             <div className="intro-description">
               <p className="p-intro-description">
                 I'm a passionate
@@ -40,14 +40,14 @@ const Introduction = () => {
             </div>
           </div>
         </div>
-        <div className='travel-main-div'>
+        {/* <div className='travel-main-div'>
           <Link className="link-div" to="/mytravel">
             <button className="travel-button " role="button">
               
               Explore my Travels
             </button>
           </Link>
-        </div>
+        </div> */}
       </section>
     </>
   );

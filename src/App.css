@@ -399,7 +399,7 @@ gap: 60px;
 }
 .contact-btn {
   align-items: center;
-  background-color: #27347e;
+  background-color: #1e296b;
   /* background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #b5bfc0); */
   border: 0;
   border-radius: 8px;
@@ -424,7 +424,7 @@ gap: 60px;
 
 .Resume-btn {
   align-items: center;
-  background-color:#27347e ;
+  background-color:#1e296b ;
   /* background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #b5bfc0); */
   border: 0;
   border-radius: 8px;
@@ -473,7 +473,7 @@ gap: 60px;
 
 } */
 .about-head{
-  color:  #b1b5b8;
+  color:#27347e ;
 
   
 }
