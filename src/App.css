@@ -1239,10 +1239,10 @@ gap: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #1e296b;
 }
 .service-h{
-  color:black;
+  color:white;
 }
 .link-div{
   text-decoration: none;
