@@ -1378,13 +1378,17 @@ background-color: #1e296b;
   display: block;
   font-weight: bold;
   color: white;
+  padding: 10px;
 }
 
 .form-input {
-  width: 25%;
+  width: 50%;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 3px;
+  padding: 15px;
+  margin: 8px;
+
 }
 
 .form-input:focus {
@@ -1440,4 +1444,18 @@ background-color: #1e296b;
 
  blog-data:hover {
    transform: scale(1.1);
+ }
+ .main-service-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+ }
+ .one-service-form{
+  width: 50%;
+
+ }
+ .second-service-form{
+  width: 50%;
  }

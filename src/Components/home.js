@@ -176,7 +176,7 @@ const redirectToCV = () => {
           
           </div>
         </section>
-        <hr />
+      
 
         {/* home div */}
 
