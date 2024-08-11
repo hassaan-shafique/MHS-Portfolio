@@ -1457,5 +1457,38 @@ background-color: #1e296b;
 
  }
  .second-service-form{
-  width: 50%;
+  width: 35%;
  }
+ .submit-btn-2{
+  background-color: initial;
+    background-color: #1e296b;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 60px;
+    outline: 0;
+    text-align: center;
+    transition: all .3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    width: 190px;
+    
+    
+  }
+  .form-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+ 

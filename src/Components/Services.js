@@ -16,7 +16,7 @@ const Services = () => {
         <form class="project-form">
           <h2 class="form-title">Project Submission Form</h2>
           <div className="main-service-form">
-            <div className='one-service-form'>
+            <div className="one-service-form">
               <label for="firstName" class="form-label">
                 Name:
               </label>
@@ -47,7 +47,7 @@ const Services = () => {
                 class="form-input"
               ></textarea>
             </div>
-            <div className='second-service-form'>
+            <div className="second-service-form">
               <label className="form-label">Product Category</label>
               <select className="form-input">
                 <option>Web Development</option>
@@ -63,12 +63,12 @@ const Services = () => {
               <input type="text" className="form-input" />
             </div>
           </div>
-
-          <button type="submit" class="submit-btn">
-            Submit Request
-          </button>
+          <div className='form-btn'>
+            <button type="submit" class="submit-btn-2">
+              Submit Request
+            </button>
+          </div>
         </form>
-       
       </div>
     </>
   );
