@@ -14,7 +14,7 @@ const BlogData = [
   },
   {
     id: 3,
-    title: "Firebase Authentication",
+    title: "From Input to Output: Managing Form Data Effectively",
 
     imageUrl: "/javaacript-certificate.png",
   },
