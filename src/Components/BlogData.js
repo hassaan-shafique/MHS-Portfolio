@@ -20,8 +20,8 @@ const BlogData = [
   },
   {
     id: 4,
-    title: "Media Queries",
-    imageUrl: "/javaacript-certificate.png",
+    title: "From Plain Text to Rich Text: Integrate Quill in React",
+    imageUrl: "/quill.png",
   },
 ];
 export default BlogData;
