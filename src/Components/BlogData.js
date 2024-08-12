@@ -10,13 +10,13 @@ const BlogData = [
     title:
       "Master Firebase with React: From Basics to Building Secure User Authentication (Signup & Login) & Testing Your Database",
 
-    imageUrl: "/javaacript-certificate.png",
+    imageUrl: "/firebase.png",
   },
   {
     id: 3,
     title: "From Input to Output: Managing Form Data Effectively",
 
-    imageUrl: "/javaacript-certificate.png",
+    imageUrl: "/form-blog.png",
   },
   {
     id: 4,
