@@ -8,7 +8,7 @@ const Skills = () => {
           <h1> Skills</h1>
         </div>
         <div className="Front-end">
-          <h2 className="skill-head"> Front-End </h2>
+          {/* <h2 className="skill-head"> Front-End </h2> */}
           <ul className="front-end-ul">
             <li className="f-skill">
               <img height={80} width={80} src="/skills/html.png" alt="HTML" />
@@ -59,6 +59,15 @@ const Skills = () => {
               <img
                 height={80}
                 width={80}
+                src="/material.png"
+                alt="CSS"
+              />
+              <h4 className="s-text">Material UI</h4>
+            </li>
+            <li className="f-skill">
+              <img
+                height={80}
+                width={80}
                 src="/skills/responsive-device.png"
                 alt="Responsive"
               />
@@ -67,7 +76,7 @@ const Skills = () => {
           </ul>
         </div>
         <div className="backend">
-          <h2 className="skill-head"> Backend </h2>
+          {/* <h2 className="skill-head"> Backend </h2> */}
 
           <ul className="backend-ul">
             <li className="node-skill">
@@ -86,7 +95,7 @@ const Skills = () => {
          RESTful APIs */}
         </div>
         <div className="database">
-          <h2 className="skill-head"> Databases </h2>
+          {/* <h2 className="skill-head"> Databases </h2> */}
           <ul className="db-ul">
             <li className="mongo-skill">
               <img
@@ -123,7 +132,7 @@ const Skills = () => {
         Data Modeling */}
         </div>
         <div className="toolsandtechnologies">
-          <h2 className="skill-head"> Tools And Technologies </h2>
+          {/* <h2 className="skill-head"> Tools And Technologies </h2> */}
           <ul className="tools-ul">
             <li className="mongo-skill">
               <img
