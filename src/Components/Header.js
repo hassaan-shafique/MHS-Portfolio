@@ -76,6 +76,7 @@ projectsection.scrollIntoView({behavior:"smooth"});
             <Link href="#Certifications" onClick={scrolltoBlog}>
               Blogs
             </Link>
+          
           </ul>
         </div>
       </nav>

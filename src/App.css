@@ -79,7 +79,7 @@ left: 10px;
   align-items: center;
   display: flex;
   padding: 20px;
-  gap: 40px;
+  gap: 20px;
   justify-content: center;
   /* margin-left: 400px; */
   text-decoration: none;
@@ -198,31 +198,27 @@ nav ul{
   align-items: center;
   flex-direction: column-reverse;
 }
-.hire{
-  display: flex;
-  
-  flex-direction: column;
-  
-}
+
+
+
   
     .hire-div{
-     
-  
-           margin-top: -42px;
       display: flex;
       justify-content: flex-start ;
-      gap: 10px;
-     
-     
+      gap: 0px;
       justify-content: center;
-    
-
     }
     .hire-div:first-child {
       margin-top: 12px;
-     
 
     }
+}
+.text-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
 }
 .welcome-div{
   /* position: relative;
@@ -286,34 +282,51 @@ margin-bottom: 130px;
   white;
 }
 .hire-div{
- 
-
-  font-size: 18px;
- 
-  width: 300px;
+  font-size: 20px;
+ font-weight: 600;
+  width: 100px;
   height: 70px;
+text-decoration: none;
+color: white;
 
 }
-.hire-div:hover{
-  transform: scale(1.2);
-}
-.hire{
+.freelance-buttons {
   display: flex;
+  gap: 20px;
   justify-content: center;
-  align-items: center;
-  color: white;
-  gap: 90px;
-  width: 100%;
-  height: 70px;
-  position: absolute;
-  top: 70px;
+ 
 }
+
+.freelance-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1e296b;
+  padding: 10px;
+  border-radius: 19px;
+  transition: transform 0.2s;
+}
+
+.freelance-button:hover {
+  transform: scale(1.05);
+ 
+}
+
+.freelance-button img {
+  margin-bottom: 5px;
+}
+.freelance-button span{
+  font-weight: 700;
+}
+
+
 
 a {
   display: flex;
   align-items: center;
   color: inherit;
-  
 }
 .h-welcome{
   /* position: absolute; */
@@ -322,7 +335,7 @@ a {
   background-color: #060a22;
   background: linear-gradient(to right, #141b42, #1d2553, #222c61, #303b7a);
   color: white;
-  margin-left: 150px;
+  margin-left: 90px;
   margin-top:150px;
   display: flex;
   justify-content: center;
@@ -336,22 +349,18 @@ a {
   display:flex;
 }
 .home-intro{
-  margin-left: 80px;
-
+  margin-left: 10px;
   line-height: 1.5;
   font-size: 28px;
   color: #ffffff;
-  text-shadow: 1px 2px 8px  white;
-  
 
 }
+
+
 .icons{
   display: flex;
   flex-wrap: wrap;
 
-}
-.Contact-icons:hover{
-  transform: scale(1.1);
 }
 .Contact-icons{
  position: relative;
@@ -381,11 +390,7 @@ gap: 60px;
   text-decoration: none;
   cursor: pointer;
   height: 40px;
-  
- 
-
 }
-
 .Resume-btn {
   align-items: center;
   background-color:#1e296b ;
@@ -425,7 +430,7 @@ gap: 60px;
   justify-content: center;
   align-items: center;
   gap: 100px;
-  margin-top: 40px;
+  margin-top: 60px;
 
 
 }
@@ -681,10 +686,6 @@ color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-  
-  
 }
 .contact-icons2 {
 
@@ -721,8 +722,8 @@ color: white;
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #141b42;
-  /* Primary theme color */
+  color: white;
+  
 }
 
 .main-experience {

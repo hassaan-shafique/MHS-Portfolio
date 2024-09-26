@@ -38,31 +38,6 @@ const redirectToCV = () => {
     <>
       <Header />
       <section className="home-content">
-        <div className="hire">
-          <Link
-            className="hire-div"
-            to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
-            target="_blank"
-          >
-            <img width={50} height={35} src="/fiverr-1.svg" alt="fiver logo" />
-            Hire me on Fiver
-          </Link>
-
-          <Link
-            className="hire-div"
-            to="https://www.upwork.com/freelancers/~017aa4bff4acd7fe70"
-            target="_blank"
-          >
-            <img
-              width={50}
-              height={35}
-              src="/upwork-icon.svg"
-              alt="Upwork logo"
-            />
-            Hire me on Upwork
-          </Link>
-        </div>
-
         {/* <div className="home-main"> */}
 
         <section className="welcome-div">
@@ -71,9 +46,25 @@ const redirectToCV = () => {
 
             <h1 className="home-intro">
               Hello, I am Muhammad Hassaan Shafique <br />
-              I'm a Software Engineer
-            </h1>
+              I'm a Full Stack Developer
+              </h1>
+
             <div class="Contact-icons">
+              <div className="freelance-buttons">
+                <Link
+                  to="https://www.upwork.com/freelancers/~017aa4bff4acd7fe70"
+                  target="_blank"
+                  className="freelance-button"
+                >
+                  <img
+                    width={70}
+                    height={65}
+                    src="/upwork-icon.svg"
+                    alt="Upwork logo"
+                  />
+                  <span>Hire on Upwork</span>
+                </Link>
+              </div>
               <Link
                 to="https://mail.google.com/mail/u/0/#inbox?compose=new"
                 target="_blank"
@@ -153,6 +144,22 @@ const redirectToCV = () => {
                   alt="medium icon"
                 />
               </Link>
+
+              <div className="freelance-buttons">
+                <Link
+                  to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
+                  target="_blank"
+                  className="freelance-button"
+                >
+                  <img
+                    width={70}
+                    height={65}
+                    src="/fiverr-1.svg"
+                    alt="Fiverr logo"
+                  />
+                  <span>Hire on Fiverr</span>
+                </Link>
+              </div>
             </div>
 
             <div className="home-btns">
@@ -165,7 +172,7 @@ const redirectToCV = () => {
               </button>
             </div>
           </div>
-          <div className='image-container'>
+          <div className="image-container">
             <img
               className="home-image"
               width={510}
@@ -173,10 +180,8 @@ const redirectToCV = () => {
               src="/hassaan-home.png"
               alt="homeImage"
             />
-          
           </div>
         </section>
-      
 
         {/* home div */}
 
