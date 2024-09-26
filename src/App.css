@@ -20,11 +20,6 @@ backdrop-filter: blur(100px);
   margin:0;
   gap: 120px;
   position: fixed;
-  
-  
-  
-
-
 }
 
 .logo{
@@ -59,9 +54,6 @@ nav ul {
 
 }
 
-
-
-
 .mhs {
   font-size: 20px;
 
@@ -75,8 +67,6 @@ nav ul {
   align-items: center;
   position:absolute;
 left: 10px;
-
-
 
 }
 .links a:hover{
@@ -157,18 +147,6 @@ nav ul{
 
  }
 
-
-/* @media screen and (max-width: 1300px){
-  .welcome-div{
-    width: 400px;
-  
-   
-  }
-  .home-main{
-    display: flex;
-    flex-direction: column;
-  }
-} */
 @media screen and (max-width: 1000px) {
   .home-main {
  display: flex;
@@ -207,13 +185,7 @@ nav ul{
     gap: 20px;
   }
 
-  /* .Home-image {
-    margin-top: 20px;
-    display: none;
-  } */
- /* .Home-image {
-   display: none;
- } */
+
   .home-intro {
     text-align: center;
     line-height: 1.5;
@@ -225,20 +197,13 @@ nav ul{
   justify-content: center;
   align-items: center;
   flex-direction: column-reverse;
-
-
 }
 .hire{
   display: flex;
   
   flex-direction: column;
- 
-  
   
 }
-
-  
-
   
     .hire-div{
      
@@ -309,18 +274,7 @@ margin-bottom: 130px;
 
 }
 
-/* .contact-btn{ */
-  /* border-radius: 30px;
-  width: 120px;
-  height: 40px;
- 
-  background-color: #8888f0;
-  color: white;
-  border: none;
-  font-size: 20px; */
 
-
-/* } */
 
 .contact-btn:hover{
   transform: scale(1.2);
@@ -338,10 +292,6 @@ margin-bottom: 130px;
  
   width: 300px;
   height: 70px;
-  /* display: flex;
-justify-content: center;
-align-items: center; */
-
 
 }
 .hire-div:hover{
@@ -462,45 +412,13 @@ gap: 60px;
   height: 40px;
 }
 
-
-/* .resume-div{
-  position: absolute;
-  margin-top: 60px;
-  display: flex;
-  margin-left : 120px;
-  cursor: pointer;
- 
-
-} */
-/* .Resume-btn { 
-  border-radius: 30px;
-  width: 150px;
-  height: 40px; */
-  /* margin-left: 220px; */
-  /* background-color: #8888f0;
-
-  color: white;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
- 
-
-} */
 .about-head{
-  color:#27347e ;
-
-  
+  color:#27347e ; 
 }
 .Resume-btn:hover{
  transform: scale(1.2);
 
 }
-
-/* .Home-image img {
-  position: relative;
-  margin-left:800px;
-
-} */
 
 .home-btns{
   display: flex;
@@ -534,14 +452,15 @@ gap: 60px;
         }
   
 }
+
+
+/* INTRODUCTION SECTION */
 .intro-main{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
   
-
-
 
 }
 
@@ -553,25 +472,6 @@ gap: 60px;
   text-align: justify;
 }
 
-
-/* Section No 2 Introduction Section  */
-/* .intro-heading{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* img {
-  box-shadow: 5px 5px 10px rgba(139, 122, 122, 0.4);
-} */
-
-
-/* .About-img{
-  
-   margin-right: 850px;
-   margin-top: 100px;
-   width: 500px;
-   
-} */
 
 
 .introduction {
@@ -807,26 +707,154 @@ color: white;
 }
 
 .footer{
- 
   width: 100%;
   height: 70px;
   background-color: #1e296b ;
-
-  
- 
-
-
-
 }
 
 .skill-head{
   margin-left: 100px;
 }
-.experience-head{
-  text-align: center;
-color:white;
 
+/* Experience Section */
+.experience-head {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #141b42;
+  /* Primary theme color */
 }
+
+.main-experience {
+  display: flex;
+  flex-wrap: wrap;
+  /* Ensure cards wrap on smaller screens */
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  /* Ensure even spacing */
+}
+
+/* Experience Item */
+.experience-item {
+  background-color: #141b42;
+  /* Primary theme color */
+  border: none;
+  border-radius: 8px;
+  padding: 1.5rem;
+  color: white;
+  /* White text for contrast */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  flex-basis: 490%;
+  /* Ensure cards are the same width */
+  max-width: 50%;
+  /* Limit width to a fixed size */
+  box-sizing: border-box;
+  /* Ensure padding and borders are included in width */
+}
+
+.experience-item:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  /* Darker shadow for hover effect */
+}
+
+/* Company and Date Section */
+.company-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.company {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #ffffff;
+  /* White for company name */
+}
+
+.date,
+.location {
+  font-size: 0.95rem;
+  color: #d1d5db;
+  /* Light gray-blue for subtle contrast */
+}
+
+/* Role and Skills Section */
+.role {
+  margin-bottom: 1rem;
+}
+
+.role h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  /* White for role heading */
+}
+
+.skill-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skill-flex h5 {
+  margin: 0;
+  font-weight: 600;
+  color: #ffffff;
+  /* White for skill heading */
+}
+
+.skill-flex p {
+  margin: 0;
+  color: #d1d5db;
+  /* Light gray-blue for skills */
+}
+
+/* Roles and Responsibilities Section */
+.job-roles h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  /* White for job roles heading */
+}
+
+.job-roles ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.job-roles ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #d1d5db;
+  /* Light gray-blue for list items */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .company-date {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .main-experience {
+    padding: 1rem;
+  }
+
+  .experience-item {
+    flex-basis: 100%;
+    /* Full width on small screens */
+    max-width: 100%;
+  }
+}
+
+
+
 .company-date{
   display: flex;
   justify-content: center;
@@ -846,9 +874,6 @@ color:white;
   justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
-
-
-
   
 }
 .Ivory-solutions{
@@ -866,35 +891,34 @@ background-color: #1e296b ;
 .Care{
 
 
-    width: 650px;
-    height: 300px;
-      padding: 20px;
-      border-radius: 8px;
-      color: white;
-      background-color: #1e296b;
+width: 650px;
+height: 300px;
+padding: 20px;
+border-radius: 8px;
+color: white;
+background-color: #1e296b;
 
 }
 
 .work{
 
-    width: 650px;
-    height: 300px;
-    color: white;
-      padding: 20px;
-      border-radius: 8px;
-    background-color: #1e296b;
+ width: 650px;
+ height: 300px;
+ color: white;
+ padding: 20px;
+ border-radius: 8px;
+ background-color: #1e296b;
 }
 
 
 
 .shark-technology{
 background-color: #1e296b;
-    width: 650px;
-
-    height: 300px;
-   color: white;
-      padding: 20px;
-      border-radius: 8px ;
+width: 650px;
+height: 300px;
+color: white;
+padding: 20px;
+ border-radius: 8px ;
 
 }
 
@@ -954,57 +978,9 @@ height: 500px;
   align-items: center;
   flex-wrap: wrap;
 
-    }
+    } 
      
-    @media screen and (max-width:1090){
-      .education{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-      }
-    }
-        @media screen and (max-width: 785px) {
-
-        .university {
-           height: 550px;
-          }
-          .college{
-            height: 200px;
-          }
-          .school{
-            height: 200px;
-          }
-        }
-                 @media screen and (max-width: 729px) {
-                   .university {
-                     height: 600px;
-                   }
-                 }
-                                    @media screen and (max-width: 665px) {
-                                      .university {
-                                        height: 500px;
-                                      }
-                                    }
-             @media screen and (max-width: 699px) {
-               .Care {
-                 height: 400px;
-               }
-               .work{
-              height: 400px;
-               }
-               .shark-technology{
-                  height: 400px;
-
-               }
-               .Ivory-solutions{
-                height: 400px;
-               }
-             }
-
-    .year{
-      text-align: center;
-      font-size: 12px;
-    }
+  
     
     
     .certificate-main{
@@ -1134,25 +1110,27 @@ height: 500px;
 
     }
     
-.project-data{
-  width: 400px;
-  height: 530px;
-background-color: #1e296b;
-color: white;
-  border-radius: 10px;
-  padding:10px ;
-  display: flex;
-  flex-direction: column;
-  
 
-}
 
+/* Projects */
 
 .projects{
   display: flex;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
+}
+.project-data {
+  width: 400px;
+  height: 530px;
+  background-color: #1e296b;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+
 }
 
 .project-btn{
