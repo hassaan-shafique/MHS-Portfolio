@@ -64,8 +64,8 @@ const Contact = () => {
               onChange={(e) => setMessage(e.target.value)}
               value={message}
               name="Message"
-              rows="9"
-              cols="70"
+              rows="5"
+              cols="44"
               placeholder="Enter your message here..."
               required
             />

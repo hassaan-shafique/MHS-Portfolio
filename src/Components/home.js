@@ -47,9 +47,24 @@ const redirectToCV = () => {
             <h1 className="home-intro">
               Hello, I am Muhammad Hassaan Shafique <br />
               I'm a Full Stack Developer
-              </h1>
+            </h1>
 
-            <div class="Contact-icons">
+            <div className='freelance-div'>
+              <div className="freelance-buttons">
+                <Link
+                  to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
+                  target="_blank"
+                  className="freelance-button"
+                >
+                  <img
+                    width={70}
+                    height={65}
+                    src="/fiverr-1.svg"
+                    alt="Fiverr logo"
+                  />
+                  <span> Fiverr</span>
+                </Link>
+              </div>
               <div className="freelance-buttons">
                 <Link
                   to="https://www.upwork.com/freelancers/~017aa4bff4acd7fe70"
@@ -62,9 +77,12 @@ const redirectToCV = () => {
                     src="/upwork-icon.svg"
                     alt="Upwork logo"
                   />
-                  <span>Hire on Upwork</span>
+                  <span>Upwork</span>
                 </Link>
               </div>
+            </div>
+
+            <div class="Contact-icons">
               <Link
                 to="https://mail.google.com/mail/u/0/#inbox?compose=new"
                 target="_blank"
@@ -144,23 +162,8 @@ const redirectToCV = () => {
                   alt="medium icon"
                 />
               </Link>
-
-              <div className="freelance-buttons">
-                <Link
-                  to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
-                  target="_blank"
-                  className="freelance-button"
-                >
-                  <img
-                    width={70}
-                    height={65}
-                    src="/fiverr-1.svg"
-                    alt="Fiverr logo"
-                  />
-                  <span>Hire on Fiverr</span>
-                </Link>
-              </div>
             </div>
+            
 
             <div className="home-btns">
               <Link className="link-div" to="/service">

@@ -93,6 +93,7 @@ const Experience = () => {
         "Specialized in a Home Insurance campaign...",
         "Developed strong communication skills...",
         "Achieved fluency in English...",
+        
       ],
     },
     {
