@@ -107,20 +107,23 @@ nav{
 
 nav ul.open.home-content{
 margin-top: 200px;
+
 }
 nav ul.open {
+  
   display: flex;
   flex-direction: column;
-  max-width: 120px;
-  background-color: transparent;
+  max-width: 220px;
+ background-color: #141b42;
   color: white;
   justify-content: center;
-  /* Corrected property for alignment */
-  margin-top: 65px;
+  
+
+  margin-top: 75px;
   /* Removed margin-left: 780px;  */
 
   position: fixed;
-  /* Key for responsiveness */
+  
   top: 0;
   right: 0;
   /* Ensures it stays on the right side */
@@ -134,6 +137,7 @@ nav ul{
   flex-direction: column;
   width: 100%;
   margin-bottom: 0.25rem;
+  
   
 }
 .header.open{
@@ -502,7 +506,8 @@ gap: 60px;
 }
 @media screen and (max-width: 1000px) 
 {
-  .intro-main {
+  .intro-main
+   {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -581,6 +586,20 @@ gap: 60px;
   margin-top: 10px;
 
 }
+.r-text{
+  color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -10px;
+
+
+}
+.j-text{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+
+}
 .f-skill {
   width: 190px;
   height: 140px;
@@ -595,7 +614,39 @@ background-color: #141b42;
     float: left;
       padding: 30px;
 }
-.f-skill:hover{
+@media (max-width:480px){
+  .f-skill{
+    width: 40px;
+    height: 70px;
+    
+  }
+  .f-skill img{
+    width: 40px;
+    height: 45px;
+  }
+  .f-skill h4 {
+    font-size: 12px;
+  }
+    .j-text {
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+      margin-left: -10px;
+  
+    }
+    
+    .s-text{
+      font-size: 12px;
+    }
+   
+    
+
+       
+        
+        
+}
+
+.f-skill:hover{ 
   transform: scale(0.9);
 }
 
@@ -646,6 +697,7 @@ background-color: #141b42;
     border-radius: 9px;
 }
 
+
 .front-end-ul{
   list-style: none;
     overflow: hidden;
@@ -654,41 +706,11 @@ background-color: #141b42;
     align-items: center;
     justify-content: center;
     gap: 10px;
-}
-.backend-ul{
-  list-style: none;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-.db-ul{
-    list-style: none;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-.tools-ul{
-list-style: none;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+    margin-right: 30px;
 }
 
-.node-skill {
-  float: left;
-    margin-right: 10px;
-    padding: 30px;
 
-}
+
 .mongo-skill{
   float: left;
     margin-right: 10px;
@@ -711,10 +733,7 @@ list-style: none;
 }
 
 
-
-.skill-des{
-  margin-left: 18px;
-}
+/* Head SECTION */
 .project-head{
   text-align: center;
   color: white;
