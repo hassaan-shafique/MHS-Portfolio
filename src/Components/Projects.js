@@ -7,8 +7,11 @@ import { Link } from 'react-router-dom';
 
 
 
+
  
 const Projects = ( ) => {
+
+
   return (
     <section id="projects">
       <h1 className="project-head"> Recent Projects</h1>
@@ -43,9 +46,11 @@ const Projects = ( ) => {
         })}
       </div>
       <div className="div-certificate-more-btn">
-        <Link className='link-div'>
-          to='/moreProjects'
-          <button className="project-more-btn">See More </button>
+        <Link className='link-div'
+        to="/moreprojects"
+        >
+         
+          <button className="project-more-btn">See More</button>
         </Link>
       </div>
     </section>
