@@ -122,7 +122,9 @@ const Experience = () => {
       <h1 className="experience-head">Experience</h1>
       <div className="main-experience">
         {experiences.map((experience, index) => (
+           
           <ExperienceItem
+        
             key={index}
             company={experience.company}
             date={experience.date}

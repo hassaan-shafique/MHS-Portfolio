@@ -836,6 +836,7 @@ color: white;
   margin: 0 auto;
   justify-content: space-between;
   /* Ensure even spacing */
+  
 }
 
 /* Experience Item */
@@ -1065,6 +1066,10 @@ gap: 40px;
   line-height: 0.1%;
   
 }
+.experience-data{
+  border: 1px solid white;
+
+}
 
 .main-experience{
   display: flex;
@@ -1073,6 +1078,7 @@ gap: 40px;
   justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
+  
   
 }
 .skill-flex {
@@ -1174,6 +1180,7 @@ gap: 40px;
     display: flex;
       flex-direction: column;
     background-color: #141b42;
+    border: solid 1px white;
     }
 @media (max-width: 480px) {
   .certificate-data {
@@ -1248,6 +1255,7 @@ gap: 40px;
   padding: 10px;
   display: flex;
   flex-direction: column;
+  border: solid 1px white;
 }
 @media screen and (max-width: 480px) {
   .project-data {
@@ -1521,7 +1529,7 @@ background-color: #1e296b;
    border-radius: 10px;
    display: flex;
    flex-direction: column;
-
+border: 0.1px solid white;
   background-color: #141b42;
    justify-content: center;
    align-items: center;
