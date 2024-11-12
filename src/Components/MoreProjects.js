@@ -1,6 +1,6 @@
 // MoreProjects.js
 import React from "react";
-import moreProjectData from "../Components/MoreProjectsData";
+import moreProjectData from "./MoreProjectsData";
 
 const MoreProjects = () => {
  

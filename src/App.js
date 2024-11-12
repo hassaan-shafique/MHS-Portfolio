@@ -1,27 +1,24 @@
+// Import global styles
+import "./App.css";
 
-import './App.css';
+// Import necessary components
+import Home from "./components/Home";
+import MoreProjects from "./components/MoreProjects";
+import Services from "./components/Services";
 
-import Home from './Components/Home';
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import MoreProjects from './Components/MoreProjects';
-import Services from './Components/Services';
-import Travel from './Components/Travel';
+// Import React Router components
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route index path="/" element={<Home/>} />
-        
-          <Route path="/moreprojects" element={<MoreProjects/>}/>
-          <Route path="/service" element={<Services />} />
-          <Route path='/mytravel' element={<Travel/>}/>
-        </Routes>
-      </BrowserRouter>
-
-     
-    </>
+    <BrowserRouter>
+      <Routes>
+        {/* Define routes with accurate paths */}
+        <Route path="/" element={<Home />} />
+        <Route path="/moreprojects" element={<MoreProjects />} />
+        <Route path="/service" element={<Services />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

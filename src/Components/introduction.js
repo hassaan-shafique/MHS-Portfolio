@@ -1,18 +1,17 @@
 import React from 'react'
 
 
+
 const Introduction = () => {
   return (
     <>
       <section id="introduction">
         <div className="intro-main">
           <div className="About-img">
-            <image
-              width={600}
-              height={460}
-              src="/skills/web-template.png"
-              alt="About me picture"
-            />
+            <img
+              width={600}    height={460} src="/skills/web-template.png"   alt="About me"  
+                
+              />
           </div>
 
           <div className="introduction">
