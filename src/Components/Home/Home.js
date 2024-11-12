@@ -1,14 +1,14 @@
 import React from 'react'
-import Contact from './Contact.js'
+import Contact from '../Contact.js'
 import { Link } from 'react-router-dom';
-import Introduction from './Introduction.js';
-import Skills from './Skills.js';
-import Projects from './Projects.js';
-import Experience from './Experience.js';
-import Certifications from './Certifications.js';
-import Footer from './Footer.js';
-import Header from './Header.js';
-import Blog from './Blog.js';
+import Introduction from '../Introduction.js';
+import Skills from '../Skills.js';
+import Projects from '../Projects.js';
+import Experience from '../Experience.js';
+import Certifications from '../Certifications.js';
+import Footer from '../Footer.js';
+import Header from '../Header.js';
+import Blog from '../Blog.js';
 
 
 
