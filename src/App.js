@@ -2,7 +2,7 @@
 import "./App.css";
 
 // Import necessary components
-import {Home} from "./components/Home";
+import Home from "./components/Home";
 import MoreProjects from "./components/MoreProjects";
 import Services from "./components/Services";
 
@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* Define routes with accurate paths */}
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/moreprojects" element={<MoreProjects />} />
         <Route path="/service" element={<Services />} />
       </Routes>
