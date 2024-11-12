@@ -203,4 +203,4 @@ const redirectToCV = () => {
   );
 }
 
-export default Home
+export default Home;
