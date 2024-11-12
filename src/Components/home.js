@@ -20,12 +20,12 @@ const Home = () => {
 
 
 
-  const HandleContact = () => {
-    const contactSection =document.getElementById("contact");
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const HandleContact = () => {
+  //   const contactSection =document.getElementById("contact");
+  //   if (contactSection) {
+  //     contactSection.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
 const redirectToCV = () => {
   window.open("/Muhammad_Hassaan_Shafique-CV.pdf", '_blank');
 

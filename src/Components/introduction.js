@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
 
 const Introduction = () => {
   return (
@@ -7,7 +7,7 @@ const Introduction = () => {
       <section id="introduction">
         <div className="intro-main">
           <div className="About-img">
-            <img
+            <image
               width={600}
               height={460}
               src="/skills/web-template.png"

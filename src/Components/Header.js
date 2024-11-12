@@ -27,10 +27,7 @@ projectsection.scrollIntoView({behavior:"smooth"});
    const certificationsection = document.getElementById("certifications");
    certificationsection.scrollIntoView({ behavior: "smooth" });
  };
- const scrolltoEducation = () => {
-  const educationsection =document.getElementById("education");
-  educationsection.scrollIntoView({behavior:"smooth"});
- }
+ 
  const scrolltoBlog = () => {
    const blogsection = document.getElementById("education");
    blogsection.scrollIntoView({ behavior: "smooth" });
@@ -66,7 +63,7 @@ projectsection.scrollIntoView({behavior:"smooth"});
             <Link href="#Projects" onClick={scrolltoProject}>
               Projects
             </Link>
-            <Link href="#Projects" onClick={scrolltoProject}>
+            <Link href="#Projects" >
               Experience
             </Link>
 
