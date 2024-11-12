@@ -29,7 +29,7 @@ projectsection.scrollIntoView({behavior:"smooth"});
  };
  
  const scrolltoBlog = () => {
-   const blogsection = document.getElementById("education");
+   const blogsection = document.getElementById("blogs");
    blogsection.scrollIntoView({ behavior: "smooth" });
  };
  

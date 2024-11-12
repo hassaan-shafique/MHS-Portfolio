@@ -1,38 +1,41 @@
-import React from 'react'
+import React from "react";
 import BlogData from "./BlogData";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <>
-      <section id="blogs">
-        <h1 className="blog-head"> Blogs</h1>
+    <section id="blogs">
+      <h1 className="blog-head">Blogs</h1>
 
-        <div className="blog-main">
-          {BlogData.map((blog) => {
-            return (
-              <Link to="https://medium.com/@hassaanshafique398" target="_blank">
-                <div className="blog-data" key={blog.id}>
-                  <img
-                    width={330}
-                    height={280}
-                    src={blog.imageUrl}
-                    alt={blog.title}
-                  />
-                  <div className="blog-title">
-                    <h4> {blog.title} </h4>
-                  </div>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-        <div className="div-certificate-more-btn">
+      <div className="blog-main">
+        {BlogData.map(({ id, imageUrl, title, link }) => (
+          <Link
+            to={{ pathname: link || "https://medium.com/@hassaanshafique398" }}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={id}
+          >
+            <div className="blog-data">
+              <img width={330} height={280} src={imageUrl} alt={title} />
+              <div className="blog-title">
+                <h4>{title}</h4>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      <div className="div-certificate-more-btn">
+        <Link
+          to="https://medium.com/@hassaanshafique398"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="blog-more-btn">Explore More Blogs</button>
-        </div>
-      </section>
-    </>
+        </Link>
+      </div>
+    </section>
   );
-}
+};
 
-export default Blog
+export default Blog;
