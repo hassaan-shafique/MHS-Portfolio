@@ -195,9 +195,9 @@ const redirectToCV = () => {
       <Skills />
       <Projects />
       <Experience />
-      <Certifications />
+      <Certifications/>
       <Blog />
-      <Contact />
+      <Contact/>
       <Footer />
     </>
   );
