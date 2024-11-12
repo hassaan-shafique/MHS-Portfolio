@@ -2,7 +2,7 @@
 import "./App.css";
 
 // Import necessary components
-import Home from "./components/Home";
+import {Home} from "./components/Home";
 import MoreProjects from "./components/MoreProjects";
 import Services from "./components/Services";
 
