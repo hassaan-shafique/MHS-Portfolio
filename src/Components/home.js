@@ -30,8 +30,6 @@ const redirectToCV = () => {
   window.open("/Muhammad_Hassaan_Shafique-CV.pdf", '_blank');
 
 };
- 
-
 
 
   return (
@@ -82,7 +80,7 @@ const redirectToCV = () => {
               </div>
             </div>
 
-            <div class="Contact-icons">
+            <div className="Contact-icons">
               <Link
                 to="https://mail.google.com/mail/u/0/#inbox?compose=new"
                 target="_blank"
