@@ -1632,7 +1632,7 @@ border: 0.1px solid white;
     }
   
     .more-project-card {
-      width: 300px;
+      width: 350px;
       padding: 20px;
       border: 1px solid #8ea0db;
       border-radius: 8px;
@@ -1640,6 +1640,8 @@ border: 0.1px solid white;
       text-align: center;
       transition: transform 0.2s;
       background-color: #141b42;
+      overflow: hidden;
+      
     }
   
     .more-project-card:hover {
@@ -1647,10 +1649,11 @@ border: 0.1px solid white;
     }
   
     .more-project-image {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
+      width: 350px;  
+      height: 290px; 
+      overflow: hidden; 
       border-radius: 8px;
+      object-fit: cover; 
     }
   
     .more-project-title {
@@ -1662,11 +1665,13 @@ border: 0.1px solid white;
     .more-project-stack {
       font-weight: bold;
       color: white;
+      font-size:18px ;
     }
   
     .more-project-description {
       margin: 10px 0;
       color: white;
+      font-size: 20px;
     }
         .moreproject-btns{
           display: flex;

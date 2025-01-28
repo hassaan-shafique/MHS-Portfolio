@@ -11,32 +11,17 @@ import Header from '../Header.js';
 import Blog from '../Blog.js';
 
 
-
-
-
-
 const Home = () => {
 
-
-
-
-  // const HandleContact = () => {
-  //   const contactSection =document.getElementById("contact");
-  //   if (contactSection) {
-  //     contactSection.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
 const redirectToCV = () => {
   window.open("/Muhammad_Hassaan_Shafique-CV.pdf", '_blank');
 
 };
 
-
   return (
     <>
       <Header />
       <section className="home-content">
-        {/* <div className="home-main"> */}
 
         <section className="welcome-div">
           <div className="text-div">
@@ -44,10 +29,10 @@ const redirectToCV = () => {
 
             <h1 className="home-intro">
               Hello, I am Muhammad Hassaan Shafique <br />
-              I'm a Full Stack Developer
+              I'm a Software Engineer
             </h1>
 
-            <div className='freelance-div'>
+            {/* <div className='freelance-div'>
               <div className="freelance-buttons">
                 <Link
                   to="https://www.fiverr.com/hassaanshafique/convert-figma-ui-design-to-reactjs-and-nextjs-responsive"
@@ -78,7 +63,7 @@ const redirectToCV = () => {
                   <span>Upwork</span>
                 </Link>
               </div>
-            </div>
+            </div> */}
 
             <div className="Contact-icons">
               <Link
