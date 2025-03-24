@@ -14,6 +14,13 @@ const Projects = ( ) => {
         {projectData.map((project) => {
           return (
             <div className="project-data" key={project.id}>
+               <div className="project-title">
+                  <h4> {project.title} </h4>
+                 
+                </div>
+                
+                  
+                
               <img
                 width={400}
                 height={400}
@@ -21,14 +28,11 @@ const Projects = ( ) => {
                 alt={project.title}
               />
               <div className="project-card-des">
-                <div className="project-title">
-                  <h4> {project.title} </h4>
-                </div>
-                <div>
-                  <p>{project.stack}</p>
-                </div>
+               
+             
 
                 <div className="project-description">
+                <p>{project.stack}</p>
                   <p> {project.description} </p>
                 </div>
               </div>

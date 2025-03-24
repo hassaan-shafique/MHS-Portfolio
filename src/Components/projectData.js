@@ -1,27 +1,27 @@
 const projectData = [
   {
     id: "1",
-    title: "Amazon Clone ",
-    stack: "HTML | CSS",
+    title: "Inventory And Sales Management ",
+    stack: "React | Firebase | Material UI",
     description:
       "this is a project 1 and there i will write the description of the project 1 a small summary where people can understand what this project is doing ",
-    imageUrl: "/skills/projects.jpg",
+    imageUrl: "/skills/1 login page.png",
   },
   {
     id: "2",
-    title: "Ivory Solution Website",
-    stack: " React",
+    title: "People's Blog",
+    stack: " React | Firebase | Tailwind",
     description:
       "this is a project 1 and there i will write the description of the project 1 a small summary where people can understand what this project is doing",
-    imageUrl: "/skills/projects.jpg",
+    imageUrl: "/skills/blog.png",
   },
   {
     id: "3",
-    title: "Real-Time Chat Application",
-    stack: " React | Node.js | Firebase | Mongodb",
+    title: "Task Tracker",
+    stack: " React | Firebase | TailwindCss",
     description:
       "this is a project 1 and there i will write the description of the project 1 a small summary where people can understand what this project is doing",
-    imageUrl: "/skills/projects.jpg",
+    imageUrl: "/skills/taskflow.png",
   },
   {
     id: "4",
@@ -29,7 +29,7 @@ const projectData = [
     stack: "Next js | Firebase",
     description:
       "this is a project 1 and there i will write the description of the project 1 a small summary where people can understand what this project is doing",
-    imageUrl: "/skills/projects.jpg",
+    imageUrl: "/skills/ecommerce.jpg",
   },
   // Add more projects as needed
 ];

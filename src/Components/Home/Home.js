@@ -14,9 +14,17 @@ import Blog from '../Blog.js';
 const Home = () => {
 
 const redirectToCV = () => {
-  window.open("/Muhammad_Hassaan_Shafique-CV.pdf", '_blank');
+  window.open("/Muhammad-Hassaan-Shafique-CV.pdf", '_blank');
+  
 
 };
+const scrollToContact = () => {
+  const contactSection = document.getElementById("contact");
+  if (contactSection) {
+    contactSection.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 
   return (
     <>
@@ -149,8 +157,10 @@ const redirectToCV = () => {
             
 
             <div className="home-btns">
-              <Link className="link-div" to="/service">
-                <button className="contact-btn">Request a Service</button>
+              <Link className="link-div" >
+              <button className="contact-btn" onClick={scrollToContact}>
+      Contact
+    </button>
               </Link>
 
               <button className="Resume-btn" onClick={redirectToCV}>

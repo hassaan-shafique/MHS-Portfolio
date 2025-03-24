@@ -31,7 +31,7 @@ const Blog = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="blog-more-btn">Explore More Blogs</button>
+          <button className="blog-more-btn">More Blogs</button>
         </Link>
       </div>
     </section>
